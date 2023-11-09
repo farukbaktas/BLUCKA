@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import HighlightedText from '../components/HighLight'
 import Down from '../components/Down'
 import a from '../assets/videos/a.mp4';
@@ -13,23 +13,10 @@ import g from '../assets/videos/g.mp4';
 const videos = [a, b, c, d, e, f, g];
 
 const Home = () => {
-  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const clip = videos[Math.floor(Math.random() * videos.length)];
 
-  useEffect(() => {
-    if (isAudioPlaying) {
-      const audioElement = document.getElementById('myAudio') as HTMLAudioElement | null;
-      if (audioElement) {
-        audioElement.play();
-      }
-    }
-  }, [isAudioPlaying]);
-
-  const playAudio = () => {
-    setIsAudioPlaying(true);
-  };
-
   return (
+    
     <React.Fragment>
 
       <div className='bg-black text-white'>
@@ -37,11 +24,10 @@ const Home = () => {
             <source src={clip} type='video/mp4' />
             <source src={clip} type="video/ogg" />
         </video>
-        <audio id="myAudio">
-          <source src='../src/assets/Blucka.wav' type="audio/wav" />
-        </audio>
-      <button onClick={playAudio} className="font-mono cursor bg-cover text-white w-screen h-screen relative">
+     
+      <div className="font-mono cursor bg-cover text-white w-screen h-screen relative">
       <div className="h-full relative">
+        
         <div className="max-w-8xl justify-between mx-auto px-16 sm:px-16 md:px-16 lg:px-32 flex flex-col">
           <div className="pt-4 sm:pt-8 md:pt-12 lg:pt-20">
             <img
@@ -61,7 +47,7 @@ const Home = () => {
         </div>
       </div>
       <Down/>
-</button>
+</div>
 </div>
 
     </React.Fragment>
