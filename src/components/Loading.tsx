@@ -55,8 +55,8 @@ const Loading = () => {
   return (
     <>
       {introVisible && (
-        <div className='intro text-xs sm:text-sm md:text-lg lg:text-2xl font-mono cursor'>
-           <p className='logo-header custom-shear px-0 ml-8 md:ml-4 sm:px-8 md:px-16 lg:px-32'>
+        <div className='intro text-xs custom-shear sm:text-sm md:text-lg lg:text-2xl font-mono cursor'>
+           <p className='logo-header px-0 ml-8 md:ml-4 sm:px-8 md:px-16 lg:px-32'>
             <span className="logo">Growth is never by mere chance;</span>
             <br />
             <span className="logo">it is the result of forces working together.</span>
