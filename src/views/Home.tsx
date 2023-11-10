@@ -52,7 +52,7 @@ const Home = () => {
                             <HighlightedText text="Community Building" />
                         </a>
                         <a href="https://grow.blucka.com/services/web3-platforms">
-                            <HighlightedText text="Web3 Platforms" />
+                            <HighlightedText text="Web3 Growth Platforms" />
                         </a>
                         <a href="https://grow.blucka.com/services/ai-and-software-tools">
                             <HighlightedText text="AI & Software Tools" />
@@ -60,8 +60,11 @@ const Home = () => {
                         <a href="https://grow.blucka.com/services/influencer-marketing">
                             <HighlightedText text="Influencer Marketing" />
                         </a>
-                        <a href="https://grow.blucka.com/services/content-creation">
-                            <HighlightedText text="Content Creation" />
+                        <a href="https://grow.blucka.com/services/performance-marketing">
+                            <HighlightedText text="Performance Marketing" />
+                        </a>
+                        <a href="https://grow.blucka.com/services/content-creation-and-moderation">
+                            <HighlightedText text="Content Creation & Moderation" />
                         </a>
                         <a href="https://grow.blucka.com/services/consulting">
                             <HighlightedText text="Consulting" />
