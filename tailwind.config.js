@@ -8,7 +8,7 @@ module.exports = {
       fontWeight: ['hover', 'focus'],
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-        mono: ['PT Mono', 'monospace'], // PT Mono fontunu ekliyoruz
+        mono: ['PT Mono', 'monospace'],
       },
     },
   },
