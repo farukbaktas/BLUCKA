@@ -63,8 +63,8 @@ const Home = () => {
                         <a href="https://grow.blucka.com/services/performance-marketing">
                             <HighlightedText text="Performance Marketing" />
                         </a>
-                        <a href="https://grow.blucka.com/services/content-creation-and-moderation">
-                            <HighlightedText text="Content Creation & Moderation" />
+                        <a href="https://grow.blucka.com/services/content-and-moderation">
+                            <HighlightedText text="Content & Moderation" />
                         </a>
                         <a href="https://grow.blucka.com/services/consulting">
                             <HighlightedText text="Consulting" />

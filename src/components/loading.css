@@ -26,11 +26,13 @@
         display: inline-block;
         bottom: -20px;
         opacity: 0;
+        transform: skewX(-10deg); /* Yatay eğme efekti, -10 derece  */
     }
     .logo.active {
         bottom: 0;
         opacity: 1;
         transition: ease-in-out 0.5s;
+        
 
     }
 
