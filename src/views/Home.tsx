@@ -25,7 +25,7 @@ const Home = () => {
             <source src={clip} type="video/ogg" />
         </video>
      
-      <div className="font-mono cursor bg-cover text-white w-screen h-screen relative">
+      <div className="font-mono cursor bg-cover text-black w-screen h-screen relative">
       <div className="h-full relative">
         
         <div className="max-w-8xl justify-between mx-auto px-16 sm:px-16 md:px-16 lg:px-32 flex flex-col">
@@ -33,16 +33,41 @@ const Home = () => {
             <img
               src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
               alt="BLUCKA LOGO"
-              className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[450px]"
+              className="w-[800px] sm:w-[900px] md:w-[350px] lg:w-[450px]"
             />
-          </div>
-          <div className="flex text-left justify-end text-3lg sm:text-3xl md:text-3xl lg:text-4xl custom-shear text-black pt-16 sm:pt-16 md:pt-16 lg:pt-12">
-            <div className="text-sm sm:text-md md:text-lg lg:text-2xl">
+            <div className="text-[18px] sm:text-xl md:text-xl lg:text-2xl mt-4 custom-shear">
               <HighlightedText text="We are crypto creatives." />
               <HighlightedText text='Your comrades alongside.'/>
               <HighlightedText text='Our mission is clear.'/>
-              <HighlightedText text='Supersharge your growth.'/>
+              <HighlightedText text='Supercharge your growth.'/>
             </div>
+          </div>
+          <div className="flex text-left justify-start md:justify-end text-[12px] sm:text-[18px] md:text-[20px] lg:text-1xl custom-shear text-black pt-16 sm:pt-16 md:pt-16 lg:pt-12">
+          <div className='flex items-end space-x-16 justify-center'>
+                    <div className="flex flex-col items-start ">
+                        <a href="https://grow.blucka.com/services/brand-building">
+                            <HighlightedText text="Brand Building" />
+                        </a>
+                        <a href="https://grow.blucka.com/services/community-building">
+                            <HighlightedText text="Community Building" />
+                        </a>
+                        <a href="https://grow.blucka.com/services/web3-platforms">
+                            <HighlightedText text="Web3 Platforms" />
+                        </a>
+                        <a href="https://grow.blucka.com/services/ai-and-software-tools">
+                            <HighlightedText text="AI & Software Tools" />
+                        </a>
+                        <a href="https://grow.blucka.com/services/influencer-marketing">
+                            <HighlightedText text="Influencer Marketing" />
+                        </a>
+                        <a href="https://grow.blucka.com/services/content-creation">
+                            <HighlightedText text="Content Creation" />
+                        </a>
+                        <a href="https://grow.blucka.com/services/consulting">
+                            <HighlightedText text="Consulting" />
+                        </a>
+                    </div>
+                </div>
           </div>
         </div>
       </div>
