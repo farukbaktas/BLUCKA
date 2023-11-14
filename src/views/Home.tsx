@@ -45,29 +45,14 @@ const Home = () => {
           <div className="flex text-left justify-start md:justify-end text-[12px] sm:text-[18px] md:text-[20px] lg:text-1xl custom-shear text-black pt-16 sm:pt-16 md:pt-16 lg:pt-12">
           <div className='flex items-end space-x-16 justify-center'>
                     <div className="flex flex-col items-start ">
-                        <a href="https://grow.blucka.com/services/brand-building">
-                            <HighlightedText text="Brand Building" />
+                        <a href="https://grow.blucka.com/services/creative">
+                            <HighlightedText text="Creative" />
                         </a>
-                        <a href="https://grow.blucka.com/services/community-building">
-                            <HighlightedText text="Community Building" />
+                        <a href="https://grow.blucka.com/services/community-management">
+                            <HighlightedText text="Community Management" />
                         </a>
-                        <a href="https://grow.blucka.com/services/web3-platforms">
-                            <HighlightedText text="Web3 Growth Platforms" />
-                        </a>
-                        <a href="https://grow.blucka.com/services/ai-and-software-tools">
-                            <HighlightedText text="AI & Software Tools" />
-                        </a>
-                        <a href="https://grow.blucka.com/services/influencer-marketing">
-                            <HighlightedText text="Influencer Marketing" />
-                        </a>
-                        <a href="https://grow.blucka.com/services/performance-marketing">
-                            <HighlightedText text="Performance Marketing" />
-                        </a>
-                        <a href="https://grow.blucka.com/services/content-and-moderation">
-                            <HighlightedText text="Content & Moderation" />
-                        </a>
-                        <a href="https://grow.blucka.com/services/consulting">
-                            <HighlightedText text="Consulting" />
+                        <a href="https://grow.blucka.com/services/web3-growth">
+                            <HighlightedText text="Web3 Growth" />
                         </a>
                     </div>
                 </div>
