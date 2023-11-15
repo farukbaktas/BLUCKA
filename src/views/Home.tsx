@@ -48,8 +48,8 @@ const Home = () => {
                         <a href="https://grow.blucka.com/services/creative">
                             <HighlightedText text="Creative" />
                         </a>
-                        <a href="https://grow.blucka.com/services/community-management">
-                            <HighlightedText text="Community Management" />
+                        <a href="https://grow.blucka.com/services/community-building">
+                            <HighlightedText text="Community Building" />
                         </a>
                         <a href="https://grow.blucka.com/services/web3-growth">
                             <HighlightedText text="Web3 Growth" />
