@@ -45,8 +45,8 @@ const Home = () => {
           <div className="flex text-left justify-start md:justify-end text-[12px] sm:text-[18px] md:text-[20px] lg:text-1xl custom-shear text-black pt-16 sm:pt-16 md:pt-16 lg:pt-12">
           <div className='flex items-end space-x-16 justify-center'>
                     <div className="flex flex-col items-start ">
-                        <a href="https://grow.blucka.com/services/creative">
-                            <HighlightedText text="Creative" />
+                        <a href="https://grow.blucka.com/services/brand-building">
+                            <HighlightedText text="Brand Building" />
                         </a>
                         <a href="https://grow.blucka.com/services/community-building">
                             <HighlightedText text="Community Building" />
