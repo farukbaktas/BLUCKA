@@ -54,6 +54,9 @@ const Home = () => {
                         <a href="https://grow.blucka.com/services/web3-growth">
                             <HighlightedText text="Web3 Growth" />
                         </a>
+                        <a href="https://grow.blucka.com/services/technical-documentation">
+                            <HighlightedText text="Technical Documentation" />
+                        </a>
                     </div>
                 </div>
           </div>
