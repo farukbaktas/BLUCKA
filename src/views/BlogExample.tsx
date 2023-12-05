@@ -1,5 +1,7 @@
 import React from 'react';
 import Down from '../../src/components/Down'
+import { Link } from 'react-router-dom';
+
 
 const Blog = () => {
 
@@ -13,12 +15,14 @@ const Blog = () => {
         <div className="relative">
             
             <div className="max-w-8xl justify-center items-center mx-auto px-16 sm:px-16 md:px-16 lg:px-[300px] flex flex-col">
-                <div className="py-4 sm:py-8 md:py-12 lg:py-8">
-                    <img
-                    src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
-                    alt="BLUCKA LOGO"
-                    className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
-                </div>
+                <Link to="/">
+                    <div className="py-4 sm:py-8 md:py-12 lg:py-8">
+                        <img
+                        src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
+                        alt="BLUCKA LOGO"
+                        className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
+                    </div>
+                </Link>
 
 
 
