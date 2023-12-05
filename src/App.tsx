@@ -4,6 +4,8 @@ import Loading from '../src/components/Loading'
 import { Analytics } from '@vercel/analytics/react';
 
 import Home from './views/Home'
+import BlogExample from './views/BlogExample'
+import Blog from './views/Blog'
 import NotFound from './views/NotFound'
 
 const App = () => {
@@ -14,6 +16,12 @@ const App = () => {
         <Route exact path="/">
           <Home />
           <Loading />
+        </Route>
+        <Route exact path="/blogexample">
+          <BlogExample/>
+        </Route>
+        <Route exact path="/blog">
+          <Blog/>
         </Route>
         <Route>
           <NotFound />

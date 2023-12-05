@@ -33,8 +33,7 @@ const Home = () => {
             <img
               src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
               alt="BLUCKA LOGO"
-              className="w-[800px] sm:w-[900px] md:w-[350px] lg:w-[450px]"
-            />
+              className="w-[800px] sm:w-[900px] md:w-[350px] lg:w-[450px]"/>
             <div className="text-[18px] sm:text-xl md:text-xl lg:text-2xl mt-4 custom-shear">
               <HighlightedText text="We are crypto creatives." />
               <HighlightedText text='Your comrades alongside.'/>

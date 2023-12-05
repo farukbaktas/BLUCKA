@@ -10,6 +10,9 @@
     font-weight: normal;
     font-style: normal;
   }
+  html {
+    background-color: black;
+}
   .custom-shear {
     transform: skewX(-10deg); /* Yatay eğme efekti, -10 derece  */
   }
