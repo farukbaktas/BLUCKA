@@ -54,13 +54,13 @@ const Blog = () => {
                             
                             <p className='font-bold text-xl'>THE GENIUS MERGERS OF BLUCKA</p>
                             
-                            <p className='font-bold italic'>    >> TIMBER — Web3 Community Management from China</p>
+                            <p className='font-bold italic'>TIMBER — Web3 Community Management from China</p>
                             <p className='mb-4'>Based in China, TIMBER was a pioneering agency dedicated to Web3 community management. With a deep understanding of digital communities and a global perspective, TIMBER seamlessly aligns with BLUCKA’s commitment to fostering meaningful connections in the ever-evolving digital space.</p>
 
-                            <p className='font-bold italic'>    >> Oktar AKIN — 21 Years of Creative Excellence</p>
+                            <p className='font-bold italic'>Oktar AKIN — 21 Years of Creative Excellence</p>
                             <p className='mb-4'>A distinguished creative director with a rich tapestry of experience spanning 21 years, brings a wealth of knowledge that has left an indelible mark on the global advertising landscape. Akin’s recognized creative vision, cultivated across two continents and three countries — Singapore, Istanbul and Amman — has consistently pushed boundaries and redefined industry standards. His enthusiasm for blockchain technologies and Web3 puts him at the forefront of innovation, ensuring that BLUCKA remains at the cutting edge of the evolving digital landscape.</p>
                         
-                            <p className='font-bold italic'>    >> Bilpengo — Web3 Growth Hacking Specialists</p>
+                            <p className='font-bold italic'>Bilpengo — Web3 Growth Hacking Specialists</p>
                             <p className='mb-4'>Bilpengo, a growth hacking agency dedicated to the Web3 domain, contributed its expertise in driving strategic growth in the digital realm. Their innovative approach perfectly complements BLUCKA’s vision for forward-thinking solutions, making them an integral part of this dynamic collaboration.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
