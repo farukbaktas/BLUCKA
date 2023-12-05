@@ -6,10 +6,12 @@ const Blog = () => {
   return (
     <section className="justify-center bg-black mx-auto w-full mt-12">
     <main className="flex flex-col items-center first-letter:bg-black text-white font-mono">
-        <img
-            src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
-            alt="BLUCKA LOGO"
-            className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px] items-center justify-center"/>
+        <Link to="/">
+            <img
+                src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
+                alt="BLUCKA LOGO"
+                className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px] items-center justify-center"/>
+         </Link>
         <div className="py-8 px-4 mx-auto max-w-screen-xl pb-20 lg:px-32">
             <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
                 <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-white">Our Blog</h2>
