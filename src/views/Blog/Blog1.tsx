@@ -1,5 +1,6 @@
 import React from 'react';
-import Down from '../../src/components/Down'
+import HighlightedText from '../../components/HighLight'
+import Down from '../../components/Down'
 
 const Blog = () => {
 

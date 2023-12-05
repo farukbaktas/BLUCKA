@@ -8,6 +8,7 @@ import d from '../assets/videos/d.mp4';
 import e from '../assets/videos/e.mp4';
 import f from '../assets/videos/f.mp4';
 import g from '../assets/videos/g.mp4';
+import { Link } from 'react-router-dom';
 
 
 const videos = [a, b, c, d, e, f, g];
@@ -24,12 +25,17 @@ const Home = () => {
             <source src={clip} type='video/mp4' />
             <source src={clip} type="video/ogg" />
         </video>
-     
+
       <div className="font-mono cursor bg-cover text-black w-screen h-screen relative">
       <div className="h-full relative">
-        
+
         <div className="max-w-8xl justify-between mx-auto px-16 sm:px-16 md:px-16 lg:px-32 flex flex-col">
-          <div className="pt-4 sm:pt-8 md:pt-12 lg:pt-20">
+          <Link to="/blog">
+            <div className='flex lg:justify-end justify-center custom-shear mt-4'>
+              <button className="animate-blink bg-black text-white font-bold py-2 px-8">BLOG</button>
+            </div>
+          </Link>
+          <div className="pt-4 sm:pt-8 md:pt-12 lg:pt-16">
             <img
               src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
               alt="BLUCKA LOGO"

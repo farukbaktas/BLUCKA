@@ -8,6 +8,10 @@ import BlogExample from './views/BlogExample'
 import Blog from './views/Blog'
 import NotFound from './views/NotFound'
 
+
+//Blogs
+import Blog1 from './views/Blog/Blog1'
+
 const App = () => {
   return (
     <Router>
@@ -23,6 +27,13 @@ const App = () => {
         <Route exact path="/blog">
           <Blog/>
         </Route>
+        
+        <Route exact path="/blog/merging-genius-for-web3-marketing">
+          <Blog1/>
+        </Route>
+
+
+
         <Route>
           <NotFound />
         </Route>
