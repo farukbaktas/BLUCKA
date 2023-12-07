@@ -49,11 +49,11 @@ const Blog = () => {
                             <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">Merging Genius for Web3 Marketing</h1>
                         </header>
                         <div className="space-y-4">
-                            <p className="font-semi text-xl">Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing. Born from the strategic merger of creative brilliance, digital expertise, and community management, BLUCKA stands as a testament to a new era in marketing. With a laser focus on leveraging blockchain and crypto knowledge, we redefine the standard agency model.</p>
+                            <p className="font-semi text-xl">Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing. Born from a strategic merger of creative brilliance, community management and Web3 growth hacking, BLUCKA stands as a testament to a new era in marketing. With a laser focus on leveraging blockchain and crypto knowledge, we redefine the standard agency model.</p>
                            
                             <p className='text-center text-3xl py-4'>...</p>
                             
-                            <p className='font-bold text-xl'>THE GENIUS MERGERS OF BLUCKA</p>
+                            <p className='font-bold text-xl italic'>THE GENIUS MERGERS OF BLUCKA:</p>
                             
                             <p className='font-bold italic'>TIMBER — Web3 Community Management from China</p>
                             <p className='mb-4'>Based in China, TIMBER was a pioneering agency dedicated to Web3 community management. With a deep understanding of digital communities and a global perspective, TIMBER seamlessly aligns with BLUCKA’s commitment to fostering meaningful connections in the ever-evolving digital space.</p>
@@ -65,18 +65,19 @@ const Blog = () => {
                             <p className='mb-4'>Bilpengo, a growth hacking agency dedicated to the Web3 domain, contributed its expertise in driving strategic growth in the digital realm. Their innovative approach perfectly complements BLUCKA’s vision for forward-thinking solutions, making them an integral part of this dynamic collaboration.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-bold italic'>A COMPREHENSIVE FULL-SERVICE WEB3 CREATIVE AGENCY</p>
+                            <p className='font-bold italic'>A Comprehensive Full-Service Web3 Creative Agency</p>
                             <p>BLUCKA emerges as a comprehensive full-service Web3 Creative Agency, transcending traditional boundaries. With a focus on brand building, community management, technical documentation and Web3 growth, the agency embodies a space where creativity, innovation and strategic growth converge.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-bold italic'>CRYPTO CREATIVES</p>
+                            <p className='font-bold italic'>Crypto Creatives</p>
                             <p>BLUCKA team proudly identifies themselves as Crypto Creatives, defining this as individuals who combine blockchain and crypto knowledge with creative marketing strategies.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-semibold'>“We are crypto creatives. Your comrades alongside. We forge strong partnerships with our valued clients. Whether navigating technical complexities or shaping strategic marketing decisions, we’re here to solve the challenges.
-                            <br /><br /><br />
-                            Our mission is clear: Supercharge your growth. BLUCKA! BLUCKA!”</p>
+                            <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
+                            <p>Ready to elevate your brand in the digital currency space? Just drop us an email <a className='hover:text-gray-700' href='mailto:grow@blucka.com'>(grow@blucka.com) </a>. Our Crypto Creatives are eager to discuss how we can amplify your presence in the exciting world of cryptocurrencies, especially during the unique opportunities presented by the current bull market.</p>
 
+                            <p className='text-center text-3xl py-4'>...</p>
+                            <p className='font-semibold'>“Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA!"</p>
 
                         </div>
                     </article>

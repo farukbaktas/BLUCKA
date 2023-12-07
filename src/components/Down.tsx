@@ -6,11 +6,11 @@ const Down = () => {
   return (
     <div className="bg-black  text-black">
         <div className="fixed w-full bottom-0 left-0 custom-shear max-w-8xl mx-auto px-4 sm:px-8 md:px-16 lg:px-32">
-            <div className="flex flex-col sm:flex-row items-center sm:items-end space-y-4 sm:space-y-0 sm:space-x-16 justify-center">
+            <div className="bg-black flex flex-col sm:flex-row items-center sm:items-end space-y-4 sm:space-y-0 sm:space-x-16 justify-center">
                 <a href='https://grow.blucka.com/' className='text-[18px] sm:text-[18px] md:text-[20px] lg:text-1xl mb-4 sm:mb-2'>
                     <HighlightedTextDark text="> Click for more <" />
                 </a>
-                <div className="flex space-x-8 sm:mt-40 items-end justify-center text-white ">
+                <div className="flex space-x-8 sm:mt-40 items-end justify-center text-black ">
                     {/*Mail*/}
                     <a href='mailto:grow@blucka.com' className="w-8 h-8 ">
                         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
