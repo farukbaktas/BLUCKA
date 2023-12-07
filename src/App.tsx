@@ -11,6 +11,10 @@ import NotFound from './views/NotFound'
 
 //Blogs
 import Blog1 from './views/Blog/Blog1'
+import Blog2 from './views/Blog/Blog2'
+import Blog3 from './views/Blog/Blog3'
+
+
 
 const App = () => {
   return (
@@ -32,6 +36,14 @@ const App = () => {
           <Blog1/>
         </Route>
 
+        <Route exact path="/blog/elevating-presence-in-bull-market">
+          <Blog2/>
+        </Route>
+
+
+        <Route exact path="/blog/unleash-the-web3-gaming">
+          <Blog3/>
+        </Route>
 
 
         <Route>
