@@ -20,14 +20,14 @@ const Blog = () => {
 
 
             <div className="grid gap-8 lg:grid-cols-3  item-center justify-center">
-            <Link to="/blog/unleash-the-web3-gaming">
+            <Link to="/blog/merging-genius-for-web3-marketing">
                     <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
-                        <img className="rounded-t-lg" src="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" alt="Thumbnail" />
+                        <img className="rounded-t-lg" src="https://media.discordapp.net/attachments/1171396831989739570/1181879048977272852/1_ZJer_ze2P6vAdghx8aNvMw.webp?ex=6582a9a3&is=657034a3&hm=49ec7bf0891c41ad3b0ee12884eee831349225a72cce702c80716e229ea18571&=&format=webp&width=2268&height=1064" alt="Thumbnail" />
                         <div className="p-5">
                             
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Unleash the Web3 Gaming</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Merging Genius for Web3 Marketing</h5>
                             
-                            <p className="mb-3 font-normal text-gray-700">Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why.</p>
+                            <p className="mb-3 font-normal text-gray-700">Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing.</p>
                             <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
                                 Read more
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -36,7 +36,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>  
-                </Link>  
+                </Link>
                 <Link to="/blog/elevating-presence-in-bull-market">
                     <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
                         <img className="rounded-t-lg" src="https://cdn.discordapp.com/attachments/1171396831989739570/1181579356477345865/1_TJYX4NG3o9kTzthWBqBF7Q.webp?ex=65819287&is=656f1d87&hm=8ca3a8f849f294684b76ac21212c51a8accbf9c7095b792d378c8d4556b2b33a&" alt="Thumbnail" />
@@ -57,14 +57,15 @@ const Blog = () => {
 
                 
 
-                <Link to="/blog/merging-genius-for-web3-marketing">
+
+                <Link to="/blog/unleash-the-web3-gaming">
                     <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
-                        <img className="rounded-t-lg" src="https://media.discordapp.net/attachments/1171396831989739570/1181879048977272852/1_ZJer_ze2P6vAdghx8aNvMw.webp?ex=6582a9a3&is=657034a3&hm=49ec7bf0891c41ad3b0ee12884eee831349225a72cce702c80716e229ea18571&=&format=webp&width=2268&height=1064" alt="Thumbnail" />
+                        <img className="rounded-t-lg" src="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" alt="Thumbnail" />
                         <div className="p-5">
                             
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Merging Genius for Web3 Marketing</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Unleash the Web3 Gaming</h5>
                             
-                            <p className="mb-3 font-normal text-gray-700">Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing.</p>
+                            <p className="mb-3 font-normal text-gray-700">Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why.</p>
                             <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
                                 Read more
                                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -73,7 +74,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>  
-                </Link>     
+                </Link>  
             </div> 
              
         </div>
