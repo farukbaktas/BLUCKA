@@ -37,7 +37,7 @@ const Blog = () => {
                         </div>
                     </div>  
                 </Link>  
-                <Link to="/blog/merging-genius-for-web3-marketing">
+                <Link to="/blog/elevating-presence-in-bull-market">
                     <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
                         <img className="rounded-t-lg" src="https://cdn.discordapp.com/attachments/1171396831989739570/1181579356477345865/1_TJYX4NG3o9kTzthWBqBF7Q.webp?ex=65819287&is=656f1d87&hm=8ca3a8f849f294684b76ac21212c51a8accbf9c7095b792d378c8d4556b2b33a&" alt="Thumbnail" />
                         <div className="p-5">
@@ -57,7 +57,7 @@ const Blog = () => {
 
                 
 
-                <Link to="/blog/elevating-presence-in-bull-market">
+                <Link to="/blog/merging-genius-for-web3-marketing">
                     <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
                         <img className="rounded-t-lg" src="https://media.discordapp.net/attachments/1171396831989739570/1181879048977272852/1_ZJer_ze2P6vAdghx8aNvMw.webp?ex=6582a9a3&is=657034a3&hm=49ec7bf0891c41ad3b0ee12884eee831349225a72cce702c80716e229ea18571&=&format=webp&width=2268&height=1064" alt="Thumbnail" />
                         <div className="p-5">
