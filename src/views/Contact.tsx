@@ -1,23 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Down from '../components/Down'
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 
 
 const Blog = () => {
+    const [isSubmitted, setIsSubmitted] = useState(false);
+
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-        console.log("Form gönderiliyor");
         e.preventDefault();
-      
+        setIsSubmitted(false);
+
         emailjs.sendForm('service_uujy8n9', 'template_sp7rjd9', e.target as HTMLFormElement, 'vxJVz_yxkvEaE7YED')
-          .then((result) => {
-            console.log('Email başarıyla gönderildi!', result.text);
-            // Burada başarılı gönderim sonrası işlemler yapabilirsiniz
-          }, (error) => {
-            console.log('Email gönderiminde hata!', error.text);
-            // Hata yönetimi için işlemler yapabilirsiniz
-          });
-      };
+            .then((result) => {
+                console.log('Email başarıyla gönderildi!', result.text);
+                setIsSubmitted(true);
+                setTimeout(() => setIsSubmitted(false), 5000); // 5 saniye sonra pop-up'ı kapat
+            }, (error) => {
+                console.log('Email gönderiminde hata!', error.text);
+            });
+    };
   return (
     <section className="justify-center bg-black mx-auto w-full mt-12">
     <main className="flex flex-col items-center first-letter:bg-black text-white font-mono">
@@ -56,6 +58,11 @@ const Blog = () => {
                             <button type="submit" className="bg-white text-black font-bold py-2 px-8">Send message!</button>
                         </div>
                     </form>
+                    {isSubmitted && (
+                        <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white p-8 rounded-md shadow-lg backdrop-filter backdrop-blur-md">
+                        <p>Email was sent successfully</p>
+                    </div>
+                )}
                 </div>
         </div>
             <Down/>
