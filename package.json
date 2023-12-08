@@ -8,6 +8,9 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.1.1",
+    "dotenv": "^16.3.1",
+    "emailjs-com": "^3.2.0",
+    "googleapis": "^129.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.3.4"

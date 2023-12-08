@@ -6,6 +6,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Home from './views/Home'
 import BlogExample from './views/BlogExample'
 import Blog from './views/Blog'
+import Contact from './views/Contact'
 import NotFound from './views/NotFound'
 
 
@@ -43,6 +44,9 @@ const App = () => {
 
         <Route exact path="/blog/unleash-the-web3-gaming">
           <Blog3/>
+        </Route>
+        <Route exact path="/contact">
+          <Contact/>
         </Route>
 
 

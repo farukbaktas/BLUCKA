@@ -62,6 +62,9 @@ const Home = () => {
                         <a href="https://grow.blucka.com/services/technical-documentation">
                             <HighlightedText text="Technical Documentation" />
                         </a>
+                        <a href="https://grow.blucka.com/">
+                            <HighlightedText text="Click for More!" />
+                        </a>
                     </div>
                 </div>
           </div>
