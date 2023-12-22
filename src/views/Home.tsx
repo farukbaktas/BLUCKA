@@ -1,6 +1,8 @@
 import React from 'react';
 import HighlightedText from '../components/HighLight'
 import Down from '../components/Down'
+import Subscribe from '../components/Subscribe'
+
 import a from '../assets/videos/a.mp4';
 import b from '../assets/videos/b.mp4';
 import c from '../assets/videos/c.mp4';
@@ -71,6 +73,7 @@ const Home = () => {
         </div>
       </div>
       <Down/>
+      <Subscribe/>
 </div>
 </div>
 

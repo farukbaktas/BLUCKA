@@ -2,23 +2,36 @@ import React, { useState } from 'react';
 import Down from '../components/Down'
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 const Blog = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
+    const [captchaValue, setCaptchaValue] = useState<string | null>(null); // State to hold the reCAPTCHA value
 
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        setIsSubmitted(false);
 
-        emailjs.sendForm('service_uujy8n9', 'template_sp7rjd9', e.target as HTMLFormElement, 'vxJVz_yxkvEaE7YED')
-            .then((result) => {
-                console.log('Email başarıyla gönderildi!', result.text);
-                setIsSubmitted(true);
-                setTimeout(() => setIsSubmitted(false), 5000); // 5 saniye sonra pop-up'ı kapat
-            }, (error) => {
-                console.log('Email gönderiminde hata!', error.text);
-            });
+        // Check if captcha is filled out
+        if (captchaValue) {
+            setIsSubmitted(false);
+
+            emailjs.sendForm('service_uujy8n9', 'template_sp7rjd9', e.currentTarget, 'vxJVz_yxkvEaE7YED')
+                .then((result) => {
+                    console.log('Email başarıyla gönderildi!', result.text);
+                    setIsSubmitted(true);
+                    setTimeout(() => setIsSubmitted(false), 5000); // 5 saniye sonra pop-up'ı kapat
+                }, (error) => {
+                    console.log('Email gönderiminde hata!', error.text);
+                });
+        } else {
+            // Handle case where captcha is not yet filled out
+            alert('Please complete the reCAPTCHA to proceed!');
+        }
+    };
+
+    const onCaptchaChange = (value: string | null) => {
+        setCaptchaValue(value); // Update the captcha state
     };
   return (
     <section className="justify-center bg-black mx-auto w-full mt-12">
@@ -54,6 +67,10 @@ const Blog = () => {
                             <label className="block mb-2 text-sm font-bold text-white ">Your message</label>
                             <textarea id="message" name="message" className="custom-shear block p-2.5 w-full text-sm text-black bg-gray-50 shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Leave your Messages..."></textarea>
                         </div>
+                        <ReCAPTCHA
+                            sitekey="6LfbWTkpAAAAALpYLPuXq4URB12jml3K8TAB8Tbs"
+                            onChange={onCaptchaChange}
+                        />
                         <div className='custom-shear mt-4'>
                             <button type="submit" className="bg-white text-black font-bold py-2 px-8">Send message!</button>
                         </div>
