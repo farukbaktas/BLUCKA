@@ -25,7 +25,7 @@ const Down = () => {
                 // Handle errors here
             });
 
-        closePopup(); // Close the popup after sending the email
+        closePopup(); 
     };
 
     return (
@@ -38,14 +38,14 @@ const Down = () => {
                     <form onSubmit={sendEmail}>
                         <input 
                             type="email" 
-                            name="email" // Make sure the name attribute is set for EmailJS to identify
+                            name="email" 
                             placeholder="Enter your email" 
-                            className="p-2 text-black mb-4" 
+                            className="p-2 border border-black text-black mb-4" 
                             required
                         />
                         <button 
                             type="submit" 
-                            className="bg-black text-white p-2"
+                            className="bg-black border border-black text-white p-2"
                         >
                             Subscribe
                         </button>
