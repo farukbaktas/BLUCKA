@@ -32,7 +32,7 @@ const Down = () => {
         <div className="">
             {showPopup && (
                 <div className='"bg-black text-white flex justify-center items-center'> 
-                <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black p-8 rounded-lg shadow-lg">
+                <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black p-8 shadow-lg">
                     <h2 className="text-lg font-bold mb-4">Subscribe to Our Newsletter</h2>
                     <p className="mb-4">Stay updated with the latest news and offers!</p>
                     <form onSubmit={sendEmail}>
