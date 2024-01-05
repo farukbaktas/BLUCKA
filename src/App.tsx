@@ -14,6 +14,7 @@ import NotFound from './views/NotFound'
 import Blog1 from './views/Blog/Blog1'
 import Blog2 from './views/Blog/Blog2'
 import Blog3 from './views/Blog/Blog3'
+import Blog4 from './views/Blog/Blog4'
 
 
 
@@ -45,6 +46,11 @@ const App = () => {
         <Route exact path="/blog/unleash-the-web3-gaming">
           <Blog3/>
         </Route>
+
+        <Route exact path="/blog/beers-bulls-bitcoins">
+          <Blog4/>
+        </Route>
+        
         <Route exact path="/contact">
           <Contact/>
         </Route>
