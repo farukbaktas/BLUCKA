@@ -31,13 +31,13 @@ const Blog = () => {
                 <main className="pb-16 lg:pb-24 bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1171396831989739570/1192753927930789949/B1.jpg?ex=65aa39a8&is=6597c4a8&hm=9ecd3e95986ecdebf3304f6b5f077a4cc7e437d6cd589defabad56788a8a818a&=&format=webp&width=2268&height=1064" alt="Thumbnail"/>
+                        <figure className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1171396831989739570/1192815545893003395/B2.jpg?ex=65aa730b&is=6597fe0b&hm=f51a170d8da168bb770dec8a91aa07b904a1e39d02d8ff65f66c775194ebf1be&=&format=webp&width=2268&height=1064" alt="Thumbnail"/>
                             <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://cdn.discordapp.com/attachments/1171396831989739570/1182229760047321099/faruk.jpg?ex=6583f043&is=65717b43&hm=9fd88ca4be46817b773fdf21a255af8350a729a95f219a2758adaaf5ee51b53b&" alt="BLUCA PP"/>
+                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1171396831989739570/1192832511391309915/MARSHALPPF.jpg?ex=65aa82d8&is=65980dd8&hm=95623294ceb1dff21b12191437962297ee785664cab579281cb276937b896b0e&=&format=webp&width=1228&height=1228" alt="BLUCA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Marshall Irby</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Technical Documantation</p>
@@ -46,7 +46,7 @@ const Blog = () => {
                                 </div>
                             </address>
                             
-                            <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">Bears, Bulls, Bitcoins</h1>
+                            <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">Bears, Bulls, Bitcoins... Battlestar Galactica</h1>
                         </header>
                         <div className="space-y-4">
                             <p className="font-semi text-xl">With the market cap of bitcoin (BTC) hard-shelved at 21 million, “mining” bitcoin is incentivized by adding blocks to the blockchain. In economics, scarcity is a problem that arises when a population has limited resources but unlimited wants and needs to consume. Bitcoin harnesses this scarcity perfectly – and has been a gold mine for some crypto users. After 210,000 blocks are mined – which occurs roughly every 4 years – the amount miners receive per BTC block is halved to increase scarcity with the caveat of making prices more volatile. People jump in on the “hype train” and buy more BTC, driving the cost up like clockwork. The next halving date is estimated to be April 17th, 2024. </p>
@@ -56,7 +56,7 @@ const Blog = () => {
                             <p className='text-center text-3xl py-4'>...</p>
 
                             <p>If you take a look at the graph, you can identify a cyclical pattern: During the last halving in 2020, price per BTC was $8,821.42. The halving before that in 2016, $650.53. The first halving in 2012, $12.35. </p>
-                            <img src="https://media.discordapp.net/attachments/1171396831989739570/1192759240843075655/chart.jpg?ex=65aa3e9b&is=6597c99b&hm=5734d4d29397085cbd8f81c18b3c17aad9d59e8107e884ef9d841a2fb715eaae&=&format=webp&width=2268&height=1064" alt="chart" />
+                            <img src="https://media.discordapp.net/attachments/1171396831989739570/1192815791188484196/chart1.jpg?ex=65aa7346&is=6597fe46&hm=35c7348f0f7b5221b0aadb462c460526cee08ef34161f95d95aa05d09cec7aa3&=&format=webp&width=2268&height=1064" alt="chart" />
                             <p className='font-thin text-xs'>Source: bitbo.io</p>
 
                             <p className='pt-4'>Let’s choose a hypothetical example of investing $1000 in every halving scenario. For the following examples, assume BTC is valued at $30,000 for the return on investments. In 2012, if you would have invested $1000, you could have purchased 81.63 bitcoins and your return on investment (ROI) would have been $2,448,900. In 2016 with $1000 invested before the halving, 1.54 BTC could have been purchased and ROI would have been $46,200. In 2020, 0.1176 BTC could have been purchased with ROI at $3528. </p>
