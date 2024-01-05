@@ -47,7 +47,7 @@ const App = () => {
           <Blog3/>
         </Route>
 
-        <Route exact path="/blog/beers-bulls-bitcoins">
+        <Route exact path="/blog/bears-bulls-bitcoins">
           <Blog4/>
         </Route>
         
