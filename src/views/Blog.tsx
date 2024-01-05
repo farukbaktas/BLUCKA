@@ -21,23 +21,6 @@ const Blog = () => {
 
 
             <div className="grid gap-8 lg:grid-cols-3  item-center justify-center">
-            <Link to="/blog/bears-bulls-bitcoins">
-                    <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
-                        <img className="rounded-t-lg" src="https://media.discordapp.net/attachments/1160915606539866122/1192816272275165204/B2.jpg?ex=65aa73b8&is=6597feb8&hm=e4b36073eeb02eb0179328027c0b870d6b491667167bd8acc59e1d9921ab8bf6&=&format=webp&width=2268&height=1064" alt="Thumbnail" />
-                        <div className="p-5">
-                            
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Bears, Bulls, Bitcoins... Battlestar Galactica</h5>
-                            
-                            <p className="mb-[28px] font-normal text-gray-700">With the market cap of bitcoin (BTC) hard-shelved at </p>
-                            <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                                Read more
-                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>  
-                </Link>
             <Link to="/blog/unleash-the-web3-gaming">
                     <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
                         <img className="rounded-t-lg" src="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" alt="Thumbnail" />
