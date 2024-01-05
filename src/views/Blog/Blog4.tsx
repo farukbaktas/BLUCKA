@@ -31,7 +31,7 @@ const Blog = () => {
                 <main className="pb-16 lg:pb-24 bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure className="mb-4 item-center"><img src="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" alt="Thumbnail"/>
+                        <figure className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1171396831989739570/1192753927930789949/B1.jpg?ex=65aa39a8&is=6597c4a8&hm=9ecd3e95986ecdebf3304f6b5f077a4cc7e437d6cd589defabad56788a8a818a&=&format=webp&width=2268&height=1064" alt="Thumbnail"/>
                             <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
