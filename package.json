@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "@hcaptcha/react-hcaptcha": "^1.9.2",
+    "@types/axios": "^0.14.0",
     "@vercel/analytics": "^1.1.1",
+    "axios": "^1.6.4",
     "dotenv": "^16.3.1",
     "emailjs-com": "^3.2.0",
     "googleapis": "^129.0.0",
