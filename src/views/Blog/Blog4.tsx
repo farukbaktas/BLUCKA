@@ -3,6 +3,7 @@ import HighlightedText from '../../components/HighLight'
 import Down from '../../components/Down'
 import { Link } from 'react-router-dom';
 import Countdown from '../../components/Countdown'
+import { Helmet } from 'react-helmet';
 
 const Blog = () => {
 
@@ -11,7 +12,20 @@ const Blog = () => {
     <React.Fragment>
 
     <div className='bg-black text-white'>
-     
+        <Helmet>
+            <title>Bears, Bulls, Bitcoins... Battlestar Galactica</title>
+            <meta name="description" content="Exploring the world of cryptocurrency through the lens of economics, technology, and market trends." />
+            <meta name="keywords" content="Bitcoin, Cryptocurrency, Economics, Market Trends" />
+            <link rel="canonical" href="https://www.blucka.com/blog/bears-bulls-bitcoins" />
+            <meta property="og:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica" />
+            <meta property="og:description" content="Exploring the world of cryptocurrency through the lens of economics, technology, and market trends." />
+            <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1192815545893003395/B2.jpg" />
+            <meta property="og:url" content="https://www.blucka.com/blog/bears-bulls-bitcoins" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica" />
+            <meta name="twitter:description" content="Exploring the world of cryptocurrency through the lens of economics, technology, and market trends." />
+            <meta name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1192815545893003395/B2.jpg" />
+        </Helmet>
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
             
