@@ -41,12 +41,10 @@ const Down = () => {
                             name="email" 
                             placeholder="Enter your email" 
                             className="p-2 border border-black text-black mb-4" 
-                            required
-                        />
+                            required/>
                         <button 
                             type="submit" 
-                            className="bg-black border border-black text-white p-2"
-                        >
+                            className="bg-black border border-black text-white p-2">
                             Subscribe
                         </button>
                     </form>
