@@ -40,7 +40,7 @@ const Blog = () => {
                                     <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1171396831989739570/1192832511391309915/MARSHALPPF.jpg?ex=65aa82d8&is=65980dd8&hm=95623294ceb1dff21b12191437962297ee785664cab579281cb276937b896b0e&=&format=webp&width=1228&height=1228" alt="BLUCA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Marshall Irby</a>
-                                        <p className="text-base font-light text-gray-100 ">Crypto Creative | Technical Documantation</p>
+                                        <p className="text-base font-light text-gray-100 ">Crypto Creative | Technical Documentation</p>
                                         <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Jan. 05, 2024</time></p>
                                     </div>
                                 </div>
