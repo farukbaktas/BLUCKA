@@ -21,6 +21,23 @@ const Blog = () => {
 
 
             <div className="grid gap-8 lg:grid-cols-3  item-center justify-center">
+            <Link to="/blog/give-me-liquidity-or-give-me-death">
+                    <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
+                        <img className="rounded-t-lg" src="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064" alt="Thumbnail" />
+                        <div className="p-5">
+
+                                <h5 className="mb-[16px] text-2xl font-bold tracking-tight text-gray-900">Give Me Liquidity, or Give Me Death</h5>
+
+                            <p className="mb-[28px] font-normal text-gray-700">In a dystopian world, Bitcoin liquidity is now dictating every aspect of life. </p>
+                            <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                                Read more
+                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>  
+            </Link>
             <Link to="/blog/bears-bulls-bitcoins">
                     <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
                         <img className="rounded-t-lg" src="https://media.discordapp.net/attachments/1160915606539866122/1192816272275165204/B2.jpg?ex=65aa73b8&is=6597feb8&hm=e4b36073eeb02eb0179328027c0b870d6b491667167bd8acc59e1d9921ab8bf6&=&format=webp&width=2268&height=1064" alt="Thumbnail" />
