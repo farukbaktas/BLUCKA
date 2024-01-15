@@ -15,17 +15,17 @@ const Blog = () => {
         <meta name="description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
 
         {/* Open Graph for Facebook and LinkedIn */}
-        <meta property="og:title" content="Give Me Liquidity, or Give Me Death" />
-        <meta property="og:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
-        <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064" />
-        <meta property="og:url" content="https://www.blucka.com/blog/give-me-liquidity-or-give-me-death" />
-        <meta property="og:type" content="website" />
+        <meta data-react-helmet="true" property="og:title" content="Give Me Liquidity, or Give Me Death" />
+        <meta data-react-helmet="true" property="og:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
+        <meta data-react-helmet="true" property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064" />
+        <meta data-react-helmet="true" property="og:url" content="https://www.blucka.com/blog/give-me-liquidity-or-give-me-death" />
+        <meta data-react-helmet="true" property="og:type" content="website" />
 
         {/* Twitter Cards */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Give Me Liquidity, or Give Me Death" />
-        <meta name="twitter:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
-        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064" />
+        <meta data-react-helmet="true" name="twitter:card" content="summary_large_image" />
+        <meta data-react-helmet="true" name="twitter:title" content="Give Me Liquidity, or Give Me Death" />
+        <meta data-react-helmet="true" name="twitter:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
+        <meta data-react-helmet="true" name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064" />
     </Helmet>
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
