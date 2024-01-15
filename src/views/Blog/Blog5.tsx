@@ -1,8 +1,7 @@
 import React from 'react';
-import HighlightedText from '../../components/HighLight'
 import Down from '../../components/Down'
 import { Link } from 'react-router-dom';
-import Countdown from '../../components/Countdown'
+import {Helmet} from "react-helmet";
 
 const Blog = () => {
 
@@ -11,7 +10,13 @@ const Blog = () => {
     <React.Fragment>
 
     <div className='bg-black text-white'>
-     
+    <Helmet>
+         <title>BLUCKA | Crypto Creative Agency</title>
+        <meta name="description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
+        <meta property="og:title" content="Give Me Liquidity, or Give Me Death" />
+        <meta property="og:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
+        <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064" />
+    </Helmet>
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
             
