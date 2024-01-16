@@ -60,8 +60,6 @@ const App = () => {
         <Route exact path="/contact">
           <Contact/>
         </Route>
-
-
         <Route>
           <NotFound />
         </Route>
