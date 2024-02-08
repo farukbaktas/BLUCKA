@@ -1,55 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import Down from '../../components/Down';
 
 const Blog = () => {
-  const [metaTitle, setMetaTitle] = useState('');
-  const [metaDescription, setMetaDescription] = useState('');
-  const [metaImage, setMetaImage] = useState('');
-
-  useEffect(() => {
-    const handleImageLoad = () => {
-      // Ensure image is loaded before accessing its src
-      const imageElement = document.getElementById('blog-thumbnail') as HTMLImageElement | null;
-      if (imageElement) {
-        setMetaImage(imageElement.src);
-      }
-    };
-  
-    // Add event listener to handle image load
-    const imageElement = document.getElementById('blog-thumbnail') as HTMLImageElement | null;
-    if (imageElement) {
-      imageElement.addEventListener('load', handleImageLoad);
-  
-      // Cleanup function to remove the event listener
-      return () => {
-        imageElement.removeEventListener('load', handleImageLoad);
-      };
-    }
-  }, []);
-
-  useEffect(() => {
-    // Get title and description after image load is handled
-    const titleElement = document.getElementById('blog-title');
-    if (titleElement) {
-      setMetaTitle(titleElement.innerText);
-    }
-
-    const descriptionElement = document.getElementById('blog-description');
-    if (descriptionElement) {
-      setMetaDescription(descriptionElement.innerText);
-    }
-  }, [metaImage]); // Run this effect after metaImage is updated
-
   return (
     <React.Fragment>
       <HelmetProvider>
-        <title>{metaTitle}</title>
-        <meta name="description" content={metaDescription} />
-        <meta property="og:title" content={metaTitle} />
-        <meta property="og:description" content={metaDescription} />
-        <meta property="og:image" content={metaImage} />
+        <title>Unleash the Web3 Gaming </title>
+        <meta name="description" content="Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount." />
+        <meta property="og:title" content="Unleash the Web3 Gaming" />
+        <meta property="og:description" content="Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount." />
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" />
       </HelmetProvider>
     
     <div className='bg-black text-white'>
