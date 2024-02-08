@@ -4,59 +4,54 @@ import Down from '../../components/Down'
 import { Link } from 'react-router-dom';
 
 
-const Blog = () => {
+const Blog: React.FC = () => {
     useEffect(() => {
-        document.title = "Unleash the Web3 Gaming - BLUCKA";
-    
-        // Genel ve Sosyal Medya Meta Etiketleri
-        const metaTags = [
-          { name: 'description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
-          { name: 'keywords', content: 'web3, gaming, blockchain, community, BLUCKA' },
-          { name: 'author', content: 'BLUCKA' },
-          
-          // Open Graph / Facebook Meta Etiketleri
-          { property: 'og:title', content: 'Unleash the Web3 Gaming - BLUCKA' },
-          { property: 'og:description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
-          { property: 'og:type', content: 'article' },
-          { property: 'og:image', content: 'https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&' }, // Large image URL
-          { property: 'og:url', content: 'http://BLUCKA.com/blog/unleash-the-web3-gaming' },
-          
-          // Twitter Card Meta Etiketleri
-          { name: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:site', content: '@BLUCKA' },
-          { name: 'twitter:creator', content: '@BLUCKA' },
-          { name: 'twitter:title', content: 'Unleash the Web3 Gaming - BLUCKA' },
-          { name: 'twitter:description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
-          { name: 'twitter:image', content: 'https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&' }, // Large image URL
-        ];
-    
+      document.title = "Unleash the Web3 Gaming - BLUCKA";
+  
+      const metaTags: { name?: string; property?: string; content: string; }[] = [
+        { name: 'title', content: 'Unleash the Web3 Gaming - BLUCKA' },
+        { name: 'description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
+  
+        // Open Graph / Facebook
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://www.blucka.com/blog/unleash-the-web3-gaming' },
+        { property: 'og:title', content: 'Unleash the Web3 Gaming - BLUCKA' },
+        { property: 'og:description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
+        { property: 'og:image', content: 'https://metatags.io/images/meta-tags.png' },
+  
+        // Twitter
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:url', content: 'https://www.blucka.com/blog/unleash-the-web3-gaming' },
+        { property: 'twitter:title', content: 'Unleash the Web3 Gaming - BLUCKA' },
+        { property: 'twitter:description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
+        { property: 'twitter:image', content: 'https://metatags.io/images/meta-tags.png' },
+      ];
+  
+      metaTags.forEach(tag => {
+        const metaTag = document.createElement('meta');
+        if (tag.name) {
+          metaTag.setAttribute('name', tag.name);
+        } else if (tag.property) {
+          metaTag.setAttribute('property', tag.property);
+        }
+        metaTag.setAttribute('content', tag.content);
+        document.head.appendChild(metaTag);
+      });
+  
+      return () => {
         metaTags.forEach(tag => {
-          const metaTag = document.createElement('meta');
+          let query = '';
           if (tag.name) {
-            metaTag.name = tag.name;
-            metaTag.content = tag.content;
+            query = `meta[name="${tag.name}"]`;
           } else if (tag.property) {
-            metaTag.setAttribute('property', tag.property);
-            metaTag.content = tag.content;
+            query = `meta[property="${tag.property}"]`;
           }
-          document.head.appendChild(metaTag);
+          const metaTag = document.head.querySelector(query);
+          if (metaTag) document.head.removeChild(metaTag);
         });
-    
-        // Temizlik işlemi
-        return () => {
-          metaTags.forEach(tag => {
-            let query = '';
-            if (tag.name) {
-              query = `meta[name="${tag.name}"]`;
-            } else if (tag.property) {
-              query = `meta[property="${tag.property}"]`;
-            }
-            const metaTag = document.head.querySelector(query);
-            if (metaTag) document.head.removeChild(metaTag);
-          });
-        };
-      }, []);
-    
+      };
+    }, []);
+  
   return (
     
     <React.Fragment>
