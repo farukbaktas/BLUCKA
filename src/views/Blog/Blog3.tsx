@@ -1,63 +1,58 @@
-import React, { useEffect } from 'react';
-import HighlightedText from '../../components/HighLight'
-import Down from '../../components/Down'
+import React, { useEffect, useState } from 'react';
+import { HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import Down from '../../components/Down';
 
+const Blog = () => {
+  const [metaTitle, setMetaTitle] = useState('');
+  const [metaDescription, setMetaDescription] = useState('');
+  const [metaImage, setMetaImage] = useState('');
 
-const Blog: React.FC = () => {
-    useEffect(() => {
-      document.title = "Unleash the Web3 Gaming - BLUCKA";
+  useEffect(() => {
+    const handleImageLoad = () => {
+      // Ensure image is loaded before accessing its src
+      const imageElement = document.getElementById('blog-thumbnail') as HTMLImageElement | null;
+      if (imageElement) {
+        setMetaImage(imageElement.src);
+      }
+    };
   
-      const metaTags: { name?: string; property?: string; content: string; }[] = [
-        { name: 'title', content: 'Unleash the Web3 Gaming - BLUCKA' },
-        { name: 'description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
+    // Add event listener to handle image load
+    const imageElement = document.getElementById('blog-thumbnail') as HTMLImageElement | null;
+    if (imageElement) {
+      imageElement.addEventListener('load', handleImageLoad);
   
-        // Open Graph / Facebook
-        { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://www.blucka.com/blog/unleash-the-web3-gaming' },
-        { property: 'og:title', content: 'Unleash the Web3 Gaming - BLUCKA' },
-        { property: 'og:description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
-        { property: 'og:image', content: 'https://metatags.io/images/meta-tags.png' },
-  
-        // Twitter
-        { property: 'twitter:card', content: 'summary_large_image' },
-        { property: 'twitter:url', content: 'https://www.blucka.com/blog/unleash-the-web3-gaming' },
-        { property: 'twitter:title', content: 'Unleash the Web3 Gaming - BLUCKA' },
-        { property: 'twitter:description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
-        { property: 'twitter:image', content: 'https://metatags.io/images/meta-tags.png' },
-      ];
-  
-      metaTags.forEach(tag => {
-        const metaTag = document.createElement('meta');
-        if (tag.name) {
-          metaTag.setAttribute('name', tag.name);
-        } else if (tag.property) {
-          metaTag.setAttribute('property', tag.property);
-        }
-        metaTag.setAttribute('content', tag.content);
-        document.head.appendChild(metaTag);
-      });
-  
+      // Cleanup function to remove the event listener
       return () => {
-        metaTags.forEach(tag => {
-          let query = '';
-          if (tag.name) {
-            query = `meta[name="${tag.name}"]`;
-          } else if (tag.property) {
-            query = `meta[property="${tag.property}"]`;
-          }
-          const metaTag = document.head.querySelector(query);
-          if (metaTag) document.head.removeChild(metaTag);
-        });
+        imageElement.removeEventListener('load', handleImageLoad);
       };
-    }, []);
-  
-  return (
-    
-    <React.Fragment>
+    }
+  }, []);
 
+  useEffect(() => {
+    // Get title and description after image load is handled
+    const titleElement = document.getElementById('blog-title');
+    if (titleElement) {
+      setMetaTitle(titleElement.innerText);
+    }
+
+    const descriptionElement = document.getElementById('blog-description');
+    if (descriptionElement) {
+      setMetaDescription(descriptionElement.innerText);
+    }
+  }, [metaImage]); // Run this effect after metaImage is updated
+
+  return (
+    <React.Fragment>
+      <HelmetProvider>
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDescription} />
+        <meta property="og:image" content={metaImage} />
+      </HelmetProvider>
+    
     <div className='bg-black text-white'>
-     
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
             
@@ -77,7 +72,7 @@ const Blog: React.FC = () => {
                 <main className="pb-16 lg:pb-24 bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure className="mb-4 item-center"><img src="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" alt="Thumbnail"/>
+                        <figure id="blog-thumbnail" className="mb-4 item-center"><img src="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" alt="Thumbnail"/>
                             <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
@@ -92,10 +87,10 @@ const Blog: React.FC = () => {
                                 </div>
                             </address>
                             
-                            <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">Unleash the Web3 Gaming</h1>
+                            <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">Unleash the Web3 Gaming</h1>
                         </header>
                         <div className="space-y-4">
-                            <p className="font-semi text-xl">Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount.</p>
+                            <p id="blog-description" className="font-semi text-xl">Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount.</p>
                            
 
                             <p className='text-center text-3xl py-4'>...</p>
