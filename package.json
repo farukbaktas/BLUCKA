@@ -18,6 +18,7 @@
     "react-dom": "^17.0.0",
     "react-google-recaptcha": "^3.1.0",
     "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.4",
     "react-meta-tags": "^1.0.1",
     "react-router-dom": "^5.3.4"
   },
