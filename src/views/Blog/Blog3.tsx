@@ -1,11 +1,62 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import HighlightedText from '../../components/HighLight'
 import Down from '../../components/Down'
 import { Link } from 'react-router-dom';
 
 
 const Blog = () => {
-
+    useEffect(() => {
+        document.title = "Unleash the Web3 Gaming - BLUCKA";
+    
+        // Genel ve Sosyal Medya Meta Etiketleri
+        const metaTags = [
+          { name: 'description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
+          { name: 'keywords', content: 'web3, gaming, blockchain, community, BLUCKA' },
+          { name: 'author', content: 'BLUCKA' },
+          
+          // Open Graph / Facebook Meta Etiketleri
+          { property: 'og:title', content: 'Unleash the Web3 Gaming - BLUCKA' },
+          { property: 'og:description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
+          { property: 'og:type', content: 'article' },
+          { property: 'og:image', content: 'https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&' }, // Large image URL
+          { property: 'og:url', content: 'http://BLUCKA.com/blog/unleash-the-web3-gaming' },
+          
+          // Twitter Card Meta Etiketleri
+          { name: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:site', content: '@BLUCKA' },
+          { name: 'twitter:creator', content: '@BLUCKA' },
+          { name: 'twitter:title', content: 'Unleash the Web3 Gaming - BLUCKA' },
+          { name: 'twitter:description', content: 'Exploring the impact of community-driven growth in Web3 gaming.' },
+          { name: 'twitter:image', content: 'https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&' }, // Large image URL
+        ];
+    
+        metaTags.forEach(tag => {
+          const metaTag = document.createElement('meta');
+          if (tag.name) {
+            metaTag.name = tag.name;
+            metaTag.content = tag.content;
+          } else if (tag.property) {
+            metaTag.setAttribute('property', tag.property);
+            metaTag.content = tag.content;
+          }
+          document.head.appendChild(metaTag);
+        });
+    
+        // Temizlik işlemi
+        return () => {
+          metaTags.forEach(tag => {
+            let query = '';
+            if (tag.name) {
+              query = `meta[name="${tag.name}"]`;
+            } else if (tag.property) {
+              query = `meta[property="${tag.property}"]`;
+            }
+            const metaTag = document.head.querySelector(query);
+            if (metaTag) document.head.removeChild(metaTag);
+          });
+        };
+      }, []);
+    
   return (
     
     <React.Fragment>
@@ -19,7 +70,7 @@ const Blog = () => {
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
-                        src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
+                        src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&"
                         alt="BLUCKA LOGO"
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
