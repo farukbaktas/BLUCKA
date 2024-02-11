@@ -53,7 +53,7 @@ const Blog = () => {
                         </header>
                         <div className="space-y-4">
                             <p id="blog-description" className="font-semi text-xl">Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount.</p>
-                           
+
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-bold italic'>Web3 Gaming Through Community Engagement</p>
