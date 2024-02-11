@@ -1,17 +1,42 @@
 import React from 'react';
-import HighlightedText from '../../components/HighLight'
 import Down from '../../components/Down'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import Countdown from '../../components/Countdown'
 
 const Blog = () => {
 
   return (
-    
+    <HelmetProvider>
     <React.Fragment>
+    <Helmet>
+        {/* Page Title */}
+        <title>Bears, Bulls, Bitcoins... Battlestar Galactica | BLUCKA</title>
+        
+        {/* Page Description */}
+        <meta name="description" content="Exploring the economic dynamics of Bitcoin's scarcity, mining rewards, and market behavior ahead of the next halving in 2024. Dive into the world of crypto with BLUCKA." />
+        
+        {/* Open Graph / Facebook Meta */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica: A Crypto Odyssey | BLUCKA" />
+        <meta property="og:description" content="Discover how Bitcoin's built-in scarcity and halving events shape its economic landscape and investor strategies. Join us on a journey through the crypto universe with BLUCKA." />
+        <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1192815545893003395/B2.jpg" />
+        <meta property="og:url" content="https://www.blucka.com/blog/bears-bulls-bitcoins" />
+        
+        {/* Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@BluckaAgency" />
+        <meta name="twitter:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica: A Crypto Odyssey | BLUCKA" />
+        <meta name="twitter:description" content="Explore Bitcoin's scarcity, mining rewards, and the impact of halving events on the market. BLUCKA takes you on a deep dive into the crypto world ahead of the 2024 halving." />
+        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1192815545893003395/B2.jpg" />
+        
+        {/* Extra Meta */}
+        <meta name="keywords" content="Bitcoin, Crypto Economy, Blockchain Technology, Crypto Mining, Bitcoin Halving, 2024, BLUCKA" />
+        <link rel="canonical" href="https://www.blucka.com/blog/bears-bulls-bitcoins" />
+    </Helmet>
+
 
     <div className='bg-black text-white'>
-     
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
             
@@ -24,8 +49,6 @@ const Blog = () => {
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
                 </Link>
-
-
 
                 <section className=" justify-center mx-auto w-full mt-4 mb-16">
                 <main className="pb-16 lg:pb-24 bg-black text-white ">
@@ -81,16 +104,14 @@ const Blog = () => {
                     </article>
                 </div>
                 </main>
-
-
-</section>
+            </section>
             </div>
         </div>
             <Down/>
         </div>
     </div>
-
     </React.Fragment>
+    </HelmetProvider>
   );
 };
 

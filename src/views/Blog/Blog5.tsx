@@ -1,32 +1,40 @@
 import React from 'react';
 import Down from '../../components/Down'
 import { Link } from 'react-router-dom';
-import {Helmet} from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Blog = () => {
 
   return (
-    
+    <HelmetProvider>
     <React.Fragment>
+    <Helmet>
+        {/* Page Title */}
+        <title>Give Me Liquidity, or Give Me Death | BLUCKA</title>
+        
+        {/* Page Description */}
+        <meta name="description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life. Paying for bills, buying groceries, day-to-day necessities: all reliant on Bitcoin. There’s a waft of classism in the air: those who held bitcoin and those in the majority barely scraping by with physical money. The upper Echelon, coined the Satoshi Syndicate. Everyone else: The Decrypts. The vast demographics completely overthrown and restructured; governments replaced. Traditional money has completely collapsed and unraveled society and in its place, giant conglomerates and the digital elite hoard their fortunes, with the rest of society ravaging at the remaining scraps of liquidity." />
+        
+        {/* Open Graph / Facebook Meta */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Give Me Liquidity, or Give Me Death | BLUCKA" />
+        <meta property="og:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life. Paying for bills, buying groceries, day-to-day necessities: all reliant on Bitcoin. There’s a waft of classism in the air: those who held bitcoin and those in the majority barely scraping by with physical money. The upper Echelon, coined the Satoshi Syndicate. Everyone else: The Decrypts. The vast demographics completely overthrown and restructured; governments replaced. Traditional money has completely collapsed and unraveled society and in its place, giant conglomerates and the digital elite hoard their fortunes, with the rest of society ravaging at the remaining scraps of liquidity." />
+        <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg" />
+        <meta property="og:url" content="https://www.blucka.com/blog/give-me-liquidity-or-give-me-death" />
+        
+        {/* Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@BluckaAgency" />
+        <meta name="twitter:title" content="Give Me Liquidity, or Give Me Death | BLUCKA" />
+        <meta name="twitter:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life. Paying for bills, buying groceries, day-to-day necessities: all reliant on Bitcoin. There’s a waft of classism in the air: those who held bitcoin and those in the majority barely scraping by with physical money. The upper Echelon, coined the Satoshi Syndicate. Everyone else: The Decrypts. The vast demographics completely overthrown and restructured; governments replaced. Traditional money has completely collapsed and unraveled society and in its place, giant conglomerates and the digital elite hoard their fortunes, with the rest of society ravaging at the remaining scraps of liquidity." />
+        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg" />
+        
+        {/* Extra Meta */}
+        <meta name="keywords" content="Bitcoin, Liquidity, Dystopian World, Satoshi Syndicate, The Decrypts, Digital Elite, Traditional Money Collapse, BLUCKA" />
+        <link rel="canonical" href="https://www.blucka.com/blog/give-me-liquidity-or-give-me-death" />
+    </Helmet>
 
     <div className='bg-black text-white'>
-    <Helmet>
-    <title>BLUCKA | Crypto Creative Agency</title>
-        <meta name="description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
-
-        {/* Open Graph for Facebook and LinkedIn */}
-        <meta data-react-helmet="true" property="og:title" content="Give Me Liquidity, or Give Me Death" />
-        <meta data-react-helmet="true" property="og:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
-        <meta data-react-helmet="true" property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064" />
-        <meta data-react-helmet="true" property="og:url" content="https://www.blucka.com/blog/give-me-liquidity-or-give-me-death" />
-        <meta data-react-helmet="true" property="og:type" content="website" />
-
-        {/* Twitter Cards */}
-        <meta data-react-helmet="true" name="twitter:card" content="summary_large_image" />
-        <meta data-react-helmet="true" name="twitter:title" content="Give Me Liquidity, or Give Me Death" />
-        <meta data-react-helmet="true" name="twitter:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life." />
-        <meta data-react-helmet="true" name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064" />
-    </Helmet>
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
             <div className="max-w-8xl justify-center items-center mx-auto px-16 sm:px-16 md:px-16 lg:px-[300px] flex flex-col">
@@ -38,9 +46,6 @@ const Blog = () => {
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
                 </Link>
-
-
-
                 <section className=" justify-center mx-auto w-full mt-4 mb-16">
                 <main className="pb-16 lg:pb-24 bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
@@ -88,16 +93,14 @@ const Blog = () => {
                     </article>
                 </div>
                 </main>
-
-
-</section>
+            </section>
             </div>
         </div>
             <Down/>
         </div>
     </div>
-
     </React.Fragment>
+    </HelmetProvider>
   );
 };
 

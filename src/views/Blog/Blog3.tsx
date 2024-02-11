@@ -8,12 +8,31 @@ const Blog = () => {
     <HelmetProvider>
     <React.Fragment>
     <Helmet>
-        <title>Unleash the Web3 Gaming | BLUCKA</title>
-        <meta name="description" content="Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount." />
-        <meta property="og:title" content="Unleash the Web3 Gaming" />
-        <meta property="og:description" content="Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount." />
+        {/* Page Title */}
+        <title>Unleash the Web3 Gaming Revolution with BLUCKA | BLUCKA</title>
+        
+        {/* Page Description */}
+        <meta name="description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
+        
+        {/* Open Graph / Facebook Meta */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Unleash the Web3 Gaming Revolution with BLUCKA | Blockchain Games" />
+        <meta property="og:description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
         <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp" />
+        <meta property="og:url" content="https://www.blucka.com/blog/unleash-the-web3-gaming" />
+        
+        {/* Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@BluckaAgency" />
+        <meta name="twitter:title" content="Unleash the Web3 Gaming Revolution with BLUCKA | Blockchain Games" />
+        <meta name="twitter:description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
+        <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp" />
+        
+        {/* Extra Meta*/}
+        <meta name="keywords" content="Web3 Gaming, Blockchain, Decentralized Games, Community Growth, BLUCKA" />
+        <link rel="canonical" href="https://www.blucka.com/blog/unleash-the-web3-gaming" />
     </Helmet>
+
     <div className='bg-black text-white'>
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">

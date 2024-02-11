@@ -1,5 +1,5 @@
 import React from 'react';
-import HighlightedText from '../../components/HighLight'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Down from '../../components/Down'
 import { Link } from 'react-router-dom';
 
@@ -7,8 +7,33 @@ import { Link } from 'react-router-dom';
 const Blog = () => {
 
   return (
-    
+    <HelmetProvider>
     <React.Fragment>
+    <Helmet>
+        {/* Page Title */}
+        <title>Merging Genius for Web3 Marketing | BLUCKA</title>
+        
+        {/* Page Description */}
+        <meta name="description" content="Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing. Born from a strategic merger of creative brilliance, community management and Web3 growth hacking, BLUCKA stands as a testament to a new era in marketing. With a laser focus on leveraging blockchain and crypto knowledge, we redefine the standard agency model." />
+        
+        {/* Open Graph / Facebook Meta */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Merging Genius for Web3 Marketing | BLUCKA" />
+        <meta property="og:description" content="Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing. Born from a strategic merger of creative brilliance, community management and Web3 growth hacking, BLUCKA stands as a testament to a new era in marketing. With a laser focus on leveraging blockchain and crypto knowledge, we redefine the standard agency model." />
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1181579356477345865/1_TJYX4NG3o9kTzthWBqBF7Q.webp?ex=65819287&is=656f1d87&hm=8ca3a8f849f294684b76ac21212c51a8accbf9c7095b792d378c8d4556b2b33a&" />
+        <meta property="og:url" content="https://www.blucka.com/blog/merging-genius-for-web3-marketing" />
+        
+        {/* Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@BluckaAgency" />
+        <meta name="twitter:title" content="Merging Genius for Web3 Marketing | BLUCKA" />
+        <meta name="twitter:description" content="Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing. Born from a strategic merger of creative brilliance, community management and Web3 growth hacking, BLUCKA stands as a testament to a new era in marketing. With a laser focus on leveraging blockchain and crypto knowledge, we redefine the standard agency model." />
+        <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1181579356477345865/1_TJYX4NG3o9kTzthWBqBF7Q.webp?ex=65819287&is=656f1d87&hm=8ca3a8f849f294684b76ac21212c51a8accbf9c7095b792d378c8d4556b2b33a&" />
+        
+        {/* Extra Meta*/}
+        <meta name="keywords" content="Web3 Marketing, Blockchain, Creative Agency, Web3 Growth Hacking, Crypto Knowledge, BLUCKA" />
+        <link rel="canonical" href="https://www.blucka.com/blog/merging-genius-for-web3-marketing" />
+    </Helmet>
 
     <div className='bg-black text-white'>
      
@@ -78,14 +103,11 @@ const Blog = () => {
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-semibold'>“Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA!"</p>
-
                         </div>
                     </article>
                 </div>
                 </main>
-
-
-</section>
+            </section>
             </div>
         </div>
             <Down/>
@@ -93,6 +115,7 @@ const Blog = () => {
     </div>
 
     </React.Fragment>
+    </HelmetProvider>
   );
 };
 

@@ -1,9 +1,36 @@
 import React from 'react'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Down from '../components/Down'
 import { Link } from 'react-router-dom';
 
 const Blog = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        {/* Page Title */}
+        <title>BLOG | BLUCKA</title>
+        
+        {/* Page Description */}
+        <meta name="description" content="Our mission is clear: Supercharge your growth." />
+        
+        {/* Open Graph / Facebook Meta */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="BLOG | BLUCKA" />
+        <meta property="og:description" content="Our mission is clear: Supercharge your growth." />
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1181580010218323968/oktar.jpg?ex=65819323&is=656f1e23&hm=1c20558085397df774989fbd504fa19db41c075d1f7ab8a23ab83c36caf3decc&" />
+        <meta property="og:url" content="https://www.blucka.com/blog/" />
+        
+        {/* Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@BluckaAgency" />
+        <meta name="twitter:title" content="BLOG | BLUCKA" />
+        <meta name="twitter:description" content="Our mission is clear: Supercharge your growth." />
+        <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1181580010218323968/oktar.jpg?ex=65819323&is=656f1e23&hm=1c20558085397df774989fbd504fa19db41c075d1f7ab8a23ab83c36caf3decc&" />
+        
+        {/* Extra Meta*/}
+        <meta name="keywords" content="Web3 Marketing, Blockchain, Creative Agency, Web3 Growth Hacking, Crypto Knowledge, BLUCKA, BLUCKA BLOG" />
+        <link rel="canonical" href="https://www.blucka.com/blog/" />
+    </Helmet>
     <section className="justify-center bg-black mx-auto w-full mt-12">
     <main className="flex flex-col items-center first-letter:bg-black text-white font-mono">
         <Link to="/">
@@ -108,17 +135,13 @@ const Blog = () => {
                         </div>
                     </div>  
                 </Link>
-
-
-
-
-
             </div> 
              
         </div>
             <Down/>
         </main>
 </section>
+</HelmetProvider>
   )
 }
 

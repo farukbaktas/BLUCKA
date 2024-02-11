@@ -1,7 +1,8 @@
 import React from 'react'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Loading from '../src/components/Loading'
-import { Analytics } from '@vercel/analytics/react';
 
 import Home from './views/Home'
 import BlogExample from './views/BlogExample'
@@ -22,10 +23,13 @@ import Blog5 from './views/Blog/Blog5'
 
 const App = () => {
   return (
+    <HelmetProvider>
     <Router>
-       <Analytics />
         <Switch>
         <Route exact path="/">
+            <Helmet>
+              <title>BLUCKA: Crypto Creative Agency </title>
+            </Helmet>
           <Home />
           <Loading />
         </Route>
@@ -65,6 +69,7 @@ const App = () => {
         </Route>
       </Switch>
     </Router>
+    </HelmetProvider>
   );
 };
 

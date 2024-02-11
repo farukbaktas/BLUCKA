@@ -1,5 +1,5 @@
 import React from 'react';
-import HighlightedText from '../../components/HighLight'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Down from '../../components/Down'
 import { Link } from 'react-router-dom';
 
@@ -7,8 +7,35 @@ import { Link } from 'react-router-dom';
 const Blog = () => {
 
   return (
-    
+    <HelmetProvider>
     <React.Fragment>
+    <Helmet>
+        {/* Page Title */}
+        <title>Elevating Presence in Bull Market | BLUCKA</title>
+        
+        {/* Page Description */}
+        <meta name="description" content="Discover how BLUCKA leverages the bull market's opportunities to enhance your brand's visibility. Our strategic marketing positions your venture in the spotlight." />
+        
+        {/* Open Graph / Facebook Meta */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Elevating Presence in Bull Market | BLUCKA" />
+        <meta property="og:description" content="Discover how BLUCKA leverages the bull market's opportunities to enhance your brand's visibility. Our strategic marketing positions your venture in the spotlight." />
+        <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1181879048977272852/1_ZJer_ze2P6vAdghx8aNvMw.webp" />
+        <meta property="og:url" content="https://www.blucka.com/blog/elevating-presence-in-bull-market" />
+        <meta property="og:site_name" content="BLUCKA" />
+        
+        {/* Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@BluckaAgency" />
+        <meta name="twitter:title" content="Elevating Presence in Bull Market | BLUCKA" />
+        <meta name="twitter:description" content="Discover how BLUCKA leverages the bull market's opportunities to enhance your brand's visibility. Our strategic marketing positions your venture in the spotlight." />
+        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1181879048977272852/1_ZJer_ze2P6vAdghx8aNvMw.webp" />
+        
+        {/* Extra Meta Tags for SEO */}
+        <meta name="keywords" content="crypto marketing, bull market strategies, blockchain visibility, cryptocurrency, digital marketing, BLUCKA" />
+        <link rel="canonical" href="https://www.blucka.com/blog/elevating-presence-in-bull-market" />
+    </Helmet>
+
 
     <div className='bg-black text-white'>
      
@@ -75,15 +102,11 @@ const Blog = () => {
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-semibold'>“Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA!"</p>
-
-
                         </div>
                     </article>
                 </div>
                 </main>
-
-
-</section>
+            </section>
             </div>
         </div>
             <Down/>
@@ -91,6 +114,7 @@ const Blog = () => {
     </div>
 
     </React.Fragment>
+    </HelmetProvider>
   );
 };
 

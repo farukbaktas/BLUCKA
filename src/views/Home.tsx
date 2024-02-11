@@ -2,6 +2,7 @@ import React from 'react';
 import HighlightedText from '../components/HighLight'
 import Down from '../components/Down'
 import Subscribe from '../components/Subscribe'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import a from '../assets/videos/a.mp4';
 import b from '../assets/videos/b.mp4';
@@ -19,8 +20,33 @@ const Home = () => {
   const clip = videos[Math.floor(Math.random() * videos.length)];
 
   return (
-    
+    <HelmetProvider>
     <React.Fragment>
+    <Helmet>
+        {/* Page Title */}
+        <title>BLUCKA: Crypto Creative Agency</title>
+        
+        {/* Page Description */}
+        <meta name="description" content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth." />
+        
+        {/* Open Graph / Facebook Meta */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="BLUCKA: Crypto Creative Agency" />
+        <meta property="og:description" content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth." />
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1171849901999661056/A.png?ex=655e2d44&is=654bb844&hm=f19d4674b9f95ef7bab48830f4dec1d3836dd64e630752fecd68272abc4fb172" />
+        <meta property="og:url" content="https://www.blucka.com/blog/unleash-the-web3-gaming" />
+        
+        {/* Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@BluckaAgency" />
+        <meta name="twitter:title" content="BLUCKA: Crypto Creative Agency" />
+        <meta name="twitter:description" content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth." />
+        <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1171849901999661056/A.png?ex=655e2d44&is=654bb844&hm=f19d4674b9f95ef7bab48830f4dec1d3836dd64e630752fecd68272abc4fb172" />
+        
+        {/* Extra Meta*/}
+        <meta name="keywords" content="Web3 Gaming, Blockchain, Decentralized Games, Community Growth, BLUCKA" />
+        <link rel="canonical" href="https://www.blucka.com/blog/unleash-the-web3-gaming" />
+    </Helmet>
 
       <div className='bg-black text-white'>
         <video autoPlay loop muted className='fixed w-full h-full object-cover z-0'>
@@ -74,10 +100,11 @@ const Home = () => {
       </div>
       <Down/>
       <Subscribe/>
-</div>
-</div>
+      </div>
+      </div>
 
     </React.Fragment>
+    </HelmetProvider>
   );
 };
 
