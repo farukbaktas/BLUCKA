@@ -1,19 +1,19 @@
 import React from 'react';
-import { HelmetProvider } from 'react-helmet-async';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import Down from '../../components/Down';
 
 const Blog = () => {
   return (
+    <HelmetProvider>
     <React.Fragment>
-      <HelmetProvider>
-        <title>Unleash the Web3 Gaming </title>
+    <Helmet>
+        <title>Unleash the Web3 Gaming | BLUCKA</title>
         <meta name="description" content="Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount." />
         <meta property="og:title" content="Unleash the Web3 Gaming" />
         <meta property="og:description" content="Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount." />
-        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" />
-      </HelmetProvider>
-    
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp" />
+    </Helmet>
     <div className='bg-black text-white'>
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
@@ -94,6 +94,7 @@ const Blog = () => {
     </div>
 
     </React.Fragment>
+    </HelmetProvider>
   );
 };
 
