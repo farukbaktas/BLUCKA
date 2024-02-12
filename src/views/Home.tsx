@@ -34,7 +34,7 @@ const Home = () => {
         <meta property="og:title" content="BLUCKA: Crypto Creative Agency" />
         <meta property="og:description" content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth." />
         <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1171849901999661056/A.png?ex=655e2d44&is=654bb844&hm=f19d4674b9f95ef7bab48830f4dec1d3836dd64e630752fecd68272abc4fb172" />
-        <meta property="og:url" content="https://www.blucka.com/blog/unleash-the-web3-gaming" />
+        <meta property="og:url" content="https://www.blucka.com" />
         
         {/* Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -45,7 +45,7 @@ const Home = () => {
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3 Gaming, Blockchain, Decentralized Games, Community Growth, BLUCKA" />
-        <link rel="canonical" href="https://www.blucka.com/blog/unleash-the-web3-gaming" />
+        <link rel="canonical" href="https://www.blucka.com/blog" />
     </Helmet>
 
       <div className='bg-black text-white'>
