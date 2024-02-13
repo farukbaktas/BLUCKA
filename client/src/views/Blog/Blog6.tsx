@@ -19,7 +19,7 @@ const Blog = () => {
         <meta property="og:title" content="What is a Web3 Marketing Agency? | BLUCKA" />
         <meta property="og:description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
         <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064" />
-        <meta property="og:url" content="https://www.blucka.com/blog/unleash-the-web3-gaming" />
+        <meta property="og:url" content="https://www.blucka.com/blog/what-is-web3-marketing-agency" />
         
         {/* Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -30,7 +30,7 @@ const Blog = () => {
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3 Gaming, Blockchain, Decentralized Games, Community Growth, BLUCKA" />
-        <link rel="canonical" href="https://www.blucka.com/blog/unleash-the-web3-gaming" />
+        <link rel="canonical" href="https://www.blucka.com/blog/what-is-web3-marketing-agency" />
     </Helmet>
 
     <div className='bg-black text-white'>
