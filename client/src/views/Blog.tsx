@@ -17,7 +17,7 @@ const Blog = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="BLOG | BLUCKA" />
         <meta property="og:description" content="Our mission is clear: Supercharge your growth." />
-        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1171849901999661056/A.png?ex=655e2d44&is=654bb844&hm=f19d4674b9f95ef7bab48830f4dec1d3836dd64e630752fecd68272abc4fb172" />
+        <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1206520742326575124/BLUCKA_LOGO.png?ex=65dc4f01&is=65c9da01&hm=07475a6a284eaa51d5b8cdb5a468ec291096ad20daaeea9b8de181f68632155b&=&format=webp&quality=lossless&width=2268&height=1186" />
         <meta property="og:url" content="https://www.blucka.com/blog/" />
         
         {/* Twitter Card Meta */}
@@ -25,7 +25,7 @@ const Blog = () => {
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="BLOG | BLUCKA" />
         <meta name="twitter:description" content="Our mission is clear: Supercharge your growth." />
-        <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1171849901999661056/A.png?ex=655e2d44&is=654bb844&hm=f19d4674b9f95ef7bab48830f4dec1d3836dd64e630752fecd68272abc4fb172" />
+        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1206520742326575124/BLUCKA_LOGO.png?ex=65dc4f01&is=65c9da01&hm=07475a6a284eaa51d5b8cdb5a468ec291096ad20daaeea9b8de181f68632155b&=&format=webp&quality=lossless&width=2268&height=1186" />
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3 Marketing, Blockchain, Creative Agency, Web3 Growth Hacking, Crypto Knowledge, BLUCKA, BLUCKA BLOG" />

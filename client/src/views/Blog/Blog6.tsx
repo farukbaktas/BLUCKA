@@ -9,24 +9,24 @@ const Blog = () => {
     <React.Fragment>
     <Helmet>
         {/* Page Title */}
-        <title>Unleash the Web3 Gaming Revolution with BLUCKA | BLUCKA</title>
+        <title>What is a Web3 Marketing Agency? | BLUCKA</title>
         
         {/* Page Description */}
         <meta name="description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
         
         {/* Open Graph / Facebook Meta */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Unleash the Web3 Gaming Revolution with BLUCKA | BLUCKA" />
+        <meta property="og:title" content="What is a Web3 Marketing Agency? | BLUCKA" />
         <meta property="og:description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
-        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp" />
+        <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064" />
         <meta property="og:url" content="https://www.blucka.com/blog/unleash-the-web3-gaming" />
         
         {/* Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@BluckaAgency" />
-        <meta name="twitter:title" content="Unleash the Web3 Gaming Revolution with BLUCKA | BLUCKA" />
+        <meta name="twitter:title" content="What is a Web3 Marketing Agency? | BLUCKA" />
         <meta name="twitter:description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
-        <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp" />
+        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064" />
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3 Gaming, Blockchain, Decentralized Games, Community Growth, BLUCKA" />
@@ -53,7 +53,7 @@ const Blog = () => {
                 <main className="pb-16 lg:pb-24 bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure id="blog-thumbnail" className="mb-4 item-center"><img src="https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp?ex=6583ef15&is=65717a15&hm=477cc0f6fab01cc002440c5ccea0100d9f148a02cc4322e1df08c68ec2d3f0ae&" alt="Thumbnail"/>
+                        <figure id="blog-thumbnail" className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064" alt="Thumbnail"/>
                             <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
@@ -63,33 +63,34 @@ const Blog = () => {
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Faruk Baktas</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Research and Development</p>
-                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Dec. 7, 2023</time></p>
+                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Feb. 13, 2024</time></p>
                                     </div>
                                 </div>
                             </address>
                             
-                            <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">Unleash the Web3 Gaming</h1>
+                            <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">What is a Web3 Marketing Agency?</h1>
                         </header>
                         <div className="space-y-4">
-                            <p id="blog-description" className="font-semi text-xl">Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why. In the dynamic landscape of Web3 gaming, traditional approaches fall short in capturing the essence of decentralized, player-centric ecosystems. The emergence of blockchain technology has not only revolutionized gameplay and in-game economies but has also ushered in a new era where community participation is paramount.</p>
+                            <p id="blog-description" className="font-semi text-xl">A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record.</p>
 
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-bold italic'>Web3 Gaming Through Community Engagement</p>
-                            <p>Crypto Creatives of BLUCKA believe that fostering a vibrant and engaged community is integral to the success of any Web3 gaming venture. Our approach goes beyond conventional strategies, recognizing that in the decentralized space, the strength of the community is synonymous with the success of the project.</p>
+                            <p>The shift from Web2 to Web3 on the internet has led to the rise of Web3 marketing agencies. These pioneers in marketing trends leverage the decentralized web and distributed networks to create inventive strategies that resonate with their clients' target audience.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-bold italic'>Unlocking the Potential</p>
-                            <p>Web3 gaming’s unique characteristics, such as play-to-earn models and true ownership of in-game assets facilitated by blockchain technology, underscore the importance of community involvement. The rise of cryptocurrencies and NFTs within the gaming landscape has further intensified the need for a community-centric approach.</p>
+                            <p>In the midst of the marketing revolution brought by Web3, even digital marketing leaders struggle to adapt. Traditional channels like content marketing and social media are evolving to include new technologies and community-focused approaches.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-bold italic'>Empowering Players</p>
-                            <p>BLUCKA understands that empowering the community is not just a strategy; it’s a way of doing business. By embracing a decentralized autonomous organization (DAO) model, players are empowered to contribute to game development and decision-making processes. This collaborative approach not only alters traditional dynamics but also ensures that the community has a direct impact on the evolution of the gaming experience.</p>
+                            <p>To stay competitive in the dynamic blockchain and decentralized technology landscape, businesses turn to Web3 marketing agencies for their expertise and innovative solutions.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-bold italic'>Beyond the Pixels</p>
-                            <p className='mb-3'>As Crypto Creatives, our commitment to a community-centric approach extends beyond the virtual realms of blockchain games. In the rapidly expanding virtual real estate landscape, where land in blockchain and metaverse games holds significant value, BLUCKA recognizes the importance of community-driven initiatives. Strong, engaged communities are central to the development and popularity of blockchain and NFT projects, making them an invaluable asset in the gaming industry.</p>
-                            <p>We believe in empowering communities, building trust, and creating a space where the voice of every player matters. Join us on this exciting journey where the fusion of community and growth defines the future of Web3 gaming.</p>
+                            <p className='mb-3'>So, what do these agencies do? They specialize in promoting blockchain-based entities using tailored strategies. Focusing on the semantic web, blockchain tech, and decentralized platforms, they help clients communicate value to users, developers, and communities.</p>
+
+                            <p className='text-center text-3xl py-4'>...</p>
+                            <p>Web3 marketing agencies provide a range of services, including brand building, community building, community growth, influencer marketing, PR, website design, content creation, social media management, SEO, and paid advertising. Their expertise supports businesses in achieving growth objectives.</p>
+
+                            <p className='text-center text-3xl py-4'>...</p>
+                            <p>In essence, these agencies specialize in driving business growth by integrating traditional digital marketing strategies with the unique advantages of Web3, facilitating success in the rapidly evolving landscape of decentralized technologies.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
@@ -97,7 +98,6 @@ const Blog = () => {
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-semibold'>“Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA!"</p>
-
 
                         </div>
                     </article>

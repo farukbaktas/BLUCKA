@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
+import axios from 'axios';
 
-const Down = () => {
+const Subscribe = () => {
     const [showPopup, setShowPopup] = useState(false);
+    const [email, setEmail] = useState('');
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -13,19 +15,25 @@ const Down = () => {
 
     const closePopup = () => setShowPopup(false);
 
-    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault(); // Prevents default page refresh
-
-        emailjs.sendForm('service_uujy8n9', 'template_sp7rjd9', e.currentTarget, 'vxJVz_yxkvEaE7YED')
-            .then((result) => {
-                console.log('Email successfully sent!', result.text);
-                // Perform any actions after successful sending here
-            }, (error) => {
-                console.log('Failed to send email:', error.text);
-                // Handle errors here
-            });
-
-        closePopup(); 
+    
+        try {
+            await emailjs.sendForm('service_uujy8n9', 'template_sp7rjd9', e.currentTarget, 'vxJVz_yxkvEaE7YED');
+            console.log('Email successfully sent!');
+        } catch (error) {
+            console.log('Failed to send email:', error);
+        }
+    
+        try {
+            await axios.post('/api/subscribe', { email });
+            console.log('Email added to MongoDB!');
+        } catch (error) {
+            console.log('Failed to add email to MongoDB:', error);
+        }
+    
+        setEmail('');
+        closePopup();
     };
 
     return (
@@ -41,7 +49,10 @@ const Down = () => {
                             name="email" 
                             placeholder="Enter your email" 
                             className="p-2 border border-black text-black mb-4" 
-                            required/>
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
+                        />
                         <button 
                             type="submit" 
                             className="bg-black border border-black text-white p-2">
@@ -61,4 +72,4 @@ const Down = () => {
     );
 };
 
-export default Down;
+export default Subscribe;
