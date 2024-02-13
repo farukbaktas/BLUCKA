@@ -1,35 +1,23 @@
+# BLUCKA
 
-1. Install `@tailwindcss/ui`:
+## Install Dependencies
 
-```sh
-yarn add @tailwindcss/ui
-```
-
-2. Add the plugin in `tailwind.config.js` without changing anything else:
-
-```js
-// tailwind.config.js
-module.exports = {
-  // ...
-  // rest of the config
-  plugins: [require('@tailwindcss/ui')],
-}
-```
-
-## Installation
+This project uses `yarn` as package manager, please refer [here](https://classic.yarnpkg.com/en/docs/install#windows-stable) for installation
 
 ```sh
-yarn
+yarn install
 ```
 
-## Development
+## Server
 
 ```sh
+cd server
 yarn dev
 ```
 
-## Build
+## Client
 
 ```sh
-yarn build
+cd client
+yarn dev
 ```
