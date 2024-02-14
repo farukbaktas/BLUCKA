@@ -8,13 +8,11 @@
     },
     {
       "src": "server/package.json",
-      "use": "@vercel/node",
-      "config": { "distDir": "build" }
+      "use": "@vercel/node"
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "server/$1" },
-    { "src": "/(.*)", "dest": "client/$1" }
+    { "src": "/api/(.*)", "dest": "server/$1" }
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
