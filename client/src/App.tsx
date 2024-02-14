@@ -18,6 +18,8 @@ import Blog3 from './views/Blog/Blog3'
 import Blog4 from './views/Blog/Blog4'
 import Blog5 from './views/Blog/Blog5'
 import Blog6 from './views/Blog/Blog6'
+import Blog7 from './views/Blog/Blog7'
+
 
 
 
@@ -61,8 +63,13 @@ const App = () => {
         <Route exact path="/blog/give-me-liquidity-or-give-me-death">
           <Blog5/>
         </Route>
+
         <Route exact path="/blog/what-is-web3-marketing-agency">
           <Blog6/>
+        </Route>
+
+        <Route exact path="/blog/how-do-i-get-web3-marketing">
+          <Blog7/>
         </Route>
         
         <Route exact path="/contact">

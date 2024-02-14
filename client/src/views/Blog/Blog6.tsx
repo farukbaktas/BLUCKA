@@ -12,12 +12,12 @@ const Blog = () => {
         <title>What is a Web3 Marketing Agency? | BLUCKA</title>
         
         {/* Page Description */}
-        <meta name="description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
+        <meta name="description" content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record." />
         
         {/* Open Graph / Facebook Meta */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="What is a Web3 Marketing Agency? | BLUCKA" />
-        <meta property="og:description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
+        <meta property="og:description" content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record." />
         <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064" />
         <meta property="og:url" content="https://www.blucka.com/blog/what-is-web3-marketing-agency" />
         
@@ -25,7 +25,7 @@ const Blog = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="What is a Web3 Marketing Agency? | BLUCKA" />
-        <meta name="twitter:description" content="Explore how community-driven growth is revolutionizing Web3 gaming with BLUCKA. Discover the future of decentralized, player-centric blockchain gaming ecosystems." />
+        <meta name="twitter:description" content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record." />
         <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064" />
         
         {/* Extra Meta*/}
