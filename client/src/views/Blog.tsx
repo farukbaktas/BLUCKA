@@ -48,6 +48,23 @@ const Blog = () => {
 
 
             <div className="grid gap-8 lg:grid-cols-3  item-center justify-center">
+            <Link to="/blog/how-do-i-get-web3-marketing">
+                    <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
+                        <img className="rounded-t-lg" src="https://media.discordapp.net/attachments/1197467042886996018/1207246509649821706/How.png?ex=65def2ed&is=65cc7ded&hm=354afd66018bad04d2f42e250e4a647fd70e6c0b7c24d926eb39241fdcf7f877&=&format=webp&quality=lossless&width=2268&height=1064" alt="Thumbnail" />
+                        <div className="p-5">
+
+                                <h5 className="mb-[16px] text-2xl font-bold tracking-tight text-gray-900">How do I get into Web3 marketing?</h5>
+
+                            <p className="mb-[28px] font-normal text-gray-700">In the ever-changing realm of Web3, marketers must stay ahead to thrive. </p>
+                            <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                                Read more
+                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>  
+            </Link>
             <Link to="/blog/what-is-web3-marketing-agency">
                     <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
                         <img className="rounded-t-lg" src="https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064" alt="Thumbnail" />
