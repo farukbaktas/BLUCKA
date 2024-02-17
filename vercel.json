@@ -12,5 +12,7 @@
       "config": { "distDir": "build" }
     }
   ],
-   "rewrites": [{ "source": "/(.*)", "destination": "/" }] 
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ] 
 }
