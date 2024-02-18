@@ -66,7 +66,7 @@ const Blog = () => {
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Oktar Akin</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Brand and Strategy</p>
-                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Feb. 14, 2024</time></p>
+                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Feb. 18, 2024</time></p>
                                     </div>
                                 </div>
                             </address>
