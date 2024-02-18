@@ -3,6 +3,8 @@ import Down from '../../components/Down'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import Countdown from '../../components/Countdown'
+import BlogsList from '../../components/BlogComponents/BlogsList'
+import Subscribe from '../../components/BlogComponents/Subscribe'
 
 const Blog = () => {
 
@@ -107,6 +109,8 @@ const Blog = () => {
             </section>
             </div>
         </div>
+            <Subscribe/>
+            <BlogsList/>
             <Down/>
         </div>
     </div>

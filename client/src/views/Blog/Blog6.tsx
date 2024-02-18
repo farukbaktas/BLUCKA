@@ -2,6 +2,8 @@ import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import Down from '../../components/Down';
+import BlogsList from '../../components/BlogComponents/BlogsList'
+import Subscribe from '../../components/BlogComponents/Subscribe'
 
 const Blog = () => {
   return (
@@ -108,6 +110,9 @@ const Blog = () => {
 </section>
             </div>
         </div>
+            <Subscribe/>
+            <BlogsList/>
+
             <Down/>
         </div>
     </div>

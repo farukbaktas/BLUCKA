@@ -109,6 +109,7 @@ const Blog = () => {
             </div>
             
             </div>
+            <Subscribe/>
             <BlogsList/>
 
             <Down/>
