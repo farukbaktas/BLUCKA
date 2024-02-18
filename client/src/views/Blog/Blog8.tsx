@@ -62,7 +62,7 @@ const Blog = () => {
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://cdn.discordapp.com/attachments/1171396831989739570/1181580010218323968/oktar.jpg?ex=65819323&is=656f1e23&hm=1c20558085397df774989fbd504fa19db41c075d1f7ab8a23ab83c36caf3decc&" alt="BLUCA PP"/>
+                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://cdn.discordapp.com/attachments/1171396831989739570/1182229612844040278/spaces_YhC6ldpyG9SWlOl2Jxrk_uploads_S2ZRd2ZDEtxXLN8cYyEg_Berkan_7Photo_333_x_333_px.webp?ex=6583f020&is=65717b20&hm=13fe0493d70981f2b67d1a54d62c44e09c62e96e8e7d9bf0e1c10611e234d077&" alt="BLUCA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Berkan Sonmez</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Operation Management</p>
