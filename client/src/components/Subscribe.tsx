@@ -51,8 +51,7 @@ const Subscribe = () => {
                             className="p-2 border border-black text-black mb-4" 
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            required
-                        />
+                            required/>
                         <button 
                             type="submit" 
                             className="bg-black border border-black text-white p-2">
@@ -61,8 +60,7 @@ const Subscribe = () => {
                     </form>
                     <button 
                         className="absolute top-2 right-2 text-6xl" 
-                        onClick={closePopup}
-                    >
+                        onClick={closePopup}>
                         &times;
                     </button>
                 </div>

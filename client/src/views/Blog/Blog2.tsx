@@ -42,7 +42,7 @@ const Blog = () => {
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
             
-            <div className="max-w-8xl justify-center items-center mx-auto px-16 sm:px-16 md:px-16 lg:px-[300px] flex flex-col">
+            <div className="max-w-8xl justify-center items-center mx-auto px-4 sm:px-12 md:px-16 lg:px-[300px] flex flex-col">
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img

@@ -2,6 +2,9 @@ import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import Down from '../../components/Down';
+import BlogsList from '../../components/BlogComponents/BlogsList'
+import Subscribe from '../../components/BlogComponents/Subscribe'
+
 
 const Blog = () => {
   return (
@@ -37,7 +40,7 @@ const Blog = () => {
     <div className="font-mono cursor bg-cover text-black w-screen relative">
         <div className="relative">
             
-            <div className="max-w-8xl justify-center items-center mx-auto px-16 sm:px-16 md:px-16 lg:px-[300px] flex flex-col">
+            <div className="max-w-8xl justify-center items-center mx-auto px-4 sm:px-12 md:px-16 lg:px-[300px] flex flex-col">
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
@@ -50,7 +53,7 @@ const Blog = () => {
 
 
                 <section className=" justify-center mx-auto w-full mt-4 mb-16">
-                <main className="pb-16 lg:pb-24 bg-black text-white ">
+                <main className=" bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
                         <figure id="blog-thumbnail" className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1197467042886996018/1207246509649821706/How.png?ex=65def2ed&is=65cc7ded&hm=354afd66018bad04d2f42e250e4a647fd70e6c0b7c24d926eb39241fdcf7f877&=&format=webp&quality=lossless&width=2268&height=1064" alt="Thumbnail"/>
@@ -98,16 +101,16 @@ const Blog = () => {
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-semibold'>“Or mission is clear: Supercharge your growth. BLUCKA! BLUCKAAAAA!" </p>
-
                         </div>
                     </article>
                 </div>
                 </main>
-
-
-</section>
+            </section>
             </div>
-        </div>
+            
+            </div>
+            <BlogsList/>
+
             <Down/>
         </div>
     </div>
