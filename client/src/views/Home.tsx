@@ -49,7 +49,7 @@ const Home = () => {
     </Helmet>
 
       <div className='bg-black text-white'>
-        <video autoPlay loop muted className='fixed w-full h-full object-cover z-0'>
+        <video controls autoPlay muted playsInline className='fixed w-full h-full object-cover z-0'>
             <source src={clip} type='video/mp4' />
             <source src={clip} type="video/ogg" />
         </video>
