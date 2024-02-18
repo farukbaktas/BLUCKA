@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import BlogsList from '../../components/BlogComponents/BlogsList'
 import Subscribe from '../../components/BlogComponents/Subscribe'
+import BlogFooter from '../../components/BlogComponents/BlogFooter'
 
 const Blog = () => {
 
@@ -100,6 +101,7 @@ const Blog = () => {
         </div>
             <Subscribe/>
             <BlogsList/>
+            <BlogFooter/>
 
             <Down/>
         </div>

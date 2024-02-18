@@ -3,6 +3,8 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Down from '../components/Down';
 import { Link } from 'react-router-dom';
 import Subscribe from '../components/BlogComponents/Subscribe'
+import BlogFooter from '../components/BlogComponents/BlogFooter'
+
 
 const blogPosts = [
     {
@@ -106,12 +108,16 @@ const Blog = () => {
                     </div>
                     <div className='pb-20'>
                     <Subscribe/>
+                    
                     </div>
                     <Down />
 
                 </main>
+                
             </section>
+            <BlogFooter/>
         </HelmetProvider>
+        
     );
 };
 
