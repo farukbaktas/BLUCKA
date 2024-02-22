@@ -20,6 +20,7 @@ import Blog5 from './views/Blog/Blog5'
 import Blog6 from './views/Blog/Blog6'
 import Blog7 from './views/Blog/Blog7'
 import Blog8 from './views/Blog/Blog8'
+import Blog9 from './views/Blog/Blog9'
 
 
 
@@ -77,6 +78,9 @@ const App = () => {
           <Blog8/>
         </Route>
         
+        <Route exact path="/blog/what-is-the-difference-between-web2-marketing-and-web3-marketing">
+          <Blog9/>
+        </Route>
         <Route exact path="/contact">
           <Contact/>
         </Route>

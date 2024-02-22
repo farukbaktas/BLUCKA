@@ -8,6 +8,12 @@ import BlogFooter from '../components/BlogComponents/BlogFooter'
 
 const blogPosts = [
     {
+        title: "What is the difference Web2 and Web3 marketing?",
+        description: "Web3 marketing signifies a transformative departure from Web2 marketing",
+        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1209141729039614003/web2-3.png?ex=65e5d7fc&is=65d362fc&hm=d312e9eb8f28972ee2b369f9a80746dcedd17fc979f9e68d22f9992cb4726f0c&=&format=webp&quality=lossless&width=2268&height=1064",
+        linkTo: "blog/what-is-the-difference-between-web2-marketing-and-web3-marketing"
+    },
+    {
         title: "What is Web3 advertising?",
         description: "Web3 advertising represents a revolutionary shift in the online landscape",
         imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1208702952915865690/web3advertising.png?ex=65e43f58&is=65d1ca58&hm=0257912a1003d5126c228cab885ec42961d1f977e909422b3d59849638b9da43&=&format=webp&quality=lossless&width=2268&height=1064",
