@@ -65,7 +65,7 @@ const Home = () => {
           </Link>
           <div className="pt-4 sm:pt-8 md:pt-12 lg:pt-16">
             <img
-              src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
+              src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
               alt="BLUCKA LOGO"
               className="w-[800px] sm:w-[900px] md:w-[350px] lg:w-[450px]"/>
             <div className="text-[18px] sm:text-xl md:text-xl lg:text-2xl mt-4 custom-shear">

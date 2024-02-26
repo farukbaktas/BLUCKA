@@ -44,7 +44,7 @@ const Blog = () => {
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
-                        src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&"
+                        src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
                         alt="BLUCKA LOGO"
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
@@ -62,7 +62,7 @@ const Blog = () => {
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://cdn.discordapp.com/attachments/1171396831989739570/1182229760047321099/faruk.jpg?ex=6583f043&is=65717b43&hm=9fd88ca4be46817b773fdf21a255af8350a729a95f219a2758adaaf5ee51b53b&" alt="BLUCA PP"/>
+                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1197467042886996018/1211601707167907850/faruk1.jpg?ex=65eecb05&is=65dc5605&hm=b8606d3ad83054dde9ee90313875716a5abd61e79f8e36ccf5b20247d99763b3&=&format=webp&width=666&height=666" alt="BLUCA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Faruk Baktas</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Research and Development</p>

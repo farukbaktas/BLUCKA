@@ -45,7 +45,7 @@ const Blog = () => {
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
-                        src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&"
+                        src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
                         alt="BLUCKA LOGO"
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
@@ -63,7 +63,7 @@ const Blog = () => {
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://cdn.discordapp.com/attachments/1171396831989739570/1182229612844040278/spaces_YhC6ldpyG9SWlOl2Jxrk_uploads_S2ZRd2ZDEtxXLN8cYyEg_Berkan_7Photo_333_x_333_px.webp?ex=6583f020&is=65717b20&hm=13fe0493d70981f2b67d1a54d62c44e09c62e96e8e7d9bf0e1c10611e234d077&" alt="BLUCA PP"/>
+                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1197467042886996018/1211601708292116570/spaces_YhC6ldpyG9SWlOl2Jxrk_uploads_S2ZRd2ZDEtxXLN8cYyEg_Berkan_7Photo_333_x_333_px.webp?ex=65eecb05&is=65dc5605&hm=27e14c1843102006391bc3a2e74cab8bb375ecd7e77e1b81e247d16a9e04bd9e&=&format=webp&width=666&height=666" alt="BLUCA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Berkan Sonmez</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Operation Management</p>

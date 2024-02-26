@@ -23,7 +23,7 @@ const Blog = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica: A Crypto Odyssey | BLUCKA" />
         <meta property="og:description" content="Discover how Bitcoin's built-in scarcity and halving events shape its economic landscape and investor strategies. Join us on a journey through the crypto universe with BLUCKA." />
-        <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1192815545893003395/B2.jpg" />
+        <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1211593197256441866/B2.jpg?ex=65eec318&is=65dc4e18&hm=efc773412c1ab18a1ffc19c413f4887bc470ccacbc856bb86ded192b1ed273c2&=&format=webp&width=2268&height=1064" />
         <meta property="og:url" content="https://www.blucka.com/blog/bears-bulls-bitcoins" />
         
         {/* Twitter Card Meta */}
@@ -31,7 +31,7 @@ const Blog = () => {
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica: A Crypto Odyssey | BLUCKA" />
         <meta name="twitter:description" content="Explore Bitcoin's scarcity, mining rewards, and the impact of halving events on the market. BLUCKA takes you on a deep dive into the crypto world ahead of the 2024 halving." />
-        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1192815545893003395/B2.jpg" />
+        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1211593197256441866/B2.jpg?ex=65eec318&is=65dc4e18&hm=efc773412c1ab18a1ffc19c413f4887bc470ccacbc856bb86ded192b1ed273c2&=&format=webp&width=2268&height=1064" />
         
         {/* Extra Meta */}
         <meta name="keywords" content="Bitcoin, Crypto Economy, Blockchain Technology, Crypto Mining, Bitcoin Halving, 2024, BLUCKA" />
@@ -47,7 +47,7 @@ const Blog = () => {
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
-                        src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png?ex=655e196b&is=654ba46b&hm=e9411488c7dccd8df285497705f66f3f2ecd932596ae849d3d10bf6ef75d9e94&  "
+                        src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
                         alt="BLUCKA LOGO"
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
@@ -57,13 +57,13 @@ const Blog = () => {
                 <main className="pb-16 lg:pb-24 bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1171396831989739570/1192815545893003395/B2.jpg?ex=65aa730b&is=6597fe0b&hm=f51a170d8da168bb770dec8a91aa07b904a1e39d02d8ff65f66c775194ebf1be&=&format=webp&width=2268&height=1064" alt="Thumbnail"/>
+                        <figure className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1197467042886996018/1211593197256441866/B2.jpg?ex=65eec318&is=65dc4e18&hm=efc773412c1ab18a1ffc19c413f4887bc470ccacbc856bb86ded192b1ed273c2&=&format=webp&width=2268&height=1064" alt="Thumbnail"/>
                             <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1171396831989739570/1192832511391309915/MARSHALPPF.jpg?ex=65aa82d8&is=65980dd8&hm=95623294ceb1dff21b12191437962297ee785664cab579281cb276937b896b0e&=&format=webp&width=1228&height=1228" alt="BLUCA PP"/>
+                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1197467042886996018/1211594869831766027/marshall.jpg?ex=65eec4a7&is=65dc4fa7&hm=8745d9b4a929269c953ba14d81a1aa52cc6b36309d8f0f4e1fee872d68868196&=&format=webp&width=1372&height=1228" alt="BLUCA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Marshall Irby</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Technical Documentation</p>
@@ -82,19 +82,19 @@ const Blog = () => {
                             <p className='text-center text-3xl py-4'>...</p>
 
                             <p>If you take a look at the graph, you can identify a cyclical pattern: During the last halving in 2020, price per BTC was $8,821.42. The halving before that in 2016, $650.53. The first halving in 2012, $12.35. </p>
-                            <img src="https://media.discordapp.net/attachments/1171396831989739570/1192815791188484196/chart1.jpg?ex=65aa7346&is=6597fe46&hm=35c7348f0f7b5221b0aadb462c460526cee08ef34161f95d95aa05d09cec7aa3&=&format=webp&width=2268&height=1064" alt="chart" />
+                            <img src="https://media.discordapp.net/attachments/1197467042886996018/1211593702234005504/chart1.jpg?ex=65eec390&is=65dc4e90&hm=8c04974a9eba550daa5020fbe758e26aca56028b331a3f28cc121799ab57accd&=&format=webp&width=2268&height=1064" alt="chart" />
                             <p className='font-thin text-xs'>Source: bitbo.io</p>
 
                             <p className='pt-4'>Let’s choose a hypothetical example of investing $1000 in every halving scenario. For the following examples, assume BTC is valued at $30,000 for the return on investments. In 2012, if you would have invested $1000, you could have purchased 81.63 bitcoins and your return on investment (ROI) would have been $2,448,900. In 2016 with $1000 invested before the halving, 1.54 BTC could have been purchased and ROI would have been $46,200. In 2020, 0.1176 BTC could have been purchased with ROI at $3528. </p>
                             
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1171396831989739570/1192753956015853589/seperator.jpg?ex=65aa39af&is=6597c4af&hm=aa5d2b3d90f79bde87609cc07547ab5e702c6e1e304dea52e3596797543fcf02&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211593932283191316/seperator.jpg?ex=65eec3c7&is=65dc4ec7&hm=0b1809e728f1a9135baac6e83fa447194ab28a83e239a8cb49763340167cbdf9&=&format=webp&width=2268&height=300" alt="banner" />
                             <p>So, if BTC is worth its current amount of roughly $42,000 before halving in April and the price increases to $50,000, the pattern is: return on investment is always theoretically higher than your initial investment of money - this case it being a profit of at least 19.05% if bought at the dip and sold at the peak. Keep in mind this is not including external factors that influence price.</p>
 
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1171396831989739570/1192753956015853589/seperator.jpg?ex=65aa39af&is=6597c4af&hm=aa5d2b3d90f79bde87609cc07547ab5e702c6e1e304dea52e3596797543fcf02&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211593932283191316/seperator.jpg?ex=65eec3c7&is=65dc4ec7&hm=0b1809e728f1a9135baac6e83fa447194ab28a83e239a8cb49763340167cbdf9&=&format=webp&width=2268&height=300" alt="banner" />
                             <p className='font-bold italic'>How does it affect us as consumers?</p>
                             <p className='mb-3'>While this seems like a recurrent event doomed to repeat itself – past cycles aren’t always indicative of future outcomes, especially because the cryptocurrency market doesn’t thrive in a vacuum. Some experts and centralized banks forecast that the halving in conjunction with different methods for diversification and investing could offer cryptocurrency resiliency like never before seen. On an unlikely front, <span className='underline text-gray-200'> <a href="https://www.chainalysis.com/blog/2023-global-crypto-adoption-index/">higher income developed countries are lessening crypto usage on average and more low-middle income countries are adopting it</a></span>, with economies like these having the potential to send crypto soaring. More people are turning towards decentralized currencies and diversifying portfolios away from traditional means, both digital and traditional. For consumers, the cementation of cryptocurrency in the economy via tokenization implementation and <span className='underline text-gray-200'><a href="https://www.sec.gov/Archives/edgar/data/1869699/000119312521201955/d165184ds1.htm">SEC proceedings expected to approve Bitcoin ETFs</a></span>, the return on cryptocurrency for the year 2024 could be ten to one hundred fold – especially now that financial institutions are turning their eyes… And their wallets towards cryptocurrency. (<a className='underline text-gray-200' href="https://www.jpmorgan.com/onyx/project-guardian">Project Guardian - JP Morgan</a>, <a className='underline text-gray-200' href="https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/doc?refNo=23EC52">tokenization procedures - Hong Kong SFC </a>,<a className='underline text-gray-200' href="https://www.foxbusiness.com/technology/digital-asset-markets-poised-grow-in-2024-goldman-sachs-exec-says"> Bitcoin liquidity - Matthew McDermott, Goldman Sachs)</a></p>
 
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1171396831989739570/1192753956015853589/seperator.jpg?ex=65aa39af&is=6597c4af&hm=aa5d2b3d90f79bde87609cc07547ab5e702c6e1e304dea52e3596797543fcf02&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211593932283191316/seperator.jpg?ex=65eec3c7&is=65dc4ec7&hm=0b1809e728f1a9135baac6e83fa447194ab28a83e239a8cb49763340167cbdf9&=&format=webp&width=2268&height=300" alt="banner" />
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
                             <p>Join us as we compound all of these trends, facts and economic speculations backed by data in our B.L.U.C.K.A. series </p>
 

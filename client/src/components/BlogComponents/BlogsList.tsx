@@ -16,7 +16,7 @@ const blogs = [
   },
   {
     to: "/blog/give-me-liquidity-or-give-me-death",
-    imgSrc: "https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg?ex=65b502fb&is=65a28dfb&hm=f3351545d9aa2d042e41198e9ab92cebd18b497610f8c24439bc26e02305a3dc&=&format=webp&width=2268&height=1064",
+    imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211593456611229706/Larticle.jpg?ex=65eec356&is=65dc4e56&hm=43fdc62ccc294615860333328c0d808dd98049b28bc491a86b939b902641060e&=&format=webp&width=2268&height=1064",
     title: "Give Me Liquidity, or Give Me Death",
     description: "In a dystopian world, Bitcoin liquidity is now dictating every aspect of life."
   }

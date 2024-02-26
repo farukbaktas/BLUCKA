@@ -8,8 +8,8 @@ import BlogFooter from '../components/BlogComponents/BlogFooter'
 
 const blogPosts = [
     {
-        title: "The difference of Web2 and Web3 Marketing",
-        description: "Web3 marketing signifies a transformative departure ",
+        title: "Web2 Marketing vs Web3 Marketing",
+        description: "Web3 marketing signifies a transformative departure from Web2 marketing",
         imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1209141729039614003/web2-3.png?ex=65e5d7fc&is=65d362fc&hm=d312e9eb8f28972ee2b369f9a80746dcedd17fc979f9e68d22f9992cb4726f0c&=&format=webp&quality=lossless&width=2268&height=1064",
         linkTo: "blog/what-is-the-difference-between-web2-marketing-and-web3-marketing"
     },
@@ -34,31 +34,31 @@ const blogPosts = [
     {
         title: "Give Me Liquidity, or Give Me Death",
         description: "In a dystopian world, Bitcoin liquidity is now dictating every aspect of life.",
-        imgSrc: "https://media.discordapp.net/attachments/1171396831989739570/1195718876525252659/Larticle.jpg",
+        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211593456611229706/Larticle.jpg?ex=65eec356&is=65dc4e56&hm=43fdc62ccc294615860333328c0d808dd98049b28bc491a86b939b902641060e&=&format=webp&width=2268&height=1064",
         linkTo: "/blog/give-me-liquidity-or-give-me-death"
     },
     {
         title: "Bears, Bulls, Bitcoins... Battlestar Galactica",
         description: "With the market cap of bitcoin (BTC) hard-shelved at",
-        imgSrc: "https://media.discordapp.net/attachments/1160915606539866122/1192816272275165204/B2.jpg",
+        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211593197256441866/B2.jpg?ex=65eec318&is=65dc4e18&hm=efc773412c1ab18a1ffc19c413f4887bc470ccacbc856bb86ded192b1ed273c2&=&format=webp&width=2268&height=1064",
         linkTo: "/blog/bears-bulls-bitcoins"
     },
     {
         title: "Unleash the Web3 Gaming",
         description: "Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why.",
-        imgSrc: "https://cdn.discordapp.com/attachments/1171396831989739570/1182228492004376697/1_wTgpP45vRW4uIHCJDqNzGg.webp",
+        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211595490731368489/X_BLUCKA_GAMING.jpg?ex=65eec53b&is=65dc503b&hm=d8f0c98b6cfc70b382af0163413768f6505e6d59897f650e3166ba2275a48549&=&format=webp&width=2268&height=1064",
         linkTo: "/blog/unleash-the-web3-gaming"
     },
     {
         title: "Elevating Presence in Bull Market",
         description: "In the exhilarating surge of the bull market, where opportunities abound and competition will reach new",
-        imgSrc: "https://media.discordapp.net/attachments/1171396831989739570/1181879048977272852/1_ZJer_ze2P6vAdghx8aNvMw.webp",
+        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211595491196801035/X_BLUCKA_PRESS.jpg?ex=65eec53b&is=65dc503b&hm=a6f2b94a5251ec6eb422382270a1cb1675c1e95e0e740ac1cafdf7cc1a3ea3cd&=&format=webp&width=2268&height=1064",
         linkTo: "/blog/elevating-presence-in-bull-market"
     },
     {
         title: "Merging Genius for Web3 Marketing",
         description: "Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing.",
-        imgSrc: "https://cdn.discordapp.com/attachments/1171396831989739570/1181579356477345865/1_TJYX4NG3o9kTzthWBqBF7Q.webp",
+        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211595490140102756/X_BLUCKA_BULL.jpg?ex=65eec53b&is=65dc503b&hm=f4e76ff480b9731b3ce841de809d596853d580fbea31a1a74e3e71d17134a698&=&format=webp&width=2268&height=1064",
         linkTo: "/blog/merging-genius-for-web3-marketing"
     }
 ];
@@ -87,7 +87,7 @@ const Blog = () => {
             <section className="justify-center bg-black mx-auto w-full mt-12">
                 <main className="flex flex-col items-center first-letter:bg-black text-white font-mono">
                     <Link to="/">
-                        <img src="https://cdn.discordapp.com/attachments/1171396831989739570/1171828588908118047/Blucka_logo.png" alt="BLUCKA LOGO" className="w-[200px] items-center justify-center" />
+                        <img src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608" alt="BLUCKA LOGO" className="w-[200px] items-center justify-center" />
                     </Link>
                     <div className="py-8 px-4 mx-auto max-w-screen-xl pb-20 lg:px-32">
                         <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">

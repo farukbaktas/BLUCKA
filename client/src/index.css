@@ -17,7 +17,7 @@
     transform: skewX(-10deg); /* Yatay eğme efekti, -10 derece  */
   }
   .cursor {
-    cursor: url("https://cdn.discordapp.com/attachments/1171396831989739570/1171508629522886686/pointer.png?ex=655cef6e&is=654a7a6e&hm=be39a5eab391c6ded6577f793e10c8396a6615dd0ccea48768d562622e5ec27d&https://cdn.discordapp.com/attachments/1171396831989739570/1171498966509170828/Blucka_pointer.png?ex=655ce66f&is=654a716f&hm=bdd81de3dcef0da633c41f2bd1c17c49e8be9428b1e496081a66e81285bd68cb&"), pointer;
+    cursor: url("https://media.discordapp.net/attachments/1197467042886996018/1211591447883677716/pointer2.png?ex=65eec177&is=65dc4c77&hm=3fd36e1658ab88a2602ac06cb231b8337e4360e93fde6150700ded4e2ba1fb58&=&format=webp&quality=lossless&width=78&height=74"), pointer;
   }
   
   @keyframes blink {
