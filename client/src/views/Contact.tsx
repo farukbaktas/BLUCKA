@@ -72,7 +72,7 @@ const Blog = () => {
                             <textarea id="message" name="message" className="custom-shear block p-2.5 w-full text-sm text-black bg-gray-50 shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Leave your Messages..."></textarea>
                         </div>
                         <HCaptcha
-                            sitekey="29683024-2462-4c5d-b1b8-5499072e7b2d" // Replace with your hCaptcha sitekey
+                            sitekey="29683024-2462-4c5d-b1b8-5499072e7b2d" 
                             onVerify={onCaptchaVerify}
                         />
                         <div className='custom-shear mt-4'>
