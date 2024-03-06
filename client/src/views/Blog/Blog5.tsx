@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import BlogsList from '../../components/BlogComponents/BlogsList'
 import Subscribe from '../../components/BlogComponents/Subscribe'
 import BlogFooter from '../../components/BlogComponents/BlogFooter'
+import BannerIMG from '../../assets/Larticle.jpg'
 
 const Blog = () => {
 
@@ -22,14 +23,14 @@ const Blog = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Give Me Liquidity, or Give Me Death | BLUCKA" />
         <meta property="og:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life. Paying for bills, buying groceries, day-to-day necessities: all reliant on Bitcoin. There’s a waft of classism in the air: those who held bitcoin and those in the majority barely scraping by with physical money. The upper Echelon, coined the Satoshi Syndicate. Everyone else: The Decrypts. The vast demographics completely overthrown and restructured; governments replaced. Traditional money has completely collapsed and unraveled society and in its place, giant conglomerates and the digital elite hoard their fortunes, with the rest of society ravaging at the remaining scraps of liquidity." />
-        <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1211593456611229706/Larticle.jpg?ex=65eec356&is=65dc4e56&hm=43fdc62ccc294615860333328c0d808dd98049b28bc491a86b939b902641060e&=&format=webp&width=2268&height=1064" />
+        <meta property="og:image" content={BannerIMG} />
         <meta property="og:url" content="https://www.blucka.com/blog/give-me-liquidity-or-give-me-death" />
         
         {/* Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="Give Me Liquidity, or Give Me Death | BLUCKA" />
-        <meta name="twitter:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life. ..." />
+        <meta name="twitter:description" content={BannerIMG} />
         <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1211593456611229706/Larticle.jpg?ex=65eec356&is=65dc4e56&hm=43fdc62ccc294615860333328c0d808dd98049b28bc491a86b939b902641060e&=&format=webp&width=2268&height=1064" />
         {/* Extra Meta */}
         <meta name="keywords" content="Bitcoin, Liquidity, Dystopian World, Satoshi Syndicate, The Decrypts, Digital Elite, Traditional Money Collapse, BLUCKA" />
