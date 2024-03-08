@@ -5,7 +5,10 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import BlogsList from '../../components/BlogComponents/BlogsList'
 import Subscribe from '../../components/BlogComponents/Subscribe'
 import BlogFooter from '../../components/BlogComponents/BlogFooter'
-import BannerIMG from '../../assets/Larticle.jpg'
+
+import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
+import BannerIMG from '../../assets/BlogAssets/Larticle.jpg'
+import PP from '../../assets/BlogAssets/Blogger/marshall.jpg'
 
 const Blog = () => {
 
@@ -44,7 +47,7 @@ const Blog = () => {
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
-                        src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
+                        src={Logo}
                         alt="BLUCKA LOGO"
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
@@ -59,7 +62,7 @@ const Blog = () => {
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1197467042886996018/1211594869831766027/marshall.jpg?ex=65eec4a7&is=65dc4fa7&hm=8745d9b4a929269c953ba14d81a1aa52cc6b36309d8f0f4e1fee872d68868196&=&format=webp&width=1372&height=1228" alt="BLUCA PP"/>
+                                <img className="mr-4 w-16 h-16 rounded-full" src={PP} alt="BLUCKA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Marshall Irby</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Technical Documentation</p>

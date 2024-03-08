@@ -1,22 +1,26 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 
+import blog1 from '../../assets/BlogAssets/How.jpg'
+import blog2 from '../../assets/BlogAssets/web3agency.jpg'
+import blog3 from '../../assets/BlogAssets/Larticle.jpg'
+
 const blogs = [
   {
     to: "/blog/how-do-i-get-web3-marketing",
-    imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1207246509649821706/How.png?ex=65def2ed&is=65cc7ded&hm=354afd66018bad04d2f42e250e4a647fd70e6c0b7c24d926eb39241fdcf7f877&=&format=webp&quality=lossless&width=2268&height=1064",
+    imgSrc: blog1,
     title: "How do I get into Web3 marketing?",
     description: "In the ever-changing realm of Web3, marketers must stay ahead to thrive."
   },
   {
     to: "/blog/what-is-web3-marketing-agency",
-    imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064",
+    imgSrc: blog2,
     title: "What is a Web3 Marketing Agency?",
     description: "A Web3 marketing agency specializes in promoting blockchain-based companies."
   },
   {
     to: "/blog/give-me-liquidity-or-give-me-death",
-    imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211593456611229706/Larticle.jpg?ex=65eec356&is=65dc4e56&hm=43fdc62ccc294615860333328c0d808dd98049b28bc491a86b939b902641060e&=&format=webp&width=2268&height=1064",
+    imgSrc: blog3,
     title: "Give Me Liquidity, or Give Me Death",
     description: "In a dystopian world, Bitcoin liquidity is now dictating every aspect of life."
   }

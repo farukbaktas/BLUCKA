@@ -6,6 +6,9 @@ import BlogsList from '../../components/BlogComponents/BlogsList'
 import Subscribe from '../../components/BlogComponents/Subscribe'
 import BlogFooter from '../../components/BlogComponents/BlogFooter'
 
+import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
+import PP from '../../assets/BlogAssets/Blogger/berkan.jpg'
+import Banner from '../../assets/BlogAssets/web3ads.jpg'
 
 const Blog = () => {
   return (
@@ -22,7 +25,7 @@ const Blog = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="What is Web3 advertising? | BLUCKA" />
         <meta property="og:description" content="Web3 advertising represents a revolutionary shift in the online landscape, leveraging decentralized technologies like blockchain and peer-to-peer networks. This transformation creates a transparent, secure, and user-centric environment, fundamentally changing our Internet experience." />
-        <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1208702952915865690/web3advertising.png?ex=65e43f58&is=65d1ca58&hm=0257912a1003d5126c228cab885ec42961d1f977e909422b3d59849638b9da43&=&format=webp&quality=lossless&width=2268&height=1064" />
+        <meta property="og:image" content={Banner} />
         <meta property="og:url" content="https://www.blucka.com/blog/what-is-web3-advertising" />
         
         {/* Twitter Card Meta */}
@@ -30,7 +33,7 @@ const Blog = () => {
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="What is Web3 advertising? | BLUCKA" />
         <meta name="twitter:description" content="Web3 advertising represents a revolutionary shift in the online landscape, leveraging decentralized technologies like blockchain and peer-to-peer networks. This transformation creates a transparent, secure, and user-centric environment, fundamentally changing our Internet experience." />
-        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1208702952915865690/web3advertising.png?ex=65e43f58&is=65d1ca58&hm=0257912a1003d5126c228cab885ec42961d1f977e909422b3d59849638b9da43&=&format=webp&quality=lossless&width=2268&height=1064" />
+        <meta name="twitter:image" content={Banner} />
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3 advertising, decentralized advertising, blockchain advertising, peer-to-peer advertising, Web3 ad networks, cryptocurrency ads, digital asset marketing, decentralized applications marketing, Web3 marketing strategies, BLUCKA Web3 advertising" />
@@ -45,7 +48,7 @@ const Blog = () => {
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
-                        src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
+                        src={Logo}
                         alt="BLUCKA LOGO"
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
@@ -57,13 +60,13 @@ const Blog = () => {
                 <main className=" bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure id="blog-thumbnail" className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1197467042886996018/1208702952915865690/web3advertising.png?ex=65e43f58&is=65d1ca58&hm=0257912a1003d5126c228cab885ec42961d1f977e909422b3d59849638b9da43&=&format=webp&quality=lossless&width=2268&height=1064" alt="Thumbnail"/>
+                        <figure id="blog-thumbnail" className="mb-4 item-center"><img src={Banner} alt="Thumbnail"/>
                             <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1197467042886996018/1211601708292116570/spaces_YhC6ldpyG9SWlOl2Jxrk_uploads_S2ZRd2ZDEtxXLN8cYyEg_Berkan_7Photo_333_x_333_px.webp?ex=65eecb05&is=65dc5605&hm=27e14c1843102006391bc3a2e74cab8bb375ecd7e77e1b81e247d16a9e04bd9e&=&format=webp&width=666&height=666" alt="BLUCA PP"/>
+                                    <img className="mr-4 w-16 h-16 rounded-full" src={PP} alt="BLUCA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Berkan Sonmez</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Operation Management</p>

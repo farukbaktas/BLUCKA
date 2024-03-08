@@ -5,60 +5,70 @@ import { Link } from 'react-router-dom';
 import Subscribe from '../components/BlogComponents/Subscribe'
 import BlogFooter from '../components/BlogComponents/BlogFooter'
 
+import blog1 from '../assets/BlogAssets/bull.jpg'
+import blog2 from '../assets/BlogAssets/astronot.jpg'
+import blog3 from '../assets/BlogAssets/robot.jpg'
+import blog4 from '../assets/BlogAssets/B.jpg'
+import blog5 from '../assets/BlogAssets/Larticle.jpg'
+import blog6 from '../assets/BlogAssets/web3agency.jpg'
+import blog7 from '../assets/BlogAssets/how.jpg'
+import blog8 from '../assets/BlogAssets/web3ads.jpg'
+import blog9 from '../assets/BlogAssets/web2.jpg'
+
 
 const blogPosts = [
     {
         title: "Web2 Marketing vs Web3 Marketing",
         description: "Web3 marketing signifies a transformative departure from Web2 marketing",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1209141729039614003/web2-3.png?ex=65e5d7fc&is=65d362fc&hm=d312e9eb8f28972ee2b369f9a80746dcedd17fc979f9e68d22f9992cb4726f0c&=&format=webp&quality=lossless&width=2268&height=1064",
+        imgSrc: blog9,
         linkTo: "blog/what-is-the-difference-between-web2-marketing-and-web3-marketing"
     },
     {
         title: "What is Web3 advertising?",
         description: "Web3 advertising represents a revolutionary shift in the online landscape",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1208702952915865690/web3advertising.png?ex=65e43f58&is=65d1ca58&hm=0257912a1003d5126c228cab885ec42961d1f977e909422b3d59849638b9da43&=&format=webp&quality=lossless&width=2268&height=1064",
+        imgSrc: blog8,
         linkTo: "/blog/what-is-web3-advertising"
     },
     {
         title: "How do I get into Web3 marketing?",
         description: "In the ever-changing realm of Web3, marketers must stay ahead to thrive.",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1207246509649821706/How.png?ex=65def2ed&is=65cc7ded&hm=354afd66018bad04d2f42e250e4a647fd70e6c0b7c24d926eb39241fdcf7f877&=&format=webp&quality=lossless&width=2268&height=1064",
+        imgSrc: blog7,
         linkTo: "/blog/how-do-i-get-web3-marketing"
     },
     {
         title: "What is a Web3 Marketing Agency?",
         description: "A Web3 marketing agency specializes in promoting blockchain-based companies",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1206877315880067112/web3agency.png?ex=65dd9b16&is=65cb2616&hm=997898cd869cdcc0b16d70a3afa7a9cfea181b7616398d8880fa86bdeb5108cc&=&format=webp&quality=lossless&width=2268&height=1064",
+        imgSrc: blog6,
         linkTo: "/blog/what-is-web3-marketing-agency"
     },
     {
         title: "Give Me Liquidity, or Give Me Death",
         description: "In a dystopian world, Bitcoin liquidity is now dictating every aspect of life.",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211593456611229706/Larticle.jpg?ex=65eec356&is=65dc4e56&hm=43fdc62ccc294615860333328c0d808dd98049b28bc491a86b939b902641060e&=&format=webp&width=2268&height=1064",
+        imgSrc: blog5,
         linkTo: "/blog/give-me-liquidity-or-give-me-death"
     },
     {
         title: "Bears, Bulls, Bitcoins... Battlestar Galactica",
         description: "With the market cap of bitcoin (BTC) hard-shelved at",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211593197256441866/B2.jpg?ex=65eec318&is=65dc4e18&hm=efc773412c1ab18a1ffc19c413f4887bc470ccacbc856bb86ded192b1ed273c2&=&format=webp&width=2268&height=1064",
+        imgSrc: blog4,
         linkTo: "/blog/bears-bulls-bitcoins"
     },
     {
         title: "Unleash the Web3 Gaming",
         description: "Community-driven growth stands as the cornerstone of success in the Web3 gaming realm, and here’s why.",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211595490731368489/X_BLUCKA_GAMING.jpg?ex=65eec53b&is=65dc503b&hm=d8f0c98b6cfc70b382af0163413768f6505e6d59897f650e3166ba2275a48549&=&format=webp&width=2268&height=1064",
+        imgSrc: blog3,
         linkTo: "/blog/unleash-the-web3-gaming"
     },
     {
         title: "Elevating Presence in Bull Market",
         description: "In the exhilarating surge of the bull market, where opportunities abound and competition will reach new",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211595491196801035/X_BLUCKA_PRESS.jpg?ex=65eec53b&is=65dc503b&hm=a6f2b94a5251ec6eb422382270a1cb1675c1e95e0e740ac1cafdf7cc1a3ea3cd&=&format=webp&width=2268&height=1064",
+        imgSrc: blog2,
         linkTo: "/blog/elevating-presence-in-bull-market"
     },
     {
         title: "Merging Genius for Web3 Marketing",
         description: "Introducing BLUCKA: The Crypto Creative Agency, a trailblazing entity at the forefront of Web3 marketing.",
-        imgSrc: "https://media.discordapp.net/attachments/1197467042886996018/1211595490140102756/X_BLUCKA_BULL.jpg?ex=65eec53b&is=65dc503b&hm=f4e76ff480b9731b3ce841de809d596853d580fbea31a1a74e3e71d17134a698&=&format=webp&width=2268&height=1064",
+        imgSrc: blog1,
         linkTo: "/blog/merging-genius-for-web3-marketing"
     }
 ];

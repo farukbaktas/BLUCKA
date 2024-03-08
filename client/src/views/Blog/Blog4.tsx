@@ -7,6 +7,11 @@ import BlogsList from '../../components/BlogComponents/BlogsList'
 import Subscribe from '../../components/BlogComponents/Subscribe'
 import BlogFooter from '../../components/BlogComponents/BlogFooter'
 
+import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
+import PP from '../../assets/BlogAssets/Blogger/marshall.jpg'
+import Banner from '../../assets/BlogAssets/B.jpg'
+
+
 const Blog = () => {
 
   return (
@@ -23,7 +28,7 @@ const Blog = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica: A Crypto Odyssey | BLUCKA" />
         <meta property="og:description" content="Discover how Bitcoin's built-in scarcity and halving events shape its economic landscape and investor strategies. Join us on a journey through the crypto universe with BLUCKA." />
-        <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1211593197256441866/B2.jpg?ex=65eec318&is=65dc4e18&hm=efc773412c1ab18a1ffc19c413f4887bc470ccacbc856bb86ded192b1ed273c2&=&format=webp&width=2268&height=1064" />
+        <meta property="og:image" content={Banner} />
         <meta property="og:url" content="https://www.blucka.com/blog/bears-bulls-bitcoins" />
         
         {/* Twitter Card Meta */}
@@ -31,7 +36,7 @@ const Blog = () => {
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica: A Crypto Odyssey | BLUCKA" />
         <meta name="twitter:description" content="Explore Bitcoin's scarcity, mining rewards, and the impact of halving events on the market. BLUCKA takes you on a deep dive into the crypto world ahead of the 2024 halving." />
-        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1211593197256441866/B2.jpg?ex=65eec318&is=65dc4e18&hm=efc773412c1ab18a1ffc19c413f4887bc470ccacbc856bb86ded192b1ed273c2&=&format=webp&width=2268&height=1064" />
+        <meta name="twitter:image" content={Banner} />
         
         {/* Extra Meta */}
         <meta name="keywords" content="Bitcoin, Crypto Economy, Blockchain Technology, Crypto Mining, Bitcoin Halving, 2024, BLUCKA" />
@@ -47,7 +52,7 @@ const Blog = () => {
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
-                        src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
+                        src={Logo}
                         alt="BLUCKA LOGO"
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
@@ -57,13 +62,13 @@ const Blog = () => {
                 <main className="pb-16 lg:pb-24 bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1197467042886996018/1211593197256441866/B2.jpg?ex=65eec318&is=65dc4e18&hm=efc773412c1ab18a1ffc19c413f4887bc470ccacbc856bb86ded192b1ed273c2&=&format=webp&width=2268&height=1064" alt="Thumbnail"/>
+                        <figure className="mb-4 item-center"><img src={Banner} alt="Thumbnail"/>
                             <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1197467042886996018/1211594869831766027/marshall.jpg?ex=65eec4a7&is=65dc4fa7&hm=8745d9b4a929269c953ba14d81a1aa52cc6b36309d8f0f4e1fee872d68868196&=&format=webp&width=1372&height=1228" alt="BLUCA PP"/>
+                                    <img className="mr-4 w-16 h-16 rounded-full" src={PP} alt="BLUCKA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Marshall Irby</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Technical Documentation</p>

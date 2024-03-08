@@ -6,6 +6,9 @@ import BlogsList from '../../components/BlogComponents/BlogsList'
 import Subscribe from '../../components/BlogComponents/Subscribe'
 import BlogFooter from '../../components/BlogComponents/BlogFooter'
 
+import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
+import PP from '../../assets/BlogAssets/Blogger/faruk.jpg'
+import Banner from '../../assets/BlogAssets/web2.jpg'
 
 const Blog = () => {
   return (
@@ -22,7 +25,7 @@ const Blog = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="What is the difference between Web2 marketing and Web3 marketing? | BLUCKA" />
         <meta property="og:description" content="Web3 marketing signifies a transformative departure from Web2 marketing, encapsulating a dynamic evolution in the digital marketing landscape. The fundamental terms associated with Web3, such as Blockchain, Bitcoin, Ethereum, DeFi, and NFTs, may be unfamiliar terrain to some or common standards to others. Over the past decade, an entire industry has emerged under the umbrella of Web3 marketing, challenging and reshaping various facets of daily life." />
-        <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1209141729039614003/web2-3.png?ex=65e5d7fc&is=65d362fc&hm=d312e9eb8f28972ee2b369f9a80746dcedd17fc979f9e68d22f9992cb4726f0c&=&format=webp&quality=lossless&width=2268&height=1064" />
+        <meta property="og:image" content={Banner} />
         <meta property="og:url" content="https://www.blucka.com/blog/what-is-the-difference-between-web2-marketing-and-web3-marketing" />
         
         {/* Twitter Card Meta */}
@@ -30,7 +33,7 @@ const Blog = () => {
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="What is the difference between Web2 marketing and Web3 marketing? | BLUCKA" />
         <meta name="twitter:description" content="Web3 marketing signifies a transformative departure from Web2 marketing, encapsulating a dynamic evolution in the digital marketing landscape. The fundamental terms associated with Web3, such as Blockchain, Bitcoin, Ethereum, DeFi, and NFTs, may be unfamiliar terrain to some or common standards to others. Over the past decade, an entire industry has emerged under the umbrella of Web3 marketing, challenging and reshaping various facets of daily life." />
-        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1209141729039614003/web2-3.png?ex=65e5d7fc&is=65d362fc&hm=d312e9eb8f28972ee2b369f9a80746dcedd17fc979f9e68d22f9992cb4726f0c&=&format=webp&quality=lossless&width=2268&height=1064" />
+        <meta name="twitter:image" content={Banner} />
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3 advertising, decentralized advertising, blockchain advertising, peer-to-peer advertising, Web3 ad networks, cryptocurrency ads, digital asset marketing, decentralized applications marketing, Web3 marketing strategies, BLUCKA Web3 advertising" />
@@ -45,7 +48,7 @@ const Blog = () => {
                 <Link to="/">
                     <div className="py-4 sm:py-8 md:py-12 lg:py-8">
                         <img
-                        src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
+                        src={Logo}
                         alt="BLUCKA LOGO"
                         className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
                     </div>
@@ -57,13 +60,13 @@ const Blog = () => {
                 <main className=" bg-black text-white ">
                 <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure id="blog-thumbnail" className="mb-4 item-center"><img src="https://media.discordapp.net/attachments/1197467042886996018/1209141729039614003/web2-3.png?ex=65e5d7fc&is=65d362fc&hm=d312e9eb8f28972ee2b369f9a80746dcedd17fc979f9e68d22f9992cb4726f0c&=&format=webp&quality=lossless&width=2268&height=1064" alt="Thumbnail"/>
+                        <figure id="blog-thumbnail" className="mb-4 item-center"><img src={Banner} alt="Thumbnail"/>
                             <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
                             <address className="flex items-center mb-6 not-italic">
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <img className="mr-4 w-16 h-16 rounded-full" src="https://media.discordapp.net/attachments/1197467042886996018/1211601707167907850/faruk1.jpg?ex=65eecb05&is=65dc5605&hm=b8606d3ad83054dde9ee90313875716a5abd61e79f8e36ccf5b20247d99763b3&=&format=webp&width=666&height=666" alt="BLUCA PP"/>
+                                    <img className="mr-4 w-16 h-16 rounded-full" src={PP} alt="BLUCA PP"/>
                                     <div>
                                         <a rel="author" className="text-xl font-bold text-gray-100 ">Faruk Baktas</a>
                                         <p className="text-base font-light text-gray-100 ">Crypto Creative | Research and Development</p>
