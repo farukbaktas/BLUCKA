@@ -11,7 +11,7 @@ import blog3 from '../assets/BlogAssets/robot.jpg'
 import blog4 from '../assets/BlogAssets/B.jpg'
 import blog5 from '../assets/BlogAssets/Larticle.jpg'
 import blog6 from '../assets/BlogAssets/web3agency.jpg'
-import blog7 from '../assets/BlogAssets/how.jpg'
+import blog7 from '../assets/BlogAssets/How.jpg'
 import blog8 from '../assets/BlogAssets/web3ads.jpg'
 import blog9 from '../assets/BlogAssets/web2.jpg'
 
