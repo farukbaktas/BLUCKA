@@ -8,7 +8,7 @@ import BlogFooter from '../../components/BlogComponents/BlogFooter'
 
 import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
 import PP from '../../assets/BlogAssets/Blogger/oktar.jpg'
-import Banner from '../../assets/BlogAssets/how.jpg'
+import Banner from '../../assets/BlogAssets/How.jpg'
 
 const Blog = () => {
   return (
