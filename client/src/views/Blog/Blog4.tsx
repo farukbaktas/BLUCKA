@@ -10,6 +10,8 @@ import BlogFooter from '../../components/BlogComponents/BlogFooter'
 import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
 import PP from '../../assets/BlogAssets/Blogger/marshall.jpg'
 import Banner from '../../assets/BlogAssets/B.jpg'
+import B from '../../assets/BlogAssets/seperatorB.jpg'
+import Chart from '../../assets/BlogAssets/chart.png'
 
 
 const Blog = () => {
@@ -87,19 +89,19 @@ const Blog = () => {
                             <p className='text-center text-3xl py-4'>...</p>
 
                             <p>If you take a look at the graph, you can identify a cyclical pattern: During the last halving in 2020, price per BTC was $8,821.42. The halving before that in 2016, $650.53. The first halving in 2012, $12.35. </p>
-                            <img src="https://media.discordapp.net/attachments/1197467042886996018/1211593702234005504/chart1.jpg?ex=65eec390&is=65dc4e90&hm=8c04974a9eba550daa5020fbe758e26aca56028b331a3f28cc121799ab57accd&=&format=webp&width=2268&height=1064" alt="chart" />
+                            <img src={Chart} alt="chart" />
                             <p className='font-thin text-xs'>Source: bitbo.io</p>
 
                             <p className='pt-4'>Let’s choose a hypothetical example of investing $1000 in every halving scenario. For the following examples, assume BTC is valued at $30,000 for the return on investments. In 2012, if you would have invested $1000, you could have purchased 81.63 bitcoins and your return on investment (ROI) would have been $2,448,900. In 2016 with $1000 invested before the halving, 1.54 BTC could have been purchased and ROI would have been $46,200. In 2020, 0.1176 BTC could have been purchased with ROI at $3528. </p>
                             
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211593932283191316/seperator.jpg?ex=65eec3c7&is=65dc4ec7&hm=0b1809e728f1a9135baac6e83fa447194ab28a83e239a8cb49763340167cbdf9&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src={B} alt="banner" />
                             <p>So, if BTC is worth its current amount of roughly $42,000 before halving in April and the price increases to $50,000, the pattern is: return on investment is always theoretically higher than your initial investment of money - this case it being a profit of at least 19.05% if bought at the dip and sold at the peak. Keep in mind this is not including external factors that influence price.</p>
 
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211593932283191316/seperator.jpg?ex=65eec3c7&is=65dc4ec7&hm=0b1809e728f1a9135baac6e83fa447194ab28a83e239a8cb49763340167cbdf9&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src={B} alt="banner" />
                             <p className='font-bold italic'>How does it affect us as consumers?</p>
                             <p className='mb-3'>While this seems like a recurrent event doomed to repeat itself – past cycles aren’t always indicative of future outcomes, especially because the cryptocurrency market doesn’t thrive in a vacuum. Some experts and centralized banks forecast that the halving in conjunction with different methods for diversification and investing could offer cryptocurrency resiliency like never before seen. On an unlikely front, <span className='underline text-gray-200'> <a href="https://www.chainalysis.com/blog/2023-global-crypto-adoption-index/">higher income developed countries are lessening crypto usage on average and more low-middle income countries are adopting it</a></span>, with economies like these having the potential to send crypto soaring. More people are turning towards decentralized currencies and diversifying portfolios away from traditional means, both digital and traditional. For consumers, the cementation of cryptocurrency in the economy via tokenization implementation and <span className='underline text-gray-200'><a href="https://www.sec.gov/Archives/edgar/data/1869699/000119312521201955/d165184ds1.htm">SEC proceedings expected to approve Bitcoin ETFs</a></span>, the return on cryptocurrency for the year 2024 could be ten to one hundred fold – especially now that financial institutions are turning their eyes… And their wallets towards cryptocurrency. (<a className='underline text-gray-200' href="https://www.jpmorgan.com/onyx/project-guardian">Project Guardian - JP Morgan</a>, <a className='underline text-gray-200' href="https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/doc?refNo=23EC52">tokenization procedures - Hong Kong SFC </a>,<a className='underline text-gray-200' href="https://www.foxbusiness.com/technology/digital-asset-markets-poised-grow-in-2024-goldman-sachs-exec-says"> Bitcoin liquidity - Matthew McDermott, Goldman Sachs)</a></p>
 
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211593932283191316/seperator.jpg?ex=65eec3c7&is=65dc4ec7&hm=0b1809e728f1a9135baac6e83fa447194ab28a83e239a8cb49763340167cbdf9&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src={B} alt="banner" />
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
                             <p>Join us as we compound all of these trends, facts and economic speculations backed by data in our B.L.U.C.K.A. series </p>
 

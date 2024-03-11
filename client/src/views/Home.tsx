@@ -13,6 +13,7 @@ import f from '../assets/videos/f.mp4';
 import g from '../assets/videos/g.mp4';
 import { Link } from 'react-router-dom';
 
+import Logo from '../assets/BlogAssets/BluckalogoWhite.png'
 
 const videos = [a, b, c, d, e, f, g];
 
@@ -33,7 +34,7 @@ const Home = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="BLUCKA: Crypto Creative Agency" />
         <meta property="og:description" content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth." />
-        <meta property="og:image" content="https://media.discordapp.net/attachments/1171396831989739570/1206520742326575124/BLUCKA_LOGO.png?ex=65dc4f01&is=65c9da01&hm=07475a6a284eaa51d5b8cdb5a468ec291096ad20daaeea9b8de181f68632155b&=&format=webp&quality=lossless&width=2268&height=1186" />
+        <meta property="og:image" content={Logo} />
         <meta property="og:url" content="https://www.blucka.com" />
         
         {/* Twitter Card Meta */}
@@ -41,7 +42,7 @@ const Home = () => {
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="BLUCKA: Crypto Creative Agency" />
         <meta name="twitter:description" content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth." />
-        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1171396831989739570/1206520742326575124/BLUCKA_LOGO.png?ex=65dc4f01&is=65c9da01&hm=07475a6a284eaa51d5b8cdb5a468ec291096ad20daaeea9b8de181f68632155b&=&format=webp&quality=lossless&width=2268&height=1186" />
+        <meta name="twitter:image" content={Logo} />
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3 Gaming, Blockchain, Decentralized Games, Community Growth, BLUCKA" />
@@ -65,7 +66,7 @@ const Home = () => {
           </Link>
           <div className="pt-4 sm:pt-8 md:pt-12 lg:pt-16">
             <img
-              src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
+              src={Logo}
               alt="BLUCKA LOGO"
               className="w-[800px] sm:w-[900px] md:w-[350px] lg:w-[450px]"/>
             <div className="text-[18px] sm:text-xl md:text-xl lg:text-2xl mt-4 custom-shear">

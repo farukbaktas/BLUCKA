@@ -3,6 +3,7 @@ import Down from '../components/Down';
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 import HCaptcha from '@hcaptcha/react-hcaptcha';
+import Logo from '../assets/BlogAssets/BluckalogoWhite.png'
 
 const Blog = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
@@ -42,7 +43,7 @@ const Blog = () => {
     <main className="flex flex-col items-center first-letter:bg-black text-white font-mono">
         <Link to="/">
             <img
-                src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608"
+                src={Logo}
                 alt="BLUCKA LOGO"
                 className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px] items-center justify-center"/>
          </Link>

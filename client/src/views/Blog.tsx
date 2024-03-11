@@ -15,6 +15,8 @@ import blog7 from '../assets/BlogAssets/How.jpg'
 import blog8 from '../assets/BlogAssets/web3ads.jpg'
 import blog9 from '../assets/BlogAssets/web2.jpg'
 
+import Logo from '../assets/BlogAssets/BluckalogoWhite.png'
+
 
 const blogPosts = [
     {
@@ -83,21 +85,21 @@ const Blog = () => {
                 <meta property="og:type" content="article" />
                 <meta property="og:title" content="BLOG | BLUCKA" />
                 <meta property="og:description" content="Our mission is clear: Supercharge your growth." />
-                <meta property="og:image" content="https://media.discordapp.net/attachments/1197467042886996018/1208705467488927774/BLUCKA_LOGO.png?ex=65e441b0&is=65d1ccb0&hm=d25b36ab6ab7c4454c7aa4c5adfd4476680f73a5180e1309e738810cdf23a061&=&format=webp&quality=lossless&width=2268&height=1186" />
+                <meta property="og:image" content={Logo} />
                 <meta property="og:url" content="https://www.blucka.com/blog/" />
                 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:creator" content="@BluckaAgency" />
                 <meta name="twitter:title" content="BLOG | BLUCKA" />
                 <meta name="twitter:description" content="Our mission is clear: Supercharge your growth." />
-                <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1208705467488927774/BLUCKA_LOGO.png?ex=65e441b0&is=65d1ccb0&hm=d25b36ab6ab7c4454c7aa4c5adfd4476680f73a5180e1309e738810cdf23a061&=&format=webp&quality=lossless&width=2268&height=1186" />
+                <meta name="twitter:image" content={Logo} />
                 <meta name="keywords" content="Web3 Marketing, Blockchain, Creative Agency, Web3 Growth Hacking, Crypto Knowledge, BLUCKA, BLUCKA BLOG" />
                 <link rel="canonical" href="https://www.blucka.com/blog/" />
             </Helmet>
             <section className="justify-center bg-black mx-auto w-full mt-12">
                 <main className="flex flex-col items-center first-letter:bg-black text-white font-mono">
                     <Link to="/">
-                        <img src="https://media.discordapp.net/attachments/1197467042886996018/1211591447527297044/Bluckalogo.png?ex=65eec177&is=65dc4c77&hm=651a142d71078501964f4f82c531d3ac40561f42663b8b1c4f1710a482c03b5a&=&format=webp&quality=lossless&width=2268&height=608" alt="BLUCKA LOGO" className="w-[200px] items-center justify-center" />
+                        <img src={Logo} alt="BLUCKA LOGO" className="w-[200px] items-center justify-center" />
                     </Link>
                     <div className="py-8 px-4 mx-auto max-w-screen-xl pb-20 lg:px-32">
                         <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">

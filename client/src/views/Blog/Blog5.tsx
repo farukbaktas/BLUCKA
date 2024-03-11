@@ -9,6 +9,7 @@ import BlogFooter from '../../components/BlogComponents/BlogFooter'
 import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
 import BannerIMG from '../../assets/BlogAssets/Larticle.jpg'
 import PP from '../../assets/BlogAssets/Blogger/marshall.jpg'
+import L from '../../assets/BlogAssets/SeperatorL.jpg'
 
 const Blog = () => {
 
@@ -33,8 +34,8 @@ const Blog = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="Give Me Liquidity, or Give Me Death | BLUCKA" />
-        <meta name="twitter:description" content="https://www.blucka.com/assets/Larticle.331b55d9.jpg" />
-        <meta name="twitter:image" content="https://media.discordapp.net/attachments/1197467042886996018/1211593456611229706/Larticle.jpg?ex=65eec356&is=65dc4e56&hm=43fdc62ccc294615860333328c0d808dd98049b28bc491a86b939b902641060e&=&format=webp&width=2268&height=1064" />
+        <meta name="twitter:description" content="In a dystopian world, Bitcoin liquidity is now dictating every aspect of life. Paying for bills, buying groceries, day-to-day necessities: all reliant on Bitcoin. There’s a waft of classism in the air: those who held bitcoin and those in the majority barely scraping by with physical money. The upper Echelon, coined the Satoshi Syndicate. Everyone else: The Decrypts. The vast demographics completely overthrown and restructured; governments replaced. Traditional money has completely collapsed and unraveled society and in its place, giant conglomerates and the digital elite hoard their fortunes, with the rest of society ravaging at the remaining scraps of liquidity." />
+        <meta name="twitter:image" content="https://www.blucka.com/assets/Larticle.331b55d9.jpg" />
         {/* Extra Meta */}
         <meta name="keywords" content="Bitcoin, Liquidity, Dystopian World, Satoshi Syndicate, The Decrypts, Digital Elite, Traditional Money Collapse, BLUCKA" />
         <link rel="canonical" href="https://www.blucka.com/blog/give-me-liquidity-or-give-me-death" />
@@ -77,16 +78,16 @@ const Blog = () => {
                             <p className="font-semi text-xl">In a dystopian world, Bitcoin liquidity is now dictating every aspect of life. Paying for bills, buying groceries, day-to-day necessities: all reliant on Bitcoin. There’s a waft of classism in the air: those who held bitcoin and those in the majority barely scraping by with physical money. The upper Echelon, coined the Satoshi Syndicate. Everyone else: The Decrypts. The vast Demographics completely overthrown and restructured; governments replaced. Traditional money has completely collapsed and unraveled society and in its place giant conglomerates and the digital elite hoard their fortunes, with the rest of society ravaging at the remaining scraps of liquidity. </p>
 
 
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211594016861196378/SeperatorL.jpg?ex=65eec3db&is=65dc4edb&hm=924687491daea8326ec4050eeb9ecc50fe897601782cdd992504dcb07285a099&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src={L} alt="banner" />
                             <p className=''>The nature of liquidity in currency is simple: the higher the liquidity, the easier it is to trade without substantially affecting overall market price of the currency. Conversely, the lower the liquidity, limited supply can make prices more susceptible to spiking or crashing. How can liquidity redefine the future of money and how does liquidity prove the authenticity of a currency? <a className='underline text-gray-200' href="https://www.forex.com/ie/markets-to-trade/cryptocurrency-trading/cryptocurrency-market-hours/#:~:text=Are%20crypto%20markets%20always%20open,a%20decentralised%20network%20of%20computers.">The 24/7 nature of the cryptocurrency market</a>, <a className='underline text-gray-200' href="https://www.fintechnews.org/the-use-of-cryptocurrency-in-international-trade-and-cross-border-transactions/#:~:text=In%20addition%2C%20there%20is%20no,such%20as%20foreign%20exchange%20rates)."> ease of trading internationally</a>, <a className='underline text-gray-200' href="https://philippsandner.medium.com/the-impact-of-crypto-currencies-on-developing-countries-dce44c529d6b"> ease of transcending country’s economic woes</a> in addition to the sheer amount of bitcoin directly correlates to why liquidity indicates the currency is here to stay.  </p>
                             
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211594016861196378/SeperatorL.jpg?ex=65eec3db&is=65dc4edb&hm=924687491daea8326ec4050eeb9ecc50fe897601782cdd992504dcb07285a099&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src={L} alt="banner" />
                             <p className='font-bold italic'>Crypto-geddon or Crypto-revolution?</p>
                             <p className='mb-3'>Will the wider adoption of more alternative digital currencies result in a mass adoption of cryptocurrency, where social cohesion and disestablishment of banks see an upsurge of decentralized dominance? Or will the pendulum swing the other way and redefine cryptocurrency as a way for government financial inclusion as a way to metamorphosize traditional banking into the digital realm? <a className='underline text-gray-200' href="https://www.reuters.com/technology/why-us-bitcoin-etf-is-game-changer-crypto-2024-01-10/"> With the Securities and Exchange Commission (SEC) approving exchange-traded funds (ETFs) whose purpose is track price of Bitcoin over time - indicate the former.</a> This is a huge win not only for the cryptocurrency market as a whole, but as a legitimization of the crypto on the world financial stage.</p>
                             <p>Liquidity. Assets. Money. Cash. Bitcoin. Cash is the most liquid asset in the world. In a progressively more digitally modernized world, will old reliable greenback be overthrown by bullish bitcoin and claim financial prominence? </p>
                             
                             
-                            <img className='py-4' src="https://media.discordapp.net/attachments/1197467042886996018/1211594016861196378/SeperatorL.jpg?ex=65eec3db&is=65dc4edb&hm=924687491daea8326ec4050eeb9ecc50fe897601782cdd992504dcb07285a099&=&format=webp&width=2268&height=300" alt="banner" />
+                            <img className='py-4' src={L} alt="banner" />
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
                             <p>Join us as we compound all of these trends, facts and economic speculations backed by data in our B.L.U.C.K.A. series </p>
 

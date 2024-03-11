@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../../assets/BlogAssets/BluckalogoWhite.png'
 
 const Blog = () => {
   return (
@@ -9,7 +10,7 @@ const Blog = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="https://blucka.com/" className="flex items-center">
-                  <img src="https://media.discordapp.net/attachments/1197467042886996018/1208819549793947769/Blucka.png?ex=65e4abef&is=65d236ef&hm=38e9e17f6bb83fe8759928da04f863b383c8a82d3f85f93eb28d9ee821ed1bba&=&format=webp&quality=lossless&width=1204&height=1228" className="h-16 me-3" alt="Blucka Logo" />
+                  <img src={Logo} className="h-16 me-3" alt="Blucka Logo" />
               </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
