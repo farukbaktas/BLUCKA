@@ -13,6 +13,9 @@ import Banner from '../../assets/BlogAssets/B.jpg'
 import B from '../../assets/BlogAssets/seperatorB.jpg'
 import Chart from '../../assets/BlogAssets/chart.png'
 
+const LogoURL = 'https://www.blucka.com/assets/BlogAssets/bluckalogo.jpg';
+const BannerURL = 'https://www.blucka.com/assets/BlogAssets/B.jpg';
+
 
 const Blog = () => {
 
@@ -30,7 +33,7 @@ const Blog = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica: A Crypto Odyssey | BLUCKA" />
         <meta property="og:description" content="Discover how Bitcoin's built-in scarcity and halving events shape its economic landscape and investor strategies. Join us on a journey through the crypto universe with BLUCKA." />
-        <meta property="og:image" content={Banner} />
+        <meta property="og:image" content={BannerURL} />
         <meta property="og:url" content="https://www.blucka.com/blog/bears-bulls-bitcoins" />
         
         {/* Twitter Card Meta */}
@@ -38,7 +41,7 @@ const Blog = () => {
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="Bears, Bulls, Bitcoins... Battlestar Galactica: A Crypto Odyssey | BLUCKA" />
         <meta name="twitter:description" content="Explore Bitcoin's scarcity, mining rewards, and the impact of halving events on the market. BLUCKA takes you on a deep dive into the crypto world ahead of the 2024 halving." />
-        <meta name="twitter:image" content={Banner} />
+        <meta name="twitter:image" content={BannerURL} />
         
         {/* Extra Meta */}
         <meta name="keywords" content="Bitcoin, Crypto Economy, Blockchain Technology, Crypto Mining, Bitcoin Halving, 2024, BLUCKA" />
