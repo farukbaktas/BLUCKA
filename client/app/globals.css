@@ -31,3 +31,41 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'PT Mono';
+  src: url('../assets/PTMono-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color: black;
+}
+
+.custom-shear {
+  transform: skewX(-10deg);
+  /* Yatay eğme efekti, -10 derece  */
+}
+
+.cursor {
+  cursor: url("https://media.discordapp.net/attachments/1197467042886996018/1211591447883677716/pointer2.png?ex=65eec177&is=65dc4c77&hm=3fd36e1658ab88a2602ac06cb231b8337e4360e93fde6150700ded4e2ba1fb58&=&format=webp&quality=lossless&width=78&height=74"), pointer;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    background-color: black;
+    color: white;
+  }
+
+  50% {
+    background-color: white;
+    color: black;
+  }
+}
+
+.animate-blink {
+  animation: blink 8s linear infinite;
+}

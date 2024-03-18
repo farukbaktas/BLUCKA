@@ -9,6 +9,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import "./globals.css";
+import Loading from "@/components/Loading";
 
 const videos = [
   "../videos/a.mp4",
@@ -25,6 +26,8 @@ const Home = () => {
 
   return (
     <>
+      <Loading />
+
       <React.Fragment>
         <Head>
           {/* Page Title */}

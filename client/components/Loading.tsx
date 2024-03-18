@@ -1,24 +1,28 @@
-import React, { useEffect, useState } from 'react';
+"use client";
+
+import React, { useEffect, useState } from "react";
+
+import "./loading.css";
 
 const Loading = () => {
   const [introVisible, setIntroVisible] = useState(true);
   const [loadingProgress, setLoadingProgress] = useState(0);
 
   useEffect(() => {
-    const logoSpan = document.querySelectorAll('.logo');
-    const intro = document.querySelector('.intro') as HTMLDivElement;
+    const logoSpan = document.querySelectorAll(".logo");
+    const intro = document.querySelector(".intro") as HTMLDivElement;
 
     logoSpan.forEach((span, idx) => {
       setTimeout(() => {
-        span.classList.add('active');
+        span.classList.add("active");
       }, (idx + 1) * 400);
     });
 
     setTimeout(() => {
       logoSpan.forEach((span, idx) => {
         setTimeout(() => {
-          span.classList.remove('active');
-          span.classList.add('fade');
+          span.classList.remove("active");
+          span.classList.add("fade");
         }, (idx + 1) * 300);
       });
     }, 6000);
@@ -35,12 +39,14 @@ const Loading = () => {
           clearInterval(interval);
 
           // Animate the loading bar to fill up
-          const loadingBar = document.querySelector('.loading-bar') as HTMLDivElement;
-          loadingBar.style.width = '100%';
+          const loadingBar = document.querySelector(
+            ".loading-bar"
+          ) as HTMLDivElement;
+          loadingBar.style.width = "100%";
 
           // Hide the intro and move it up
           setTimeout(() => {
-            intro.style.top = '-100vh';
+            intro.style.top = "-100vh";
           }, 500); // You can adjust the delay as needed
           setTimeout(() => {
             setIntroVisible(false);
@@ -55,18 +61,22 @@ const Loading = () => {
   return (
     <>
       {introVisible && (
-        <div className='intro text-xs sm:text-sm md:text-lg lg:text-2xl font-mono cursor'>
-           <p className='logo-header px-0 ml-8 md:ml-4 sm:px-8 md:px-16 lg:px-32 '>
+        <div className="intro text-xs sm:text-sm md:text-lg lg:text-2xl font-mono cursor">
+          <p className="logo-header px-0 ml-8 md:ml-4 sm:px-8 md:px-16 lg:px-32 ">
             <span className="logo">Growth is never by mere chance;</span>
             <br />
-            <span className="logo">it is the result of forces working together.</span>
+            <span className="logo">
+              it is the result of forces working together.
+            </span>
           </p>
-            <div className="loading-bar-container">
-            <div className="loading-bar" style={{ width: `${loadingProgress}%` }}></div>
-        </div>
+          <div className="loading-bar-container">
+            <div
+              className="loading-bar"
+              style={{ width: `${loadingProgress}%` }}
+            ></div>
+          </div>
         </div>
       )}
-
     </>
   );
 };
