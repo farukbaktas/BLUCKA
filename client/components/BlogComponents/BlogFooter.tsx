@@ -1,16 +1,18 @@
 import React from 'react';
-import Logo from '../../assets/BlogAssets/BluckalogoWhite.png'
+import Logo from '../../assets/BlogAssets/bluckalogo.jpg';
 
-const Blog = () => {
+import Image from "next/image";
+
+const Footer = () => {
   return (
 
 
-<footer className="text-white md:py-4 py-20">
+<footer className="bg-black text-white md:py-4 py-20">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="https://blucka.com/" className="flex items-center">
-                  <img src={Logo} className="h-16 me-3" alt="Blucka Logo" />
+                <Image src={Logo} width={250} height={60} alt="Blucka Logo" />
               </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -61,4 +63,4 @@ const Blog = () => {
 );
 }
 
-export default Blog;
+export default Footer;

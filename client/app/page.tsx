@@ -31,8 +31,8 @@ const Home = () => {
       <React.Fragment>
         <Head>
           {/* Page Title */}
-          <title>BLUCKA: Crypto Creative Agency</title>
-
+          <title>BLUCKA | Crypto Creative Agency</title>
+          <link rel="icon" href="/favicon.ico" />
           {/* Page Description */}
           <meta
             name="description"

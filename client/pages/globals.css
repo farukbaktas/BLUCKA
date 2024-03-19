@@ -31,3 +31,41 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'PT Mono';
+  src: url('../assets/PTMono-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color: black;
+}
+
+.custom-shear {
+  transform: skewX(-10deg);
+  /* Yatay eğme efekti, -10 derece  */
+}
+
+.cursor {
+  cursor: url("../assets/pointer.png"), pointer;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    background-color: black;
+    color: white;
+  }
+
+  50% {
+    background-color: white;
+    color: black;
+  }
+}
+
+.animate-blink {
+  animation: blink 8s linear infinite;
+}
