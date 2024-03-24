@@ -109,7 +109,7 @@ const Blog = () => {
                             <p>Ready to elevate your brand in the digital currency space? Just drop us an email <a className='hover:text-gray-700' href='mailto:grow@blucka.com'>(grow@blucka.com) </a>. Our Crypto Creatives are eager to discuss how we can amplify your presence in the exciting world of cryptocurrencies, especially during the unique opportunities presented by the current bull market.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-semibold'>“Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA!" </p>
+                            <p className='font-semibold'>Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA! </p>
                         </div>
                     </article>
                 </div>

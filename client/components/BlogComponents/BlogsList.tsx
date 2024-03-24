@@ -37,7 +37,7 @@ const Blog = () => {
             {blogs.map((blog, index) => (
               <Link key={index} href={blog.to}>
                 <div className="max-w-sm bg-white border-0.5 border-gray-200 rounded-lg shadow">
-                  <Image className="rounded-t-lg" src={blog.imgSrc} />
+                  <Image className="rounded-t-lg" src={blog.imgSrc} alt={blog.title} />
                   <div className="p-5">
                     <h5 className="mb-[16px] text-2xl font-bold tracking-tight text-gray-900">{blog.title}</h5>
                     <p className="mb-[28px] font-normal text-gray-700">{blog.description}</p>

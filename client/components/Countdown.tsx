@@ -9,6 +9,19 @@ const BitcoinHalvingClock = () => {
   const [secondsUntilHalving, setSecondsUntilHalving] = useState(0);
   const [milliseconds, setMilliseconds] = useState(999);
   const [halvingDate, setHalvingDate] = useState("");
+  
+
+
+  const fetchHalvingData = async () => {
+    try {
+      const response = await axios.get("https://www.satochi.co//latest-block");
+      const height: number = response.data; // Ensure that the data is in the expected format, number in this case
+      startClock(height);
+    } catch (error) {
+      console.error("error calling /latest-block", error);
+    }
+  };
+
 
   useEffect(() => {
     // Fetch initial data and setup countdown
@@ -24,15 +37,6 @@ const BitcoinHalvingClock = () => {
     };
   }, []);
 
-  const fetchHalvingData = async () => {
-    try {
-      const response = await axios.get("https://www.satochi.co//latest-block");
-      const height: number = response.data; // Ensure that the data is in the expected format, number in this case
-      startClock(height);
-    } catch (error) {
-      console.error("error calling /latest-block", error);
-    }
-  };
 
   const startClock = (height: number) => { 
     const block_time = 9.52; // Average block time in minutes

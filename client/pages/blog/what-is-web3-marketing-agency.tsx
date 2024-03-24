@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Down from '../../components/Down';
-import BlogsList from '../../components/BlogComponents/BlogsList'
-import Subscribe from '../../components/BlogComponents/Subscribe'
-import BlogFooter from '../../components/BlogComponents/BlogFooter'
+import Down from "../../components/Down";
+import BlogsList from "../../components/BlogComponents/BlogsList";
+import Subscribe from "../../components/BlogComponents/Subscribe";
+import BlogFooter from "../../components/BlogComponents/BlogFooter";
 
-import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
-import PP from '../../assets/BlogAssets/Blogger/faruk.jpg'
-import Banner from '../../assets/BlogAssets/web3agency.jpg'
+import Logo from "../../assets/BlogAssets/bluckalogo.jpg";
+import PP from "../../assets/BlogAssets/Blogger/faruk.jpg";
+import Banner from "../../assets/BlogAssets/web3agency.jpg";
 
 import Head from "next/head";
 import Link from "next/link";
@@ -18,119 +18,225 @@ import "../globals.css";
 const Blog = () => {
   return (
     <>
-    <React.Fragment>
-    <Head>
-        {/* Page Title */}
-        <title>BLUCKA | What is a Web3 Marketing Agency? </title>
-        
-        {/* Page Description */}
-        <meta name="description" content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record." />
-        
-        {/* Open Graph / Facebook Meta */}
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="What is a Web3 Marketing Agency? | BLUCKA" />
-        <meta property="og:description" content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record." />
-        <meta property="og:image" content={Banner.src} />
-        <meta property="og:url" content="https://www.blucka.com/blog/what-is-web3-marketing-agency" />
-        
-        {/* Twitter Card Meta */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@BluckaAgency" />
-        <meta name="twitter:title" content="What is a Web3 Marketing Agency? | BLUCKA" />
-        <meta name="twitter:description" content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record." />
-        <meta name="twitter:image" content={Banner.src} />
-        
-        {/* Extra Meta*/}
-        <meta name="keywords" content="Web3 Gaming, Blockchain, Decentralized Games, Community Growth, BLUCKA" />
-        <link rel="canonical" href="https://www.blucka.com/blog/what-is-web3-marketing-agency" />
-    </Head>
+      <React.Fragment>
+        <Head>
+          {/* Page Title */}
+          <title>BLUCKA | What is a Web3 Marketing Agency? </title>
 
-    <div className='bg-black text-white'>
-    <div className="font-mono cursor bg-cover text-black w-screen relative">
-        <div className="relative">
-            
-            <div className="max-w-8xl justify-center items-center mx-auto px-4 sm:px-12 md:px-16 lg:px-[300px] flex flex-col">
+          {/* Page Description */}
+          <meta
+            name="description"
+            content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record."
+          />
+
+          {/* Open Graph / Facebook Meta */}
+          <meta property="og:type" content="article" />
+          <meta
+            property="og:title"
+            content="What is a Web3 Marketing Agency? | BLUCKA"
+          />
+          <meta
+            property="og:description"
+            content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record."
+          />
+          <meta property="og:image" content={Banner.src} />
+          <meta
+            property="og:url"
+            content="https://www.blucka.com/blog/what-is-web3-marketing-agency"
+          />
+
+          {/* Twitter Card Meta */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:creator" content="@BluckaAgency" />
+          <meta
+            name="twitter:title"
+            content="What is a Web3 Marketing Agency? | BLUCKA"
+          />
+          <meta
+            name="twitter:description"
+            content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record."
+          />
+          <meta name="twitter:image" content={Banner.src} />
+
+          {/* Extra Meta*/}
+          <meta
+            name="keywords"
+            content="Web3 Gaming, Blockchain, Decentralized Games, Community Growth, BLUCKA"
+          />
+          <link
+            rel="canonical"
+            href="https://www.blucka.com/blog/what-is-web3-marketing-agency"
+          />
+        </Head>
+
+        <div className="bg-black text-white">
+          <div className="font-mono cursor bg-cover text-black w-screen relative">
+            <div className="relative">
+              <div className="max-w-8xl justify-center items-center mx-auto px-4 sm:px-12 md:px-16 lg:px-[300px] flex flex-col">
                 <Link href="/">
-                    <div className="py-4 sm:py-8 md:py-12 lg:py-8">
-                        <Image
-                        src={Logo}
-                        alt="BLUCKA LOGO"
-                        className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"/>
-                    </div>
+                  <div className="py-4 sm:py-8 md:py-12 lg:py-8">
+                    <Image
+                      src={Logo}
+                      alt="BLUCKA LOGO"
+                      className="w-[200px] sm:w-[200px] md:w-[200px] lg:w-[200px]"
+                    />
+                  </div>
                 </Link>
 
-
-
                 <section className=" justify-center mx-auto w-full mt-4 mb-16">
-                <main className="pb-16 lg:pb-24 bg-black text-white ">
-                <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
-                    <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
-                        <figure id="blog-thumbnail" className="mb-4 item-center"><Image src={Banner}  alt="Thumbnail"/>
-                            <figcaption className="text-xs"></figcaption>
+                  <main className="pb-16 lg:pb-24 bg-black text-white ">
+                    <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
+                      <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue ">
+                        <figure
+                          id="blog-thumbnail"
+                          className="mb-4 item-center"
+                        >
+                          <Image src={Banner} alt="Thumbnail" />
+                          <figcaption className="text-xs"></figcaption>
                         </figure>
                         <header className="mb-4 lg:mb-6 not-format">
-                            <address className="flex items-center mb-6 not-italic">
-                                <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
-                                    <Image className="mr-4 w-16 h-16 rounded-full" src={PP} alt="BLUCA PP"/>
-                                    <div>
-                                        <a rel="author" className="text-xl font-bold text-gray-100 ">Faruk Baktas</a>
-                                        <p className="text-base font-light text-gray-100 ">Crypto Creative | Research and Development</p>
-                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Feb. 13, 2024</time></p>
-                                    </div>
-                                </div>
-                            </address>
-                            
-                            <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">What is a Web3 Marketing Agency?</h1>
+                          <address className="flex items-center mb-6 not-italic">
+                            <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
+                              <Image
+                                className="mr-4 w-16 h-16 rounded-full"
+                                src={PP}
+                                alt="BLUCA PP"
+                              />
+                              <div>
+                                <a
+                                  rel="author"
+                                  className="text-xl font-bold text-gray-100 "
+                                >
+                                  Faruk Baktas
+                                </a>
+                                <p className="text-base font-light text-gray-100 ">
+                                  Crypto Creative | Research and Development
+                                </p>
+                                <p className="text-base font-light text-gray-100 ">
+                                  <time title="February 8th, 2022">
+                                    Feb. 13, 2024
+                                  </time>
+                                </p>
+                              </div>
+                            </div>
+                          </address>
+
+                          <h1
+                            id="blog-title"
+                            className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl "
+                          >
+                            What is a Web3 Marketing Agency?
+                          </h1>
                         </header>
                         <div className="space-y-4">
-                            <p id="blog-description" className="font-semi text-xl">A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record.</p>
+                          <p
+                            id="blog-description"
+                            className="font-semi text-xl"
+                          >
+                            A Web3 marketing agency specializes in promoting
+                            blockchain-based companies, crypto projects and
+                            NFTs. They&apos;re experts in blockchain and
+                            decentralized technologies, using innovative
+                            strategies with a proven success record.
+                          </p>
 
+                          <p className="text-center text-3xl py-4">...</p>
+                          <p>
+                            The shift from Web2 to Web3 on the internet has led
+                            to the rise of Web3 marketing agencies. These
+                            pioneers in marketing trends leverage the
+                            decentralized web and distributed networks to create
+                            inventive strategies that resonate with their
+                            clients&apos; target audience.
+                          </p>
 
-                            <p className='text-center text-3xl py-4'>...</p>
-                            <p>The shift from Web2 to Web3 on the internet has led to the rise of Web3 marketing agencies. These pioneers in marketing trends leverage the decentralized web and distributed networks to create inventive strategies that resonate with their clients' target audience.</p>
+                          <p className="text-center text-3xl py-4">...</p>
+                          <p>
+                            In the midst of the marketing revolution brought by
+                            Web3, even digital marketing leaders struggle to
+                            adapt. Traditional channels like content marketing
+                            and social media are evolving to include new
+                            technologies and community-focused approaches.
+                          </p>
 
-                            <p className='text-center text-3xl py-4'>...</p>
-                            <p>In the midst of the marketing revolution brought by Web3, even digital marketing leaders struggle to adapt. Traditional channels like content marketing and social media are evolving to include new technologies and community-focused approaches.</p>
+                          <p className="text-center text-3xl py-4">...</p>
+                          <p>
+                            To stay competitive in the dynamic blockchain and
+                            decentralized technology landscape, businesses turn
+                            to Web3 marketing agencies for their expertise and
+                            innovative solutions.
+                          </p>
 
-                            <p className='text-center text-3xl py-4'>...</p>
-                            <p>To stay competitive in the dynamic blockchain and decentralized technology landscape, businesses turn to Web3 marketing agencies for their expertise and innovative solutions.</p>
+                          <p className="text-center text-3xl py-4">...</p>
+                          <p className="mb-3">
+                            So, what do these agencies do? They specialize in
+                            promoting blockchain-based entities using tailored
+                            strategies. Focusing on the semantic web, blockchain
+                            tech, and decentralized platforms, they help clients
+                            communicate value to users, developers, and
+                            communities.
+                          </p>
 
-                            <p className='text-center text-3xl py-4'>...</p>
-                            <p className='mb-3'>So, what do these agencies do? They specialize in promoting blockchain-based entities using tailored strategies. Focusing on the semantic web, blockchain tech, and decentralized platforms, they help clients communicate value to users, developers, and communities.</p>
+                          <p className="text-center text-3xl py-4">...</p>
+                          <p>
+                            Web3 marketing agencies provide a range of services,
+                            including brand building, community building,
+                            community growth, influencer marketing, PR, website
+                            design, content creation, social media management,
+                            SEO, and paid advertising. Their expertise supports
+                            businesses in achieving growth objectives.
+                          </p>
 
-                            <p className='text-center text-3xl py-4'>...</p>
-                            <p>Web3 marketing agencies provide a range of services, including brand building, community building, community growth, influencer marketing, PR, website design, content creation, social media management, SEO, and paid advertising. Their expertise supports businesses in achieving growth objectives.</p>
+                          <p className="text-center text-3xl py-4">...</p>
+                          <p>
+                            In essence, these agencies specialize in driving
+                            business growth by integrating traditional digital
+                            marketing strategies with the unique advantages of
+                            Web3, facilitating success in the rapidly evolving
+                            landscape of decentralized technologies.
+                          </p>
 
-                            <p className='text-center text-3xl py-4'>...</p>
-                            <p>In essence, these agencies specialize in driving business growth by integrating traditional digital marketing strategies with the unique advantages of Web3, facilitating success in the rapidly evolving landscape of decentralized technologies.</p>
+                          <p className="text-center text-3xl py-4">...</p>
+                          <p className="font-bold italic">
+                            Contact Us for Crypto Marketing Excellence
+                          </p>
+                          <p>
+                            Ready to elevate your brand in the digital currency
+                            space? Just drop us an email{" "}
+                            <a
+                              className="hover:text-gray-700"
+                              href="mailto:grow@blucka.com"
+                            >
+                              (grow@blucka.com){" "}
+                            </a>
+                            . Our Crypto Creatives are eager to discuss how we
+                            can amplify your presence in the exciting world of
+                            cryptocurrencies, especially during the unique
+                            opportunities presented by the current bull market.
+                          </p>
 
-                            <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
-                            <p>Ready to elevate your brand in the digital currency space? Just drop us an email <a className='hover:text-gray-700' href='mailto:grow@blucka.com'>(grow@blucka.com) </a>. Our Crypto Creatives are eager to discuss how we can amplify your presence in the exciting world of cryptocurrencies, especially during the unique opportunities presented by the current bull market.</p>
-
-                            <p className='text-center text-3xl py-4'>...</p>
-                            <p className='font-semibold'>“Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA!" </p>
-
+                          <p className="text-center text-3xl py-4">...</p>
+                          <p className="font-semibold">
+                            Or mission is clear: Supercharge your growth.
+                            BLUCKA! BLUCKA!{" "}
+                          </p>
                         </div>
-                    </article>
-                </div>
-                </main>
-
-
-</section>
+                      </article>
+                    </div>
+                  </main>
+                </section>
+              </div>
             </div>
-        </div>
-            <Subscribe/>
-            <BlogsList/>
-            <BlogFooter/>
+            <Subscribe />
+            <BlogsList />
+            <BlogFooter />
 
-            <Down/>
+            <Down />
+          </div>
         </div>
-    </div>
-
-    </React.Fragment>
+      </React.Fragment>
     </>
   );
 };
 
-export default Blog
+export default Blog;

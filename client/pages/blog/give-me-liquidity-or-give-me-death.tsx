@@ -94,7 +94,7 @@ const Blog = () => {
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
                             <p>Join us as we compound all of these trends, facts and economic speculations backed by data in our B.L.U.C.K.A. series </p>
 
-                            <p className='font-semibold'>“Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA!"</p>
+                            <p className='font-semibold'>Or mission is clear: Supercharge your growth. BLUCKA! BLUCKA!</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-thin text-xs'>DISCLAIMER: The information provided in this article is for general informational purposes only and should not be considered as financial advice. The content is not intended to be a substitute for professional financial guidance, and readers are encouraged to consult with a qualified financial advisor or investment professional before making any financial decisions. BLUCKA and associates are not responsible for any decision for any financial decisions or risks taken by the reader.</p>
