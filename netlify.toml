@@ -1,2 +1,0 @@
-[build]
-  functions = "Server/functions" # Change this path to where your serverless functions are located.
