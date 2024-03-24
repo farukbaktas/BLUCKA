@@ -30,7 +30,7 @@ const Blog = () => {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="How do I get into Web3 marketing? | BLUCKA" />
         <meta property="og:description" content="In the ever-changing realm of Web3, marketers must stay ahead to thrive. Active involvement in Web3 communities through social media is crucial. Building relationships with enthusiasts and experts offers valuable insights and networking opportunities." />
-        <meta property="og:image" content={Banner.src} />
+        <meta property="og:image" content={`https://www.blucka.com${Banner.src}`} />
         <meta property="og:url" content="https://www.blucka.com/blog/how-do-i-get-web3-marketing" />
         
         {/* Twitter Card Meta */}
@@ -38,7 +38,7 @@ const Blog = () => {
         <meta name="twitter:creator" content="@BluckaAgency" />
         <meta name="twitter:title" content="How do I get into Web3 marketing? | BLUCKA" />
         <meta name="twitter:description" content="In the ever-changing realm of Web3, marketers must stay ahead to thrive. Active involvement in Web3 communities through social media is crucial. Building relationships with enthusiasts and experts offers valuable insights and networking opportunities." />
-        <meta name="twitter:image" content={Banner.src} />
+        <meta name="twitter:image" content={`https://www.blucka.com${Banner.src}`} />
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3 marketing, blockchain marketing, Web3 community engagement, social media strategies Web3, Web3 networking, decentralized games marketing, digital marketing blockchain, BLUCKA Web3, cryptocurrency marketing, blockchain community growth" />

@@ -39,7 +39,10 @@ const Blog = () => {
             property="og:description"
             content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record."
           />
-          <meta property="og:image" content={Banner.src} />
+          <meta
+            property="og:image"
+            content={`https://www.blucka.com${Banner.src}`}
+          />
           <meta
             property="og:url"
             content="https://www.blucka.com/blog/what-is-web3-marketing-agency"
@@ -56,7 +59,10 @@ const Blog = () => {
             name="twitter:description"
             content="A Web3 marketing agency specializes in promoting blockchain-based companies, crypto projects and NFTs. They're experts in blockchain and decentralized technologies, using innovative strategies with a proven success record."
           />
-          <meta name="twitter:image" content={Banner.src} />
+          <meta
+            name="twitter:image"
+            content={`https://www.blucka.com${Banner.src}`}
+          />
 
           {/* Extra Meta*/}
           <meta

@@ -38,7 +38,10 @@ const Blog = () => {
             property="og:description"
             content="Web3 advertising represents a revolutionary shift in the online landscape, leveraging decentralized technologies like blockchain and peer-to-peer networks. This transformation creates a transparent, secure, and user-centric environment, fundamentally changing our Internet experience."
           />
-          <meta property="og:image" content={Banner.src} />
+          <meta
+            property="og:image"
+            content={`https://www.blucka.com${Banner.src}`}
+          />
           <meta
             property="og:url"
             content="https://www.blucka.com/blog/what-is-web3-advertising"
@@ -55,7 +58,10 @@ const Blog = () => {
             name="twitter:description"
             content="Web3 advertising represents a revolutionary shift in the online landscape, leveraging decentralized technologies like blockchain and peer-to-peer networks. This transformation creates a transparent, secure, and user-centric environment, fundamentally changing our Internet experience."
           />
-          <meta name="twitter:image" content={Banner.src} />
+          <meta
+            name="twitter:image"
+            content={`https://www.blucka.com${Banner.src}`}
+          />
 
           {/* Extra Meta*/}
           <meta
@@ -67,7 +73,6 @@ const Blog = () => {
             href="https://www.blucka.com/blog/what-is-web3-advertising"
           />
         </Head>
-
         <div className="bg-black text-white">
           <div className="font-mono cursor bg-cover text-black w-screen relative">
             <div className="relative">

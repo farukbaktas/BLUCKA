@@ -1,12 +1,12 @@
-import React from 'react';
-import Down from '../../components/Down';
-import BlogsList from '../../components/BlogComponents/BlogsList'
-import Subscribe from '../../components/BlogComponents/Subscribe'
-import BlogFooter from '../../components/BlogComponents/BlogFooter'
+import React from "react";
+import Down from "../../components/Down";
+import BlogsList from "../../components/BlogComponents/BlogsList";
+import Subscribe from "../../components/BlogComponents/Subscribe";
+import BlogFooter from "../../components/BlogComponents/BlogFooter";
 
 import Logo from "../../assets/BlogAssets/bluckalogo.jpg";
 import PP from "../../assets/BlogAssets/Blogger/faruk.jpg";
-import Banner from '../../assets/BlogAssets/web2.jpg'
+import Banner from "../../assets/BlogAssets/web2.jpg";
 
 import Head from "next/head";
 import Link from "next/link";
@@ -41,7 +41,10 @@ const Blog = () => {
             property="og:description"
             content="Web3 marketing signifies a transformative departure from Web2 marketing, encapsulating a dynamic evolution in the digital marketing landscape. The fundamental terms associated with Web3, such as Blockchain, Bitcoin, Ethereum, DeFi, and NFTs, may be unfamiliar terrain to some or common standards to others. Over the past decade, an entire industry has emerged under the umbrella of Web3 marketing, challenging and reshaping various facets of daily life."
           />
-          <meta property="og:image" content={Banner.src} />
+          <meta
+            property="og:image"
+            content={`https://www.blucka.com${Banner.src}`}
+          />
           <meta
             property="og:url"
             content="https://www.blucka.com/blog/what-is-the-difference-between-web2-marketing-and-web3-marketing"
@@ -58,7 +61,10 @@ const Blog = () => {
             name="twitter:description"
             content="Web3 marketing signifies a transformative departure from Web2 marketing, encapsulating a dynamic evolution in the digital marketing landscape. The fundamental terms associated with Web3, such as Blockchain, Bitcoin, Ethereum, DeFi, and NFTs, may be unfamiliar terrain to some or common standards to others. Over the past decade, an entire industry has emerged under the umbrella of Web3 marketing, challenging and reshaping various facets of daily life."
           />
-          <meta name="twitter:image" content={Banner.src} />
+          <meta
+            name="twitter:image"
+            content={`https://www.blucka.com${Banner.src}`}
+          />
 
           {/* Extra Meta*/}
           <meta
@@ -241,4 +247,4 @@ const Blog = () => {
   );
 };
 
-export default Blog
+export default Blog;

@@ -1,16 +1,16 @@
-import React from 'react';
-import Down from '../../components/Down'
+import React from "react";
+import Down from "../../components/Down";
 
-import Countdown from '../../components/Countdown'
-import BlogsList from '../../components/BlogComponents/BlogsList'
-import Subscribe from '../../components/BlogComponents/Subscribe'
-import BlogFooter from '../../components/BlogComponents/BlogFooter'
+import Countdown from "../../components/Countdown";
+import BlogsList from "../../components/BlogComponents/BlogsList";
+import Subscribe from "../../components/BlogComponents/Subscribe";
+import BlogFooter from "../../components/BlogComponents/BlogFooter";
 
-import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
-import PP from '../../assets/BlogAssets/Blogger/marshall.jpg'
-import Banner from '../../assets/BlogAssets/B.jpg'
-import B from '../../assets/BlogAssets/seperatorB.jpg'
-import Chart from '../../assets/BlogAssets/chart.png'
+import Logo from "../../assets/BlogAssets/bluckalogo.jpg";
+import PP from "../../assets/BlogAssets/Blogger/marshall.jpg";
+import Banner from "../../assets/BlogAssets/B.jpg";
+import B from "../../assets/BlogAssets/seperatorB.jpg";
+import Chart from "../../assets/BlogAssets/chart.png";
 
 import Head from "next/head";
 import Link from "next/link";
@@ -18,7 +18,6 @@ import Image from "next/image";
 
 import "../globals.css";
 const Blog = () => {
-
   return (
     <>
       <React.Fragment>
@@ -42,7 +41,10 @@ const Blog = () => {
             property="og:description"
             content="Discover how Bitcoin's built-in scarcity and halving events shape its economic landscape and investor strategies. Join us on a journey through the crypto universe with BLUCKA."
           />
-          <meta property="og:image" content={Banner.src} />
+          <meta
+            property="og:image"
+            content={`https://www.blucka.com${Banner.src}`}
+          />
           <meta
             property="og:url"
             content="https://www.blucka.com/blog/bears-bulls-bitcoins"
@@ -59,7 +61,10 @@ const Blog = () => {
             name="twitter:description"
             content="Explore Bitcoin's scarcity, mining rewards, and the impact of halving events on the market. BLUCKA takes you on a deep dive into the crypto world ahead of the 2024 halving."
           />
-          <meta name="twitter:image" content={Banner.src} />
+          <meta
+            name="twitter:image"
+            content={`https://www.blucka.com${Banner.src}`}
+          />
 
           {/* Extra Meta */}
           <meta
@@ -292,4 +297,4 @@ const Blog = () => {
   );
 };
 
-export default Blog
+export default Blog;
