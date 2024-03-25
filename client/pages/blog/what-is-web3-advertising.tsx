@@ -40,7 +40,7 @@ const Blog = () => {
           />
           <meta
             property="og:image"
-            content={`https://www.blucka.com${Banner.src}`}
+            content="https://cdn.discordapp.com/attachments/1110980525579051079/1221749309112848394/wweb3ads.png?ex=6613b5b6&is=660140b6&hm=4ecdc34bb551b3a7f2f0525c042e21b12c8775a87795540c188c23af9338f76d&"
           />
           <meta
             property="og:url"
@@ -60,7 +60,7 @@ const Blog = () => {
           />
           <meta
             name="twitter:image"
-            content={`https://www.blucka.com${Banner.src}`}
+            content="https://cdn.discordapp.com/attachments/1110980525579051079/1221749309112848394/wweb3ads.png?ex=6613b5b6&is=660140b6&hm=4ecdc34bb551b3a7f2f0525c042e21b12c8775a87795540c188c23af9338f76d&"
           />
 
           {/* Extra Meta*/}
