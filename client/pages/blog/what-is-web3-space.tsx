@@ -28,7 +28,7 @@ const Blog = () => {
         
         {/* Open Graph / Facebook Meta */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="How do I get into Web3 marketing? | BLUCKA" />
+        <meta property="og:title" content="What is the Web3 Space? | BLUCK" />
         <meta property="og:description" content="Explore the transformative world of Web3 — an internet evolution powered by blockchain, promoting user autonomy, privacy, and a decentralized ecosystem. Discover how Web3 technologies like DeFi, NFTs, DApps, and DAOs are reshaping digital ownership and interactions, offering unparalleled security and interoperability." />
         <meta property="og:image" content={`https://www.blucka.com${Banner.src}`} />
         <meta property="og:url" content="https://www.blucka.com/blog/what-is-web3-space" />
@@ -36,7 +36,7 @@ const Blog = () => {
         {/* Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@BluckaAgency" />
-        <meta name="twitter:title" content="How do I get into Web3 marketing? | BLUCKA" />
+        <meta name="twitter:title" content="What is the Web3 Space? | BLUCK" />
         <meta name="twitter:description" content="Explore the transformative world of Web3 — an internet evolution powered by blockchain, promoting user autonomy, privacy, and a decentralized ecosystem. Discover how Web3 technologies like DeFi, NFTs, DApps, and DAOs are reshaping digital ownership and interactions, offering unparalleled security and interoperability." />
         <meta name="twitter:image" content={`https://www.blucka.com${Banner.src}`} />
         
