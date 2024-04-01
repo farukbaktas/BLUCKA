@@ -12,6 +12,7 @@ import blog6 from "../assets/BlogAssets/web3agency.jpg";
 import blog7 from "../assets/BlogAssets/How.jpg";
 import blog8 from "../assets/BlogAssets/web3ads.jpg";
 import blog9 from "../assets/BlogAssets/web2.jpg";
+import blog10 from "../assets/BlogAssets/Web3space.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -21,6 +22,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "What is the Web3 Space?",
+    description:
+      "The Web3 space signifies the evolution of the internet into a decentralized network",
+    imgSrc: blog10,
+    linkTo:
+      "blog/what-is-web3-space",
+  },
   {
     title: "Web2 Marketing vs Web3 Marketing",
     description:
