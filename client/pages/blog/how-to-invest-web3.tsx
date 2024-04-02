@@ -6,8 +6,8 @@ import Subscribe from '../../components/BlogComponents/Subscribe'
 import BlogFooter from '../../components/BlogComponents/BlogFooter'
 
 import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
-import PP from '../../assets/BlogAssets/Blogger/oktar.jpg'
-import Banner from '../../assets/BlogAssets/Web3space.png'
+import PP from '../../assets/BlogAssets/Blogger/faruk.jpg'
+import Banner from '../../assets/BlogAssets/invest.jpg'
 
 import Head from "next/head";
 import Link from "next/link";
@@ -21,28 +21,28 @@ const Blog = () => {
     <React.Fragment>
     <Head>
         {/* Page Title */}
-        <title>What is the Web3 Space? | BLUCKA</title>
+        <title>How to invest in Web3? | BLUCKA</title>
         
         {/* Page Description */}
-        <meta name="description" content="Explore the transformative world of Web3 — an internet evolution powered by blockchain, promoting user autonomy, privacy, and a decentralized ecosystem. Discover how Web3 technologies like DeFi, NFTs, DApps, and DAOs are reshaping digital ownership and interactions, offering unparalleled security and interoperability." />
+        <meta name="description" content="Investing in Web3 isn't a direct option, but there are various ways to participate actively or passively." />
         
         {/* Open Graph / Facebook Meta */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="What is the Web3 Space? | BLUCK" />
-        <meta property="og:description" content="Explore the transformative world of Web3 — an internet evolution powered by blockchain, promoting user autonomy, privacy, and a decentralized ecosystem. Discover how Web3 technologies like DeFi, NFTs, DApps, and DAOs are reshaping digital ownership and interactions, offering unparalleled security and interoperability." />
+        <meta property="og:title" content="How to invest in Web3? | BLUCK" />
+        <meta property="og:description" content="Investing in Web3 isn't a direct option, but there are various ways to participate actively or passively." />
         <meta property="og:image" content={`https://www.blucka.com${Banner.src}`} />
-        <meta property="og:url" content="https://www.blucka.com/blog/what-is-web3-space" />
+        <meta property="og:url" content="https://www.blucka.com/blog/how-to-invest-web3" />
         
         {/* Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@BluckaAgency" />
-        <meta name="twitter:title" content="What is the Web3 Space? | BLUCK" />
-        <meta name="twitter:description" content="Explore the transformative world of Web3 — an internet evolution powered by blockchain, promoting user autonomy, privacy, and a decentralized ecosystem. Discover how Web3 technologies like DeFi, NFTs, DApps, and DAOs are reshaping digital ownership and interactions, offering unparalleled security and interoperability." />
+        <meta name="twitter:title" content="How to invest in Web3? | BLUCK" />
+        <meta name="twitter:description" content="Investing in Web3 isn't a direct option, but there are various ways to participate actively or passively." />
         <meta name="twitter:image" content={`https://www.blucka.com${Banner.src}`} />
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3, Blockchain Technology, Decentralization, Data Ownership, Privacy in Web3, Cryptographic Keys, Smart Contracts, Interoperability, Decentralized Finance (DeFi), Non-Fungible Tokens (NFTs), Decentralized Applications (DApps), Decentralized Autonomous Organizations (DAOs), Digital Assets, Online Security, BLUCKA Web3" />
-        <link rel="canonical" href="https://www.blucka.com/blog/what-is-web3-space" />
+        <link rel="canonical" href="https://www.blucka.com/blog/how-to-invest-web3" />
     </Head>
 
     <div className='bg-black text-white'>
@@ -73,30 +73,33 @@ const Blog = () => {
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
                                     <Image className="mr-4 w-16 h-16 rounded-full" src={PP} alt="BLUCA PP"/>
                                     <div>
-                                        <a rel="author" className="text-xl font-bold text-gray-100 ">Oktar Akin</a>
-                                        <p className="text-base font-light text-gray-100 ">Crypto Creative | Brand and Strategy</p>
-                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Apr. 01, 2024</time></p>
+                                        <a rel="author" className="text-xl font-bold text-gray-100 ">Faruk Baktas</a>
+                                        <p className="text-base font-light text-gray-100 ">Crypto Creative | Research and Development</p>
+                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Apr. 02, 2024</time></p>
                                     </div>
                                 </div>
                             </address>
 
-                            <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">What is the Web3 Space?</h1>
+                            <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">How to invest in Web3?</h1>
                         </header>
                         <div className="space-y-4">
-                            <p id="blog-description" className="font-semi text-xl">The Web3 space signifies the evolution of the internet into a decentralized network driven by blockchain technology, prioritizing user autonomy, data ownership, and privacy. Unlike its predecessors, Web3 aims to dismantle centralized control, offering individuals greater sovereignty over their digital interactions and assets.</p>
+                            <p id="blog-description" className="font-semi text-xl">Investing in Web3 isn't a direct option, but there are various ways to participate actively or passively.</p>
 
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p>At its core, Web3 embraces decentralization, redistributing power among network participants through blockchain technology. This distributed ledger ensures transparency and security, enabling trust without the need for intermediaries. Users retain ownership of their data and assets, facilitated by cryptographic keys and smart contracts, enhancing privacy and security online.</p>
+                            <p>Active investment strategies in Web3 often revolve around cryptocurrencies and non-fungible tokens (NFTs). Cryptocurrency investment involves purchasing digital currencies like Bitcoin, Ethereum, or altcoins, typically through cryptocurrency exchanges or trading platforms. Investors may choose to hold these assets in digital wallets for the long term, hoping to benefit from potential price appreciation. However, it's crucial to note that cryptocurrency markets can be highly volatile, with prices subject to rapid fluctuations influenced by various factors such as market sentiment, regulatory developments, and technological advancements.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p>Interoperability is a key feature of Web3, fostering seamless communication and exchange across decentralized networks. This allows for greater accessibility to a diverse array of applications and services, unconstrained by proprietary systems or closed ecosystems. Various technologies within the Web3 ecosystem redefine traditional paradigms. Decentralized finance (DeFi) platforms enable financial services without traditional banks. Non-fungible tokens (NFTs) revolutionize digital ownership, representing unique assets on the blockchain.</p>
+                            <p>NFTs represent unique digital assets that are stored and traded on blockchain networks. These assets can include digital art, collectibles, virtual real estate, and more. Investors interested in NFTs can participate in online marketplaces where these assets are bought, sold, and traded. </p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='mb-3'>Decentralized applications (DApps) leverage blockchain for transparent, tamper-resistant services across social media, gaming, and supply chain management. Decentralized autonomous organizations (DAOs) enable collective governance through smart contracts, empowering communities to manage shared resources collaboratively.</p>
+                            <p className='mb-3'>Passive investment in Web3 may involve purchasing stocks of companies actively involved in blockchain technology, decentralized finance (DeFi), or other aspects of the Web3 ecosystem. These companies may develop blockchain infrastructure, provide services for decentralized applications (DApps), or offer solutions for digital identity and privacy. By investing in these companies, investors indirectly participate in the growth and development of the Web3 space while diversifying their investment portfolios.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p>In essence, Web3 represents a shift towards a more inclusive, transparent, and resilient internet. By embracing decentralization and blockchain, Web3 democratizes access to digital assets, fosters innovation, and empowers individuals to control their online experiences.</p>
+                            <p>Before investing, research is crucial to understand the technologies, market dynamics, and risks. Cryptocurrency markets are speculative and subject to volatility, so it's important to be prepared for price fluctuations. Regulatory uncertainties can also impact investments, requiring monitoring of legal developments.</p>
+
+                            <p className='text-center text-3xl py-4'>...</p>
+                            <p>Successful investing in Web3 requires a disciplined approach, risk management strategies, and a long-term perspective. By staying informed about industry trends, technological advancements, and market conditions, investors can make informed decisions and navigate the evolving landscape of Web3 with confidence.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>

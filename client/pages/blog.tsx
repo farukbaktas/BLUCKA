@@ -12,7 +12,8 @@ import blog6 from "../assets/BlogAssets/web3agency.jpg";
 import blog7 from "../assets/BlogAssets/How.jpg";
 import blog8 from "../assets/BlogAssets/web3ads.jpg";
 import blog9 from "../assets/BlogAssets/web2.jpg";
-import blog10 from "../assets/BlogAssets/Web3space.jpg";
+import blog10 from "../assets/BlogAssets/Web3space.png";
+import blog11 from "../assets/BlogAssets/invest.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -22,6 +23,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "How to invest in Web3?",
+    description:
+      "Investing in Web3 isn't a direct option, but there are various ways to participate ",
+    imgSrc: blog11,
+    linkTo:
+      "blog/how-to-invest-web3",
+  },
   {
     title: "What is the Web3 Space?",
     description:
