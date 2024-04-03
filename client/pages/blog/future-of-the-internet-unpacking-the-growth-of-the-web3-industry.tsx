@@ -88,14 +88,14 @@ const Blog = () => {
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-extrabold text-2xl'>What is Web3?</p>
-                            <p>Web3, often referred to as the decentralized web, marks a pivotal shift from traditional internet models. It focuses on returning data ownership to users, enhancing privacy, and fostering security through decentralized networks. This evolution from Web2's centralized platforms to Web3's blockchain-based ecosystems represents a significant leap towards a more equitable digital future. </p>
+                            <p>Web3, often referred to as the decentralized web, marks a pivotal shift from traditional internet models. It focuses on returning data ownership to users, enhancing privacy, and fostering security through decentralized networks. This evolution from Web2&apos;s centralized platforms to Web3&apos;s blockchain-based ecosystems represents a significant leap towards a more equitable digital future. </p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='text-xl font-bold'>Key Insights into the Web3 Ecosystem: </p>
                             <p>- <span className='font-extrabold'>Market Valuation:</span> The leading Web3 crypto networks currently boast a total market capitalization of approximately $27.5 billion.</p>
                             <p>- <span className='font-extrabold'>Finance and Web3:</span> Nearly 50% of finance apps are now leveraging Web3 technology to enhance security and innovation.</p>
                             <p>- <span className='font-extrabold'>Generational Awareness:</span> Younger generations, including 20% of Gen Zers and 18% of Millennials, are increasingly familiar with Web3, signaling shifting trends in tech adoption.</p>
-                            <p>- <span className='font-extrabold'>Ethereum's Dominance:</span> With a market capitalization of about $206 billion as of January 2023, Ethereum remains the largest Web3 protocol, underpinning the industry's growth.</p>
+                            <p>- <span className='font-extrabold'>Ethereum&apos;s Dominance:</span> With a market capitalization of about $206 billion as of January 2023, Ethereum remains the largest Web3 protocol, underpinning the industry&apos;s growth.</p>
                             <p>- <span className='font-extrabold'>Investment Trends:</span> In the first half of 2022 alone, Web3 companies attracted over $1.8 billion in funding, demonstrating robust investor confidence.</p>
                             <p>- <span className='font-extrabold'>Decentralized Applications (dApps):</span> The total value locked in Web3 dApps reached nearly $49 billion across various blockchains by January 2023.</p>
                             <p>- <span className='font-extrabold'>Gaming and Web3:</span> An estimated 73 million gamers engage with Web3-based games, including hits like Fortnite and Roblox, blending entertainment with blockchain technology.</p>
@@ -103,7 +103,7 @@ const Blog = () => {
                             <p>- <span className='font-extrabold'>Public Awareness Challenges:</span> Despite growing awareness, a significant 79% of American adults unfamiliar with cryptocurrency also lack knowledge about Web3, highlighting an opportunity for education.</p>
 
                             <p className='font-extrabold text-2xl pt-12'>Looking Ahead: Challenges and Opportunities</p>
-                            <p>Web3 is not without its challenges, including scalability issues and regulatory hurdles. However, the industry's trajectory suggests a bright future, supported by a vibrant developer community and significant investment flows. As Web3 continues to evolve, it promises to redefine our digital interactions, giving users unprecedented control over their data and online experiences.</p>
+                            <p>Web3 is not without its challenges, including scalability issues and regulatory hurdles. However, the industry&apos;s trajectory suggests a bright future, supported by a vibrant developer community and significant investment flows. As Web3 continues to evolve, it promises to redefine our digital interactions, giving users unprecedented control over their data and online experiences.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
