@@ -83,11 +83,11 @@ const Blog = () => {
                             <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">How to invest in Web3?</h1>
                         </header>
                         <div className="space-y-4">
-                            <p id="blog-description" className="font-semi text-xl">Investing in Web3 isn't a direct option, but there are various ways to participate actively or passively.</p>
+                            <p id="blog-description" className="font-semi text-xl">Investing in Web3 isn&apos;t a direct option, but there are various ways to participate actively or passively.</p>
 
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p>Active investment strategies in Web3 often revolve around cryptocurrencies and non-fungible tokens (NFTs). Cryptocurrency investment involves purchasing digital currencies like Bitcoin, Ethereum, or altcoins, typically through cryptocurrency exchanges or trading platforms. Investors may choose to hold these assets in digital wallets for the long term, hoping to benefit from potential price appreciation. However, it's crucial to note that cryptocurrency markets can be highly volatile, with prices subject to rapid fluctuations influenced by various factors such as market sentiment, regulatory developments, and technological advancements.</p>
+                            <p>Active investment strategies in Web3 often revolve around cryptocurrencies and non-fungible tokens (NFTs). Cryptocurrency investment involves purchasing digital currencies like Bitcoin, Ethereum, or altcoins, typically through cryptocurrency exchanges or trading platforms. Investors may choose to hold these assets in digital wallets for the long term, hoping to benefit from potential price appreciation. However, it&apos;s crucial to note that cryptocurrency markets can be highly volatile, with prices subject to rapid fluctuations influenced by various factors such as market sentiment, regulatory developments, and technological advancements.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p>NFTs represent unique digital assets that are stored and traded on blockchain networks. These assets can include digital art, collectibles, virtual real estate, and more. Investors interested in NFTs can participate in online marketplaces where these assets are bought, sold, and traded. </p>
@@ -96,7 +96,7 @@ const Blog = () => {
                             <p className='mb-3'>Passive investment in Web3 may involve purchasing stocks of companies actively involved in blockchain technology, decentralized finance (DeFi), or other aspects of the Web3 ecosystem. These companies may develop blockchain infrastructure, provide services for decentralized applications (DApps), or offer solutions for digital identity and privacy. By investing in these companies, investors indirectly participate in the growth and development of the Web3 space while diversifying their investment portfolios.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p>Before investing, research is crucial to understand the technologies, market dynamics, and risks. Cryptocurrency markets are speculative and subject to volatility, so it's important to be prepared for price fluctuations. Regulatory uncertainties can also impact investments, requiring monitoring of legal developments.</p>
+                            <p>Before investing, research is crucial to understand the technologies, market dynamics, and risks. Cryptocurrency markets are speculative and subject to volatility, so it&apos;s important to be prepared for price fluctuations. Regulatory uncertainties can also impact investments, requiring monitoring of legal developments.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p>Successful investing in Web3 requires a disciplined approach, risk management strategies, and a long-term perspective. By staying informed about industry trends, technological advancements, and market conditions, investors can make informed decisions and navigate the evolving landscape of Web3 with confidence.</p>
