@@ -14,6 +14,7 @@ import blog8 from "../assets/BlogAssets/web3ads.jpg";
 import blog9 from "../assets/BlogAssets/web2.jpg";
 import blog10 from "../assets/BlogAssets/Web3space.png";
 import blog11 from "../assets/BlogAssets/invest.jpg";
+import blog12 from "../assets/BlogAssets/howbig.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -23,6 +24,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "How big is Web3 industry?",
+    description:
+      "The Web3 industry is poised for substantial growth, with projections indicating ",
+    imgSrc: blog12,
+    linkTo:
+      "blog/future-of-the-internet-unpacking-the-growth-of-the-web3-industry",
+  },
   {
     title: "How to invest in Web3?",
     description:
