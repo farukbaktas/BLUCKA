@@ -15,6 +15,7 @@ import blog9 from "../assets/BlogAssets/web2.jpg";
 import blog10 from "../assets/BlogAssets/Web3space.png";
 import blog11 from "../assets/BlogAssets/invest.jpg";
 import blog12 from "../assets/BlogAssets/howbig.jpg";
+import blog13 from "../assets/BlogAssets/company.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -24,6 +25,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "What is Web3 Company?",
+    description:
+      "The internet is on the cusp of a transformation, with Web3 emerging as a potential",
+    imgSrc: blog13,
+    linkTo:
+      "blog/future-of-the-internet-unpacking-the-growth-of-the-web3-industry",
+  },
   {
     title: "How big is Web3 industry?",
     description:
