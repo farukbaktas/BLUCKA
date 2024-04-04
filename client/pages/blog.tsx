@@ -31,7 +31,7 @@ const blogPosts = [
       "The internet is on the cusp of a transformation, with Web3 emerging as a potential",
     imgSrc: blog13,
     linkTo:
-      "blog/future-of-the-internet-unpacking-the-growth-of-the-web3-industry",
+      "blog/what-is-web3-company",
   },
   {
     title: "How big is Web3 industry?",
