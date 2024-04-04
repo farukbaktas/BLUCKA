@@ -83,7 +83,7 @@ const Blog = () => {
                             <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">What is a Web3 Company?</h1>
                         </header>
                         <div className="space-y-4">
-                            <p id="blog-description" className="font-semi text-xl">The Web3 industry stands at the forefront of the next digital revolution, promising a future where the internet becomes more decentralized, secure, and user-centric. Experts predict a staggering expansion, with the sector potentially ballooning to a valuation of USD 177.58 billion by 2033. This growth represents a Compound Annual Growth Rate (CAGR) of 44.1% from 2024 to 2033, as highlighted by Market.us research.</p>
+                            <p id="blog-description" className="font-semi text-xl">The internet is on the cusp of a transformation, with Web3 emerging as a potential next chapter. But what exactly is a Web3 company, and how are they different?</p>
 
 
                             <p className='text-center text-3xl py-4'>...</p>
