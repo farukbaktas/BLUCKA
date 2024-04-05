@@ -14,6 +14,7 @@ const Footer = () => {
               <a href="https://blucka.com/" className="flex items-center">
                 <Image src={Logo} width={250} height={60} alt="Blucka Logo" />
               </a>
+              <p className='text-xs pt-8 italic'>Articles are mainly generated with the help of AI.</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
@@ -31,7 +32,7 @@ const Footer = () => {
                   <h2 className="mb-6 text-lg font-semibold text-white uppercase">Follow us</h2>
                   <ul className="text-gray-400  font-medium">
                       <li className="mb-4">
-                          <a href="https://twitter.com/BluckaAgency" className="hover:underline ">Twitter</a>
+                          <a href="https://twitter.com/BluckaAgency" className="hover:underline ">X (Twitter)</a>
                       </li>
                       <li>
                           <a href="https://discord.gg/pBVWcEp6qg" className="hover:underline">Discord</a>

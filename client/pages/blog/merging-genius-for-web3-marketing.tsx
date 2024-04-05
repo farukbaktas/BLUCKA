@@ -7,7 +7,7 @@ import BlogFooter from "../../components/BlogComponents/BlogFooter";
 
 import Logo from "../../assets/BlogAssets/bluckalogo.jpg";
 import PP from "../../assets/BlogAssets/Blogger/oktar.jpg";
-import Banner from "../../assets/BlogAssets/bull.jpg";
+import Banner from "../../assets/BlogAssets/astronot.jpg";
 
 import Head from "next/head";
 import Link from "next/link";

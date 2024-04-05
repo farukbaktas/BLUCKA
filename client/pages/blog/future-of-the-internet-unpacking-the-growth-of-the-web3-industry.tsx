@@ -21,14 +21,14 @@ const Blog = () => {
     <React.Fragment>
     <Head>
         {/* Page Title */}
-        <title>The Future of the Internet: Unpacking the Growth of the Web3 Industry | BLUCKA</title>
+        <title>How big is Web3 Industry?  | BLUCKA</title>
         
         {/* Page Description */}
         <meta name="description" content="The Web3 industry is poised for substantial growth, with projections indicating it could reach a valuation of USD 177.58 billion by 2033, showing a robust Compound Annual Growth Rate (CAGR) of 44.1% from 2024 to 2033 according to Market.us." />
         
         {/* Open Graph / Facebook Meta */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="The Future of the Internet: Unpacking the Growth of the Web3 Industry | BLUCKA" />
+        <meta property="og:title" content="How big is Web3 Industry?  | BLUCKA" />
         <meta property="og:description" content="The Web3 industry is poised for substantial growth, with projections indicating it could reach a valuation of USD 177.58 billion by 2033, showing a robust Compound Annual Growth Rate (CAGR) of 44.1% from 2024 to 2033 according to Market.us." />
         <meta property="og:image" content={`https://www.blucka.com${Banner.src}`} />
         <meta property="og:url" content="https://www.blucka.com/blog/future-of-the-internet-unpacking-the-growth-of-the-web3-industry" />
@@ -36,7 +36,7 @@ const Blog = () => {
         {/* Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@BluckaAgency" />
-        <meta name="twitter:title" content="The Future of the Internet: Unpacking the Growth of the Web3 Industry | BLUCKA" />
+        <meta name="twitter:title" content="How big is Web3 Industry?  | BLUCKA" />
         <meta name="twitter:description" content="The Web3 industry is poised for substantial growth, with projections indicating it could reach a valuation of USD 177.58 billion by 2033, showing a robust Compound Annual Growth Rate (CAGR) of 44.1% from 2024 to 2033 according to Market.us." />
         <meta name="twitter:image" content={`https://www.blucka.com${Banner.src}`} />
         
@@ -80,7 +80,7 @@ const Blog = () => {
                                 </div>
                             </address>
 
-                            <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">The Future of the Internet: Unpacking the Growth of the Web3 Industry</h1>
+                            <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">How big is Web3 Industry? </h1>
                         </header>
                         <div className="space-y-4">
                             <p id="blog-description" className="font-semi text-xl">The Web3 industry stands at the forefront of the next digital revolution, promising a future where the internet becomes more decentralized, secure, and user-centric. Experts predict a staggering expansion, with the sector potentially ballooning to a valuation of USD 177.58 billion by 2033. This growth represents a Compound Annual Growth Rate (CAGR) of 44.1% from 2024 to 2033, as highlighted by Market.us research.</p>

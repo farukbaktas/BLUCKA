@@ -97,7 +97,7 @@ const Blog = () => {
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p>In essence, Web3 represents a shift towards a more inclusive, transparent, and resilient internet. By embracing decentralization and blockchain, Web3 democratizes access to digital assets, fosters innovation, and empowers individuals to control their online experiences.</p>
-
+                            
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
                             <p>Ready to elevate your brand in the digital currency space? Just drop us an email <a className='hover:text-gray-700' href='mailto:grow@blucka.com'>(grow@blucka.com) </a>. Our Crypto Creatives are eager to discuss how we can amplify your presence in the exciting world of cryptocurrencies, especially during the unique opportunities presented by the current bull market.</p>

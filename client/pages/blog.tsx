@@ -3,8 +3,8 @@ import Down from "../components/Down";
 import Subscribe from "../components/BlogComponents/Subscribe";
 import BlogFooter from "../components/BlogComponents/BlogFooter";
 
-import blog1 from "../assets/BlogAssets/bull.jpg";
-import blog2 from "../assets/BlogAssets/astronot.jpg";
+import blog1 from "../assets/BlogAssets/astronot.jpg";
+import blog2 from "../assets/BlogAssets/bull.jpg";
 import blog3 from "../assets/BlogAssets/robot.jpg";
 import blog4 from "../assets/BlogAssets/B.jpg";
 import blog5 from "../assets/BlogAssets/Larticle.jpg";
@@ -35,7 +35,7 @@ const blogPosts = [
       "blog/what-is-web3-in-crypto",
   },
   {
-    title: "What is Web3 Company?",
+    title: "What is a Web3 Company?",
     description:
       "The internet is on the cusp of a transformation, with Web3 emerging as a potential",
     imgSrc: blog13,
@@ -138,14 +138,14 @@ function Blog() {
         <title>BLOG | BLUCKA</title>
         <meta
           name="description"
-          content="Our mission is clear: Supercharge your growth."
+          content="We supercharge your growth."
         />
 
         <meta property="og:type" content="article" />
         <meta property="og:title" content="BLOG | BLUCKA" />
         <meta
           property="og:description"
-          content="Our mission is clear: Supercharge your growth."
+          content="We supercharge your growth."
         />
         <meta property="og:image" content={Logo.src} />
         <meta property="og:url" content="https://www.blucka.com/blog/" />
@@ -155,7 +155,7 @@ function Blog() {
         <meta name="twitter:title" content="BLOG | BLUCKA" />
         <meta
           name="twitter:description"
-          content="Our mission is clear: Supercharge your growth."
+          content="We supercharge your growth."
         />
         <meta name="twitter:image" content={Logo.src} />
         <meta
@@ -179,7 +179,7 @@ function Blog() {
                 The Blog
               </h2>
               <p className="font-light text-gray-300 sm:text-xl">
-                Our mission is clear: Supercharge your growth.
+                We supercharge your growth.
               </p>
             </div>
             <div className="grid gap-8 lg:grid-cols-3 item-center justify-center">
