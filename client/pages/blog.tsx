@@ -16,6 +16,7 @@ import blog10 from "../assets/BlogAssets/Web3space.png";
 import blog11 from "../assets/BlogAssets/invest.jpg";
 import blog12 from "../assets/BlogAssets/howbig.jpg";
 import blog13 from "../assets/BlogAssets/company.jpg";
+import blog14 from "../assets/BlogAssets/web3crypto.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -25,6 +26,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "What is Web3 in Crypto?",
+    description:
+      "The world of crypto is brimming with innovation, and Web3 is one of the hottest",
+    imgSrc: blog14,
+    linkTo:
+      "blog/what-is-web3-in-crypto",
+  },
   {
     title: "What is Web3 Company?",
     description:
