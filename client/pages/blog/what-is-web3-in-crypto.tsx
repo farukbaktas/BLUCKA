@@ -88,7 +88,7 @@ const Blog = () => {
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-extrabold text-2xl'>Web3: A Shift Towards User Empowerment</p>
-                            <p>Currently, big tech companies hold immense control over our online experiences. Web3 aims to disrupt this by creating a decentralized web. Imagine a web where users own their data, participate in platform governance, and interact directly with each other – that's the core vision of Web3.</p>
+                            <p>Currently, big tech companies hold immense control over our online experiences. Web3 aims to disrupt this by creating a decentralized web. Imagine a web where users own their data, participate in platform governance, and interact directly with each other – that&apos;s the core vision of Web3.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-extrabold text-2xl'>Crypto: The Building Blocks of Web3</p>
@@ -105,7 +105,7 @@ const Blog = () => {
                             <p>While Web3 is still in its early stages, it has the potential to revolutionize various aspects of the online world. From finance and social media to gaming and identity management, Web3 promises a more user-centric internet.</p>
 
                             <p className='font-extrabold text-2xl pt-12'>Is Web3 the inevitable future?</p>
-                            <p>Only time will tell. But one thing's for sure – Web3 is a fascinating concept that's redefining how we think about the internet.</p>
+                            <p>Only time will tell. But one thing&apos;s for sure – Web3 is a fascinating concept that&apos;s redefining how we think about the internet.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
