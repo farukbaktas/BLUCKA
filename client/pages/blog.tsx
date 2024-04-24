@@ -17,6 +17,7 @@ import blog11 from "../assets/BlogAssets/invest.jpg";
 import blog12 from "../assets/BlogAssets/howbig.jpg";
 import blog13 from "../assets/BlogAssets/company.jpg";
 import blog14 from "../assets/BlogAssets/web3crypto.jpg";
+import blog15 from "../assets/BlogAssets/Web3important.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -26,6 +27,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "Why is Web3 marketing important?",
+    description:
+      "The digital landscape is a constant race for the next big thing",
+    imgSrc: blog15,
+    linkTo:
+      "blog/why-is-web3-marketing-important",
+  },
   {
     title: "What is Web3 in Crypto?",
     description:
