@@ -98,7 +98,7 @@ const Blog = () => {
                             <p>- <span className='font-extrabold'>Navigating Regulatory Complexity:</span> As data privacy regulations evolve, Web3 offers a potential solution. Decentralized data ownership and governance reduce reliance on centralized platforms, potentially mitigating regulatory risks.</p>
     
                             <p className='font-extrabold text-2xl pt-12'>Embrace the Future: Why Web3 Marketing Matters</p>
-                            <p>Web3 marketing isn't just a trend – it&apos;s a fundamental shift. By embracing decentralization, transparency, and user empowerment, brands can forge deeper connections, build trust, and unlock opportunities for innovation. In today&apos;s digital landscape, Web3 principles are essential for businesses striving to thrive.</p>
+                            <p>Web3 marketing isn&apos;t just a trend – it&apos;s a fundamental shift. By embracing decentralization, transparency, and user empowerment, brands can forge deeper connections, build trust, and unlock opportunities for innovation. In today&apos;s digital landscape, Web3 principles are essential for businesses striving to thrive.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='font-bold italic'>Contact Us for Crypto Marketing Excellence</p>
