@@ -18,6 +18,7 @@ import blog12 from "../assets/BlogAssets/howbig.jpg";
 import blog13 from "../assets/BlogAssets/company.jpg";
 import blog14 from "../assets/BlogAssets/web3crypto.jpg";
 import blog15 from "../assets/BlogAssets/Web3important.jpg";
+import blog16 from "../assets/BlogAssets/web3job.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -27,6 +28,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "Are Web3 jobs in demand?",
+    description:
+      "The internet we use today is on the cusp of a major transformation.",
+    imgSrc: blog16,
+    linkTo:
+      "blog/are-web3-jobs-in-demand",
+  },
   {
     title: "Why is Web3 marketing important?",
     description:
