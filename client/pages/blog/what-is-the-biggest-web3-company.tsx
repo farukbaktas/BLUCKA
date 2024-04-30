@@ -6,7 +6,7 @@ import Subscribe from '../../components/BlogComponents/Subscribe'
 import BlogFooter from '../../components/BlogComponents/BlogFooter'
 
 import Logo from '../../assets/BlogAssets/bluckalogo.jpg'
-import PP from '../../assets/BlogAssets/Blogger/oktar.jpg'
+import PP from '../../assets/BlogAssets/Blogger/cengiz.png'
 import Banner from '../../assets/BlogAssets/biggest.jpg'
 
 import Head from "next/head";
@@ -73,9 +73,9 @@ const Blog = () => {
                                 <div className="inline-flex items-center mr-3 text-sm text-gray-200 ">
                                     <Image className="mr-4 w-16 h-16 rounded-full" src={PP} alt="BLUCA PP"/>
                                     <div>
-                                        <a rel="author" className="text-xl font-bold text-gray-100 ">Oktar Akin</a>
-                                        <p className="text-base font-light text-gray-100 ">Crypto Creative | Brand and Strategy</p>
-                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Apr. 30, 2024</time></p>
+                                        <a rel="author" className="text-xl font-bold text-gray-100 ">Cengiz Kilicaslan</a>
+                                        <p className="text-base font-light text-gray-100 ">Crypto Creative | Growth Hacker</p>
+                                        <p className="text-base font-light text-gray-100 "><time title="February 8th, 2022">Apr. 25, 2024</time></p>
                                     </div>
                                 </div>
                             </address>
