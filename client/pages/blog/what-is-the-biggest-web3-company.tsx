@@ -83,7 +83,7 @@ const Blog = () => {
                             <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">What is the biggest Web3 company?</h1>
                         </header>
                         <div className="space-y-4">
-                            <p id="blog-description" className="font-semi text-xl">The Web3 landscape is a dynamic ecosystem, constantly evolving with innovative companies pushing the boundaries of decentralized technologies. Here's a look at some key players shaping the future of Web3 in April 2024:</p>
+                            <p id="blog-description" className="font-semi text-xl">The Web3 landscape is a dynamic ecosystem, constantly evolving with innovative companies pushing the boundaries of decentralized technologies. Here&apos;s a look at some key players shaping the future of Web3 in April 2024:</p>
 
 
                             <p className='text-center text-3xl py-4'>...</p>
@@ -106,7 +106,7 @@ const Blog = () => {
                             <p>- <span className='font-extrabold'>OpenSea:</span> The largest NFT marketplace, OpenSea facilitates the buying, selling, and trading of non-fungible tokens.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
-                            <p className='text-xl font-bold'>Emerging Stars: Don't Miss Out</p>
+                            <p className='text-xl font-bold'>Emerging Stars: Don&apos;t Miss Out</p>
                             <p className='italic'>The Web3 space thrives on innovation, with exciting new companies constantly emerging. Here are some names to keep an eye on:</p>
                             <p>- <span className='font-extrabold'>Immutable X:</span> A rising star in NFT gaming, Immutable X offers a solution for scalable and gas-efficient NFT trading.</p>
                             <p>- <span className='font-extrabold'>Helium:</span> A decentralized network powering the Internet of Things (IoT) using blockchain technology, Helium is a unique player to watch.</p>
