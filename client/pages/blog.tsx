@@ -19,6 +19,7 @@ import blog13 from "../assets/BlogAssets/company.jpg";
 import blog14 from "../assets/BlogAssets/web3crypto.jpg";
 import blog15 from "../assets/BlogAssets/Web3important.jpg";
 import blog16 from "../assets/BlogAssets/web3job.jpg";
+import blog17 from "../assets/BlogAssets/biggest.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -28,6 +29,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "What is the biggest Web3 company?",
+    description:
+      "The Web3 landscape is a dynamic ecosystem, constantly evolving with",
+    imgSrc: blog17,
+    linkTo:
+      "blog/what-is-the-biggest-web3-company",
+  },
   {
     title: "Are Web3 jobs in demand?",
     description:
