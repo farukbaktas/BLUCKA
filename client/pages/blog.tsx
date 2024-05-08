@@ -20,6 +20,7 @@ import blog14 from "../assets/BlogAssets/web3crypto.jpg";
 import blog15 from "../assets/BlogAssets/Web3important.jpg";
 import blog16 from "../assets/BlogAssets/web3job.jpg";
 import blog17 from "../assets/BlogAssets/biggest.jpg";
+import blog18 from "../assets/BlogAssets/KOL.jpg";
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -29,6 +30,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "Who Are the Crypto KOLs?",
+    description:
+      "The cryptocurrency space is a dynamic and ever-evolving landscape.",
+    imgSrc: blog18,
+    linkTo:
+      "blog/who-are-crypto-kols",
+  },
   {
     title: "What is the biggest Web3 company?",
     description:
