@@ -21,7 +21,7 @@ const Blog = () => {
     <React.Fragment>
     <Head>
         {/* Page Title */}
-        <title>Who Are Crypto KOLs? | BLUCKA</title>
+        <title>Who are Crypto KOLs? | BLUCKA</title>
         
         {/* Page Description */}
         <meta name="description" content="The cryptocurrency space is a dynamic and ever-evolving landscape. With new projects, technologies, and trends emerging constantly, staying informed can be a challenge for both seasoned investors and curious newcomers." />

@@ -31,7 +31,7 @@ import "./globals.css";
 
 const blogPosts = [
   {
-    title: "Who Are the Crypto KOLs?",
+    title: "Who are the Crypto KOLs?",
     description:
       "The cryptocurrency space is a dynamic and ever-evolving landscape.",
     imgSrc: blog18,
