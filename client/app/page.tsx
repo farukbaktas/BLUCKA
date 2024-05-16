@@ -36,7 +36,7 @@ const Home = () => {
           {/* Page Description */}
           <meta
             name="description"
-            content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth."
+            content="Our mission is clear. We supercharge your growth."
           />
 
           {/* Open Graph / Facebook Meta */}
@@ -44,7 +44,7 @@ const Home = () => {
           <meta property="og:title" content="BLUCKA: Crypto Creative Agency" />
           <meta
             property="og:description"
-            content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth."
+            content="Our mission is clear. We supercharge your growth."
           />
           <meta property="og:image" content={Logo.src} />
           <meta property="og:url" content="https://www.blucka.com" />
@@ -55,7 +55,7 @@ const Home = () => {
           <meta name="twitter:title" content="BLUCKA: Crypto Creative Agency" />
           <meta
             name="twitter:description"
-            content="We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth."
+            content="Our mission is clear. We supercharge your growth."
           />
           <meta name="twitter:image" content={Logo.src} />
 
@@ -95,26 +95,24 @@ const Home = () => {
                     className="w-[800px] sm:w-[900px] md:w-[350px] lg:w-[450px]"
                   />
                   <div className="text-[18px] sm:text-xl md:text-xl lg:text-2xl mt-4 custom-shear">
-                    <HighlightedText text="We are crypto creatives." />
-                    <HighlightedText text="Your comrades alongside." />
                     <HighlightedText text="Our mission is clear." />
-                    <HighlightedText text="Supercharge your growth." />
+                    <HighlightedText text="We supercharge your growth." />
                   </div>
                 </div>
                 <div className="flex text-left justify-start md:justify-end text-[12px] sm:text-[18px] md:text-[20px] lg:text-1xl custom-shear text-black pt-16 sm:pt-16 md:pt-16 lg:pt-12">
                   <div className="flex items-end space-x-16 justify-center">
                     <div className="flex flex-col items-start ">
-                      <a href="https://grow.blucka.com/services/brand-building">
-                        <HighlightedText text="Brand Building" />
+                      <a href="https://grow.blucka.com/expertise/kol-marketing">
+                        <HighlightedText text="KOL Marketing" />
                       </a>
-                      <a href="https://grow.blucka.com/services/community-building">
+                      <a href="https://grow.blucka.com/expertise/kol-round-funding">
+                        <HighlightedText text="KOL Round Funding" />
+                      </a>
+                      <a href="https://grow.blucka.com/expertise/community-building">
                         <HighlightedText text="Community Building" />
                       </a>
                       <a href="https://grow.blucka.com/services/web3-growth">
-                        <HighlightedText text="Web3 Growth" />
-                      </a>
-                      <a href="https://grow.blucka.com/services/technical-documentation">
-                        <HighlightedText text="Technical Documentation" />
+                        <HighlightedText text="Community Web3 Growth" />
                       </a>
                       <a href="https://grow.blucka.com/">
                         <HighlightedText text="Click for More!" />

@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "BLUCKA | Crypto Creative Agency",
-  description: "We are crypto creatives. Your comrades alongside. Our mission is clear. Supercharge your growth.",
+  description: "WOur mission is clear. We supercharge your growth.",
 };
 
 export default function RootLayout({

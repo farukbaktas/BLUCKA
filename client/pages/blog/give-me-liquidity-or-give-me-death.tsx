@@ -228,7 +228,7 @@ const Blog = () => {
                           </p>
 
                           <p className="font-semibold">
-                            Or mission is clear: Supercharge your growth.
+                            Our mission is clear. We supercharge your growth.
                             BLUCKA! BLUCKA!
                           </p>
 
