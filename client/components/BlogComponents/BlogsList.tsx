@@ -1,30 +1,30 @@
 import Link from 'next/link';
 import React from 'react';
 
-import blog1 from '../../assets/BlogAssets/How.jpg'
-import blog2 from '../../assets/BlogAssets/web3agency.jpg'
-import blog3 from '../../assets/BlogAssets/Larticle.jpg'
+import blog1 from '../../assets/BlogAssets/biggest.jpg'
+import blog2 from '../../assets/BlogAssets/KOL.jpg'
+import blog3 from '../../assets/BlogAssets/meme.jpg'
 
 import Image from "next/image";
 
 const blogs = [
   {
-    to: "/blog/how-do-i-get-web3-marketing",
+    to: "/blog/what-is-the-biggest-web3-company",
     imgSrc: blog1,
-    title: "How do I get into Web3 marketing?",
-    description: "In the ever-changing realm of Web3, marketers must stay ahead to thrive."
+    title: "What is the biggest Web3 company?",
+    description: "The Web3 landscape is a dynamic ecosystem, constantly evolving with..."
   },
   {
-    to: "/blog/what-is-web3-marketing-agency",
+    to: "/blog/who-are-crypto-kols",
     imgSrc: blog2,
-    title: "What is a Web3 Marketing Agency?",
-    description: "A Web3 marketing agency specializes in promoting blockchain-based companies."
+    title: "Who are the Crypto KOLs?",
+    description: "The cryptocurrency space is a dynamic and ever-evolving landscape."
   },
   {
-    to: "/blog/give-me-liquidity-or-give-me-death",
+    to: "/blog/what-is-a-meme-coin",
     imgSrc: blog3,
-    title: "Give Me Liquidity, or Give Me Death",
-    description: "In a dystopian world, Bitcoin liquidity is now dictating every aspect of life."
+    title: "What is a meme coin in WEB3?",
+    description: "The world of cryptocurrency throws exciting concepts and complex ideas at you..."
   }
 ];
 

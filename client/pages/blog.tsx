@@ -21,6 +21,8 @@ import blog15 from "../assets/BlogAssets/Web3important.jpg";
 import blog16 from "../assets/BlogAssets/web3job.jpg";
 import blog17 from "../assets/BlogAssets/biggest.jpg";
 import blog18 from "../assets/BlogAssets/KOL.jpg";
+import blog19 from "../assets/BlogAssets/meme.jpg";
+
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
 import Head from "next/head";
@@ -30,6 +32,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "What is a meme coin in WEB3?",
+    description:
+      "The world of cryptocurrency throws exciting concepts and complex ideas at you...",
+    imgSrc: blog19,
+    linkTo:
+      "blog/what-is-a-meme-coin",
+  },
   {
     title: "Who are the Crypto KOLs?",
     description:
