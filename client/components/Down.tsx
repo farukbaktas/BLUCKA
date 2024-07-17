@@ -17,7 +17,7 @@ const Down = () => {
           </Link>
           <div className="flex space-x-8 sm:mt-40 items-center justify-center text-black">
             {/*X*/}
-            <a href="https://twitter.com/BluckaAgency" className="w-6 h-6 ">
+            <a href="https://x.com/BLUCKA_Agency" className="w-6 h-6 ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,256,256">
                 <g
                   fill="#ffffff"
