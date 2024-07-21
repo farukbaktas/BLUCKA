@@ -83,7 +83,7 @@ const Blog = () => {
                             <h1 id="blog-title" className="mb-4 text-3xl font-extrabold leading-tight text-gray-100 lg:mb-6 lg:text-4xl ">How are brands using Web3?</h1>
                         </header>
                         <div className="space-y-4">
-                            <p id="blog-description" className="font-semi text-xl">Forget flying cars and robot butlers. Web3, the next iteration of the internet, is here, and brands are using it to revolutionize how they connect with customers. But Web3 is more than just fancy jargon. It's about decentralization, ownership, and a shift in power dynamics. So, how are forward-thinking brands leveraging Web3?</p>
+                            <p id="blog-description" className="font-semi text-xl">Forget flying cars and robot butlers. Web3, the next iteration of the internet, is here, and brands are using it to revolutionize how they connect with customers. But Web3 is more than just fancy jargon. It&apos;s about decentralization, ownership, and a shift in power dynamics. So, how are forward-thinking brands leveraging Web3?</p>
 
 
                             <p className='text-center text-3xl py-4'>...</p>
@@ -92,7 +92,7 @@ const Blog = () => {
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='text-xl font-bold'>2. Building Communities: DAOs & Governance</p>
-                            <p>Web3 empowers communities. Decentralized Autonomous Organizations (DAOs) let passionate fans co-own and shape a brand's direction. Imagine voting on product designs or marketing campaigns! This fosters deeper engagement and brand loyalty.</p>
+                            <p>Web3 empowers communities. Decentralized Autonomous Organizations (DAOs) let passionate fans co-own and shape a brand&apos;s direction. Imagine voting on product designs or marketing campaigns! This fosters deeper engagement and brand loyalty.</p>
 
                             <p className='text-center text-3xl py-4'>...</p>
                             <p className='text-xl font-bold'>3. Data Liberation: Privacy & Transparency</p>
