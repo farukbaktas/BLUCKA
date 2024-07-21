@@ -2,5 +2,6 @@
 User-agent: Googlebot
 Disallow: /private/  
 Disallow: /tmp/
+Sitemap: https://blucka.com/sitemap.xml
 
 Allow: /
