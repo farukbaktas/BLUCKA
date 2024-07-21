@@ -22,6 +22,7 @@ import blog16 from "../assets/BlogAssets/web3job.jpg";
 import blog17 from "../assets/BlogAssets/biggest.jpg";
 import blog18 from "../assets/BlogAssets/KOL.jpg";
 import blog19 from "../assets/BlogAssets/meme.jpg";
+import blog20 from "../assets/BlogAssets/brands.jpg";
 
 
 import Logo from "../assets/BlogAssets/BluckalogoWhite.png";
@@ -32,6 +33,14 @@ import Image from "next/image";
 import "./globals.css";
 
 const blogPosts = [
+  {
+    title: "How are brands using Web3?",
+    description:
+      "Forget flying cars and robot butlers. Web3, the next iteration of the internet...",
+    imgSrc: blog20,
+    linkTo:
+      "blog/how-are-brands-using-web3",
+  },
   {
     title: "What is a meme coin in WEB3?",
     description:
