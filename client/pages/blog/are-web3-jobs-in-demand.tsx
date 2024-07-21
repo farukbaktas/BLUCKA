@@ -31,8 +31,7 @@ const Blog = () => {
         <meta property="og:title" content="Are Web3 jobs in demand? | BLUCKA" />
         <meta property="og:description" content="The digital landscape is a constant race for the next big thing. Enter Web3 marketing, a revolutionary approach redefining how businesses connect with audiences. But why is Web3 marketing essential?" />
         <meta property="og:image" content={`https://www.blucka.com${Banner.src}`} />
-        <meta property="og:url" content="https://www.blucka.com/blog/are-web3-jobs-demand" />
-        
+        <meta property="og:url" content="https://www.blucka.com/blog/are-web3-jobs-in-demand" />        
         {/* Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@BluckaAgency" />
@@ -42,7 +41,7 @@ const Blog = () => {
         
         {/* Extra Meta*/}
         <meta name="keywords" content="Web3, decentralization, blockchain, decentralized finance, DeFi, NFT marketplaces, user empowerment, innovation, digital assets, Web3 companies, future of internet, secure transactions, blockchain infrastructure" />
-        <link rel="canonical" href="https://www.blucka.com/blog/are-web3-jobs-demand" />
+        <link rel="canonical" href="https://www.blucka.com/blog/are-web3-jobs-in-demand" />
     </Head>
 
     <div className='bg-black text-white'>
