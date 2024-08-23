@@ -139,7 +139,7 @@ const blogPosts = [
   {
     title: "How do I get into Web3 marketing?",
     description:
-      "In the ever-changing realm of Web3, marketers must stay ahead to thrive.",
+      "In the ever-changing realm of Web3, marketers must stay ahead to thrive",
     imgSrc: blog7,
     linkTo: "/blog/how-do-i-get-web3-marketing",
   },
